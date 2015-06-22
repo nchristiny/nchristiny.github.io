@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>Event Horizon</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../default.css">
+  <link rel="stylesheet" type="text/css" href="docs.css">
+  <link rel='shortcut icon' href="http://media.tumblr.com/c5c883b79a9fed70903b179f989c3d9e/tumblr_inline_mhcwln3NkV1qz4rgp.gif" type='image/x-icon'/ >
+</head>
+
+<main>
+  <h1>Week 2 Wrap up! </h1>
+  <h2>HTML/CSS</h2>
+  <h4>June 21, 2015</h4>
+
+  <section>
+    <p>When it comes to CSS3 and HTML5, my previous knowledge was meager at best and this week I have truly learned  "drinking from the firehouse". Drinking the cascade... of Style Sheets!
+
+    </p>
+    <p>
+    One of the things we have learned as a best known method, standards compliant and just common sense action is to distinguish between the CSS selectors, class and id. I will make a humble attempt here to explain  this now to the best of my abilities.
+    </p>
+    <p>
+One of the ways CSS will determine via internal algorithm what style will "cascade" forth onto the browser page is called specificity. This property is determined by many factors, not the least of which is "Weight". Different selectors carry different weights, and id carries a specificity greater than that of class, thus gaining the upper hand if all else is equal when it comes time for the browser deciding what CSS rule to apply to a given attirbute.
+    </p>
+    <p>
+To illustrate this, since words are failing me at the moment, you can imagine that the CSS rules "cascade" along the path of least resistance, just like a waterfall (let's see just how many nautical miles we can wring from the water analogy). It helps to know that the general order of element weight is as follows from least to most ... "heavy".
+    </p>
+    <p>Universal (*) &lt; Tag &lt; Class &lt; Attribute &lt; Pseudo &lt; id &lt; Inline style</p>
+    <p> Accordingly any CSS rule denoted by a simple HTML tag, say p for paragraph, will be overwirtten by another rule that targets a paragraph with class because class is heavier and therefore more <em>specific</em> just so: p#class. Moving along the line, you may easily infer that as id is heavier than class, all things being equal it will always trump the class selector.</p>
+    <p>Another important difference is that the id attribute is supposed to be unique in an HTML ddocument, while class can apply to many tags. In this way, the relative rarity of the id tag serves to remind the reader that it is more specific, the rara avis in the world of HTML attributes.</p>
+    <p>I hope this has been informative, and If you see any errors in this brief summary, please do not hesitate to send up a reply via the usual channels of communication and/or pillory me in the public square.</p>
+    <p>Thanks for reading. Have a great week!</p>
+
+  </section>
+</main>
