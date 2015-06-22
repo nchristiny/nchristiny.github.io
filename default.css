@@ -98,6 +98,10 @@ article {
 
 aside {
   width: 480px;
+  float: left;
+}
+
+.timeline {
   float: right;
 }
 
@@ -109,4 +113,8 @@ figure {
 figcaption {
   font-size: 90%;
   text-align: left;
+}
+
+h3 {
+  margin-top: 20px;
 }
