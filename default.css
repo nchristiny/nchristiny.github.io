@@ -88,7 +88,7 @@ nav li a:current {
 
 section.left {
   float: left;
-  width: 200px;
+  width: 480px;
 }
 
 article {
@@ -97,13 +97,13 @@ article {
 }
 
 aside {
-  width: 200px;
-  float: left;
+  width: 480px;
+  float: right;
 }
 
 figure {
   float: left;
-  width: 300px;
+  width: 150px;
 }
 
 figcaption {
