@@ -118,3 +118,8 @@ figcaption {
 h3 {
   margin-top: 20px;
 }
+
+footer {
+  color: #bbbbcc;
+  margin: auto, 0px;
+}
