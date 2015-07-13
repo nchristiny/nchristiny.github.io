@@ -91,6 +91,12 @@ section.left {
   width: 480px;
 }
 
+section.right {
+  float: right;
+  width: 600px;
+}
+
+
 article {
   clear: both;
   width: 100%;
@@ -121,5 +127,15 @@ h3 {
 
 footer {
   color: #bbbbcc;
-  margin: auto, 0px;
+
+}
+
+footer a {
+  color: #bbbbcc;
+  text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+  color: #F3F3F3;
 }
