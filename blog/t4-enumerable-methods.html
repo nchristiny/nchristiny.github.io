@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <title>Event Horizon</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../default.css">
+  <link rel="stylesheet" type="text/css" href="docs.css">
+  <link rel='shortcut icon' href="http://media.tumblr.com/c5c883b79a9fed70903b179f989c3d9e/tumblr_inline_mhcwln3NkV1qz4rgp.gif" type='image/x-icon'/ >
+</head>
+
+<main>
+<div class="wrapper">
+        <header>
+  <h1>Week 4 </h1>
+  <h2>Enumerable#group_by</h2>
+
+        <nav>
+          <ul>
+             <li><a href="https://nchristiny.github.io/index.html">Home</a></li>
+            <li><a href="https://nchristiny.github.io/about.html">About</a></li>
+            <li><a href="https://nchristiny.github.io/contact.html">Contact</a></li>
+            <li><a href="https://nchristiny.github.io/blog/index.html">Refresh</a></li>
+            <li><a href="https://nchristiny.github.io/projects.html">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+  <h4>July 12 2015</h4>
+
+  <section>
+    <p>
+      Coming into Dev Bootcamp, I felt just like Chemistry Dog:
+    </p>
+
+   <img src="imgs/dog-doing-chemistry.png" alt="i have no idea what i'm doing">
+
+     <p>Now I'm feeling a little more confident, but still feel like I am groping in the dark. </p>
+
+   <img src="imgs/approximate-knowledge.gif" alt="i have approximate knowledge of many things">
+
+        <p>Speaking of approximate knowledge, our assignment this week is to post on something we are going to learn this upcoming week, so I chose the Ruby Enumerable method #group_by. Please don't ask me why, it was pretty much random.
+        </p>
+
+        <p>This method, group_by, as elucidated by that bastion of clarity Ruby-Docs, is a way to "group", (you just gotta love Ruby method names,) and it works on anycollection, be it arrays or hashes, or strings or integers, what-have-you. It spits them out as a hash, "grouping" several of the keys and values as you see fit.   </p>
+        <p>The  textbook definition is as follows: <blockquote>Groups the collection by result of the block. Returns a hash where the keys are the evaluated result from the block and the values are arrays of elements in the collection that correspond to the key.
+
+If no block is given an enumerator is returned.</blockquote></p><p><a href="http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-group_by" alt="Ruby-Docs">CITATION NEEDED</a></p>
+<p>So there you have it! Clear as day. What? You want me to actually explain what it does? OK... But don't say I didn't warn you...</p>
+<p>From what I gather, (And I gather what I can,) this method is a bang up way of simply grouping your stuff into an alternate hash, wish is another collection object.
+
+<p>The example used is:
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">(</span><span style="color: #ae81ff">1</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">.</span><span style="color: #ae81ff">6</span><span style="color: #f8f8f2">)</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">group_by</span> <span style="color: #f8f8f2">{</span> <span style="color: #f92672">|</span><span style="color: #f8f8f2">i</span><span style="color: #f92672">|</span> <span style="color: #f8f8f2">i</span><span style="color: #f92672">%</span><span style="color: #ae81ff">3</span> <span style="color: #f8f8f2">}</span>   <span style="color: #75715e">#=&gt; {0=&gt;[3, 6], 1=&gt;[1, 4], 2=&gt;[2, 5]}</span>
+</pre></div>
+</p>
+
+<p>That's really all there is to it: You have a collection of things, and you can use it if you wish to change up the way it is grouped together. Pretty simple concept really, but as most things in Ruby, it is deceptively so and is likely hard to master, young grassh.. ahem ... Cicada.</p>
+
+
+        <p>Cheers y'all!</p>
+
+  </section>
+     <footer>
+      <p>a footer - this space  intentionally left blank</p>
+    <p>The Unrefactored Life is Not Worth Coding. </p>
+  </footer>
+    </div class="wrapper">
+
+</main>
+</html>
