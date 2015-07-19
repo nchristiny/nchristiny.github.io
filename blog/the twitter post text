@@ -1,0 +1,121 @@
+Blog Title: "Why Twitter?"
+
+I had the notion of creating this blog post after talking to some of my fellow boots in my cohort, (Go Chicago Cicadas), and in response to the noticeable lukewarm reception I have seen in regards to the inclusion of Twitter as a required part of the Dev Bootcamp curriculum. Some of my fellow cohorts have set up new accounts and may be new to the medium and since I remember well my first tentative pitfalls, I thought I would share some background information and tips.
+
+I thought the Week 1 curriculum Twitter section was very good in explaining  general practices (such as not hesitating to follow or unfollow), and had a nice list of Twitter users to begin following, but I wanted to go into a bit more depth here.
+
+I hope to ultimately answer the important and valid question, "As a brand new developer, why the heck should I really be wasting my time on Twitter?"
+
+Full disclosure: I am a Twitter true believer evangelist, and I have been long before I began my current journey with learning code, or even owned a smart phone. I believe in the power and simplicity of Twitter to affect and connect all realms of civil society, industry and government, not just our folks in coding and web development.
+
+Good, so let's get into why you, my fellow Dev Bootcamp boots and coding newbies who may be reading this, should definitely be using Twitter. I will first explain what Twitter is, why we should be using it and finally some of my personal practices on how to use Twitter.
+
+A Twitter Primer:
+
+Just for a little background information, before you can answer "Why should I use Twitter?", it is helpful to understand what Twitter really is and, perhaps more importantly, how Twitter accomplishes what it does.
+
+If you are reading this, most likely you understand the Wikipedia definition: "Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets"." (https://en.wikipedia.org/wiki/Twitter)
+
+As the story goes, Twitter was created on March 2006 by Jack Dorsey, Evan Williams, Biz Stone and Noah Glass. The service launched July 2006, and exploded in popularity at the 2007 SXSW Interactive conference, an event which witnessed widespread adoption of the medium. The birth of the metadata tag, octothorpe or "hashtag" would follow later that year, due primarily to the efforts of Twitter user Chris Messina who was inspired by IRC channel convention and then-Twitter competitor, Jaiku. Hashtag usage was popularized following the events of the San Diego fires of that year. (http://factoryjoe.com/blog/2007/08/25/groups-for-twitter-or-a-proposal-for-twitter-tag-channels/   https://gigaom.com/2010/04/30/the-short-and-illustrious-history-of-twitter-hashtags/)
+
+What may be less apparent for those of us who are used to seeing and relating to Twitter via mobile app or the web application, is the vast power that resides in the SMS functionality upon which Twitter was originally built.
+
+To call Twitter a "social networking service" is to sell it short. Yes, it is that, but it is also much more. I want you to imagine for a moment that you are resident of a third-world country, with little or no access to a computer, much less a smart phone. What you do have however is a simple, inexpensive flip-phone, commonly known with a certain amount of class derision as a "dumb phone".
+
+With this non-smart yet durable phone, you are able to send and receive SMS messages inexpensively. When you send a message to the Twitter SMS short code number, (in the U.S. it is 40404), you are able to post directly to your Twitter profile, send and reply to direct messages, follow and unfollow other users. Not only that, but you are able to receive Twitter updates from accounts that you designate. Therefore a user is able to communicate practically in real-time with others on Twitter and if they are using a public profile, the world at large. Amazing.
+
+Twitter works with international mobile carriers to forge agreements that help offset the costs to consumers. You send and pay for one SMS message, and then that SMS message is disseminated to however many other SMS followers you may have, without costing you extra. This plan is more or less how it still works across many different countries.
+
+Currently there appears to be around 105 countries, plus satellite providers listed on the Twitter support site. (https://support.twitter.com/articles/20170024)
+
+The implications of this cannot be overemphasized. We have seen repeatedly, through various global crises and disasters that Twitter has come to be an indispensable tool for relaying information. I will list just a couple of examples:
+
+-Turkey, October 23 2011, the Van earthquake.
+
+In the aftermath of this earthquake, local authorities were able to stay in contact and render aid to the people in regions that were displaced. http://www.theguardian.com/world/2011/oct/24/turkey-earthquake-twitter-plea-help
+
+-Nepal, April 2015, another earthquake known as the Gorkha earthquake.
+
+The Indian government and armed forces launched a rescue and relief operation within 15 of the disaster. The hashtags #OperationMaitri and #IndiaWithNepal became the primary method of disseminating information to those affected, the relief workers and to the world in general. https://twitter.com/hashtag/OperationMaitri?src=hash   https://twitter.com/MEAIndia/status/593790041299628032   https://twitter.com/MEAIndia/status/592938532915785728
+
+In this statement from the Twitter Support blog concerning the Nepal earthquake, the power of Twitter as a humanitarian tool in times of crises is summarized: "[Twitter] provides governments, victims and aid organizations the ability to communicate instantaneously around the world."
+https://blog.twitter.com/2015/helping-nepal
+
+These are only two examples. There is a whole slew of uses for Twitter that goes beyond the scope of this blog post, such as social activism, political protest and civil disobedience. In this respect Twitter has largely been on the side of openness, non-censorship and as a force for democratization, while at the same time being criticized for exactly these same things. These controversial issues can and do fill countless pages of sociology dissertations and editorial columns, so we shall just move on.
+
+In summary, Twitter is more than a simple social network; it is an information network as well.
+
+Why should I use Twitter?
+
+Thank you for bearing with my lengthy summary of Twitter and its many uses. We come now to the burning question, "Why?! Why should I, a soon-to-be-newly-minted web developer, app designer, and/or coding professional, be interested in Twitter and cultivate with it anything more than a passing fancy?" Well, I'm glad you asked.
+
+In case you haven't figured where I was driving with this whole post, here it is: As members of this industry (and many other industries, not just coding and development), it is absolutely essential to use Twitter in order to stay abreast of developments, news, and opportunities that arise in real-time. The network is a living organism that is only as good as its constituent members, and believe me, the network for coding professionals is vast, and for the most part supportive and most welcoming.
+
+Best Practices on Twitter (Your Mileage May Vary)
+
+I hope that this helps to explain why Twitter is a required part of the Dev Bootcamp curriculum. I wish to impart a few of my nuggets of Twitter wisdom that I learned when I first set up my account in 2008. These are of course things that work for me, so the reader is encouraged to find what best works for their own personal professional environment.
+
+1: @ replies.
+The number one thing that overwhelmed me when I first started with Twitter was seeing everyone's @ replies that I followed on my timeline. These are replies from someone directly to another person; in essence you are hearing a person speaking to someone else loudly in public. You can change this setting so that your timeline only includes @ replies to you, or @ replies between two users you follow. You can still visit someone's Twitter user page and see all their public @ replies.
+
+(Screenshots)
+
+2: Hashtags.
+Effective hashtagging is an art that needs to be practiced. Do not be afraid, but follow some basic accepted usage rules. These are not set in stone somewhere, but are generally accepted by the community.
+a. #do #not #hashtag #every #word #in #a #sentence
+b. Find out what the accepted hashtag everyone is using, if you are at say, a conference or launch party. This is to avoid embarrassment, or "hashtag envy" as I call it.
+c. Hashtags are case-insensitive, but related to the above point, it helps with readability.
+d. Hashtag letters and numbers but not punctuation.
+e. I am sure that there are many more suggestions, but those are my main ones concerning hashtags. Check out these pages if you wish to learn more:
+http://mashable.com/2013/10/08/what-is-hashtag/
+http://www.howtohashtag.com/
+
+"#Hashtag" with Jimmy Fallon & Justin Timberlake (Late Night with Jimmy Fallon)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/57dzaMaouXA" frameborder="0" allowfullscreen></iframe>
+
+3: Set up SMS.
+This is going to be important. You need to do this before going out to that big conference, party, festival or whatever, and I'll explain why: When you are in a place with hundreds if not thousands of folks trying to use the same network, (this goes for Wi-Fi or LTE, 3G or whatever next-gen cellular network is in vogue,) you will suddenly find that nobody is able to get a connection, and guess what? The Twitter app and mobile website doesn't update or connect either. In this situation you will have no problem turning on SMS updates to stay current and even be able to tweet out, using the conference hashtag, something along the lines of "No Wi-Fi in 4th floor board room, S.O.S. #help #developerconventionhashtag", and maybe some kind organizer will be able to get you some relief. More likely, you will be able to still receive news updates, for example, if a certain panel talk has been relocated at the last minute or the open tab on the bar will be closing in 15 minutes. Of course, you do not need to have SMS updates activated all the time, but you may find that it is a literal life-saver in some situations.
+
+For complete instructions on using SMS via Twitter, check out:
+https://support.twitter.com/articles/14589-getting-started-with-twitter-via-your-mobile-phone
+
+3:Lists.
+A relatively new feature that serves to aggregate different user tweets into a custom timeline. You can make your own lists, say of coding-related twitter accounts, or follow one created by someone else. If someone adds you to a list to which you do not approve or consent, you can get off it by blocking the person making the list. This brings us to the next point, bots.
+
+4: Bots.
+This used to be a huge problem but has since abated. Just know that most corporate accounts are usually automated, and that you can block and report any weird looking accounts. Block anyone who is harassing you. Seriously. In the event that this happens, do not hesitate to block and report.Twitter is a self-policing community. I encourage you to eliminate any negativity from your timelines immediately in order to maintain sanity. Use this power with impunity, but also use it responsibly. Make sure that you really wish to block and/or report an account.
+
+5. Have fun!
+Twitter is not all work if you don't want it to be. I would suggest lightening your timeline by following some lighter fare. Don't hesitate to follow any publications to which you already subscribe, and any others that tickle your fancy. If you find later that they post to much or post stuff that doesn't interest you, unfollow them.
+
+One memorable anecdote on this that I remember was the Home Alone Project Twitter account, (https://twitter.com/hatproject) that tweeted out every line of dialog from the movie Home Alone every Christmas into a list, from Twitter accounts of the various characters in the film. That experiment has since ended but it was regarded positively and brought much mirth to the Christmas season when it was occurring. You can still see it here: https://twitter.com/HATProject/lists/homealone
+
+These are only suggestions, as I mentioned. Play around with Twitter and find out what works for you. As a parting gift, I will leave you with some great Twitter accounts that I find useful on the daily. I am always welcome to any suggestions. Hit me up via Twitter, @ChileanNick
+
+(These suggestions are in addition to the ones found in our Week 1 curriculum, which were awesome by the way, I followed about 90% of that list and was already following the others.)
+
+Coding-related Twitter feeds:
+
+https://twitter.com/CodeNewbies (I found this by chance and it is amazing. Be sure to check out the @sandimetz interview podcast which is up right now.)
+https://twitter.com/devbootcamp (Of course)
+https://twitter.com/SublimeTxtTips (Pretty useful mostly)
+
+Design and CSS Twitter feeds:
+
+https://twitter.com/Real_CSS_Tricks  (Great tips and workarounds)
+https://twitter.com/CreativeBloq  (Some good articles)
+https://twitter.com/CodePen (If you want to be dazzled by other people's projects)
+
+Case in point in regards to the above, this CSS conference is happened just a few days agoin New York and the video of the speakers are still up:
+https://twitter.com/cssconf
+https://2015.cssconf.com/?utm_content=buffer36493&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#videos
+
+Chicago Tech-related Twitters:
+https://twitter.com/SmartChicago
+https://twitter.com/MSFTChicago
+https://twitter.com/codeforamerica
+
+Be sure and check your city for interesting twitter accounts. For instance I also find and follow food bloggers that tweet specials and limited time offers.
+
+Go forth and tweet!

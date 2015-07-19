@@ -1,84 +1,100 @@
 <!DOCTYPE html>
-<head>
-  <title>Event Horizon</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../default.css">
-  <link rel="stylesheet" type="text/css" href="docs.css">
-  <link rel='shortcut icon' href="http://media.tumblr.com/c5c883b79a9fed70903b179f989c3d9e/tumblr_inline_mhcwln3NkV1qz4rgp.gif" type='image/x-icon'/ >
-</head>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Code2Live</title>
+    <meta name="keywords" content="HTML, CSS, Ruby, JavaScript, Ruby on Rails,Object-Oriented,code,web design,coding,app,web app,mobile,development">
+    <meta name="description" content="Developer portfolio, blog, and contact page">
+    <meta name="author" content="Nicholas Christiny">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel='shortcut icon' href="imgs/favicon.ico" type='image/x-icon'>
+    <link rel="author" type="text/plain" href="humans.txt">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
 
-<main>
-<div class="wrapper">
-        <header>
-  <h1>Week 3 Arrays vs. Hashes</h1>
-  <h2>DEATHMATCH</h2>
-
-        <nav>
-          <ul>
-             <li><a href="https://nchristiny.github.io/index.html">Home</a></li>
-            <li><a href="https://nchristiny.github.io/about.html">About</a></li>
-            <li><a href="https://nchristiny.github.io/contact.html">Contact</a></li>
-            <li><a href="https://nchristiny.github.io/blog/index.html">Refresh</a></li>
-            <li><a href="https://nchristiny.github.io/projects.html">Projects</a></li>
-          </ul>
-        </nav>
+  <body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="wrapper">
+      <header>
+        <h1>Code or Die</h1>
+        <h2>Event Horizon</h2>
+          <nav>
+            <ul>
+              <li><a href="https://nchristiny.github.io/index.html" title="Main page">Home</a></li>
+              <li><a href="https://nchristiny.github.io/about.html" title="About myself">About</a></li>
+              <li><a href="https://nchristiny.github.io/contact.html" title="Contact me">Contact</a></li>
+              <li><a href="https://nchristiny.github.io/blog/index.html" title="Back to blog index">Blog</a></li>
+              <li><a href="https://nchristiny.github.io/projects.html" title="Current and past work">Projects</a></li>
+            </ul>
+          </nav>
       </header>
-  <h4>June 28 2015</h4>
 
-  <section>
-    <p>My goodness, it has been a week of hard work for me that just flew by. We have already reached the end of Unit 1. I can almost hear the collective sigh of relief from my fellow boots.</p>
+      <aside>
+        <h2>Week 3 Arrays vs. Hashes</h2> <!--Title-->
+        <article>
+          <h3>DEATHMATCH</h3> <!--Subtitle-->
+          <h4>June 28 2015</h4> <!--Date-->
+        </article>
+      </aside>
 
-    <p> <img src="http://thumb7.shutterstock.com/display_pic_with_logo/52377/140018635/stock-photo--year-periodical-cicadas-macro-horizontal-140018635.jpg" alt="Cicada: extremely loud when incredibly close">
-Cicadas:  a great source for protein. </p>
-
-
-     <p>Astonishingly, I have learned a full set of index flashcards full of terms that would have been Greek to me just a few weeks ago, but now I'm like "THIS IS SPARTA!". They include bash commands, Ruby methods, Git commands, and many HTML and CSS attributes and tags.</p>
-
-
+      <section class="main">
+        <h3>Who will win?</h3> <!--Spiffy blurb-->
+        <p>My goodness, it has been a week of hard work for me that just flew by. We have already reached the end of Unit 1. I can almost hear the collective sigh of relief from my fellow boots.</p>
+        <figure>
+          <img src="imgs/stock-photo--year-periodical-cicadas-macro-horizontal-140018635.jpg" alt="Cicada: extremely loud when incredibly close" />
+          <figcaption>Cicadas:  a great source for protein</figcaption>
+        </figure>
+        <p>Astonishingly, I have learned a full set of index flashcards full of terms that would have been Greek to me just a few weeks ago, but now I'm like "THIS IS SPARTA!". They include bash commands, Ruby methods, Git commands, and many HTML and CSS attributes and tags.</p>
         <p>I'm feeling up to the task of attempting to explain the main difference between an array and hashes in Ruby. </p>
-
         <p>From what I have gathered, in my extremely limited time as a student of the subject, an array consists of an ordered group of objects, (indexed by sequential integers,) as opposed to a hash which can be assigned any old index imaginable, numbers, strings, different types of fruit. <strike>The main thing is that hashes are not ordered, and arrays are.</strike> Edit: It is not strictly true that hash objects are unordered in recent versions of Ruby 1.9 onwards; hash preserves the <em>insertion order</em>, that is the order in which the collection was created originally. I am sure that there is a great reason for this, but I am very new to the art of Ruby programming, but I don't really understand it yet unfortunately. At first glance it would seem to violate the <a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment" alt="Principle of least astonishment wikipedia ref.">principle of least astonishment</a>. This is due to being able to traverse the hash more efficiently, or something like that. We work with what we have, so I hereby amend my previous statement: both hash and array objects in Ruby preserve order.</p>
-
         <p>Apart from that they seem to able to be worked over with the usual Ruby heavy duty tools,  methods and their arguments. </p>
         <p>Right now we shall be enjoying this glorious 4th of July weekend without work and be back, with a vengeance.</p>
-
         <p>Arrays are all like: </p>
-<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">array</span> <span style="color: #f92672">=</span> <span style="color: #f92672">[</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&quot;two&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">3</span><span style="color: #f92672">.</span><span style="color: #ae81ff">0</span><span style="color: #f92672">]</span> <span style="color: #75715e">#=&gt; [1, &quot;two&quot;, 3.0]</span>
-
-<span style="color: #75715e">#As you can see, well ordered to the point of fastidiousness </span>
-</pre></div>
-
-
-
+        <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">array</span> <span style="color: #f92672">=</span> <span style="color: #f92672">[</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&quot;two&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">3</span><span style="color: #f92672">.</span><span style="color: #ae81ff">0</span><span style="color: #f92672">]</span> <span style="color: #75715e">#=&gt; [1, &quot;two&quot;, 3.0]</span>
+        <span style="color: #75715e">#Very good Arrays, no need to show off. </span>
+        </pre></div>
         <p>but Hashes are all:</p>
-
-<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">Hashes</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span><span style="color: #e6db74">&quot;Bro&quot;</span> <span style="color: #f92672">=&gt;</span> <span style="color: #ae81ff">21</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&quot;Random&quot;</span> <span style="color: #f92672">=&gt;</span> <span style="color: #ae81ff">929</span> <span style="color: #f8f8f2">}</span>
-
-<span style="color: #75715e">#Hashes really do not care, do they? </span>
-</pre></div>
-
-
-
-<p>Again, I hope this somehow makes a lick of sense. I have a feeling I will be looking back at this in a few months and shake my head in shame. In fact, I'm doing so right now, but as Jake the Dog says:  </p>
-<img src="imgs/Sucking-at-something-Adventure-Time.gif" alt="Sucking at something is the first step to being good at something.">
-
+        <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">Hashes</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span><span style="color: #e6db74">&quot;Bro&quot;</span> <span style="color: #f92672">=&gt;</span> <span style="color: #ae81ff">21</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&quot;Random&quot;</span> <span style="color: #f92672">=&gt;</span> <span style="color: #ae81ff">929</span> <span style="color: #f8f8f2">}</span>
+        <span style="color: #75715e">#Hashes really do not care, do they? </span>
+        </pre></div>
+        <p>Again, I hope this somehow makes a lick of sense. I have a feeling I will be looking back at this in a few months and shake my head in shame. In fact, I'm doing so right now, but as Jake the Dog says:  </p>
+        <img src="imgs/Sucking-at-something-Adventure-Time.gif" alt="Sucking at something is the first step to being good at something.">
         <p>Onwards and upwards. Stay safe &amp; have fun! </p>
+      </section>
 
-  </section>
-<footer>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Event Horizon</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://nchristiny.github.io/blog/index.html" property="cc:attributionName" rel="cc:attributionURL">Nicholas Christiny</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://nchristiny.github.io/" rel="dct:source">http://nchristiny.github.io/</a>.
-</footer>
-    </div>     <!--  .wrapper -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <footer>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Code or Die</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://nchristiny.github.io/blog/index.html" property="cc:attributionName" rel="cc:attributionURL">Nicholas Christiny</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://nchristiny.github.io/" rel="dct:source">http://nchristiny.github.io/</a>.
+      </footer>
 
-  ga('create', 'UA-64368113-1', 'auto');
-  ga('send', 'pageview');
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  </script>
+        ga('create', 'UA-64368113-1', 'auto');
+        ga('send', 'pageview');
 
-</main>
+      </script>
+
+    </div>
+  </body>
 </html>

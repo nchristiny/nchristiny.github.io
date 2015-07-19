@@ -5,7 +5,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 body {
   color: #330022;
   background-color: #f9f8f3;
-  background-image: url(blog/imgs/lead.jpg);
+  background-image: url(../blog/imgs/lead.jpg);
   font-family: Georgia, Times, serif;
   line-height: 1.5em;
   margin: 10px;
