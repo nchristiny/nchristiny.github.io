@@ -104,7 +104,7 @@ body {
   margin: 36px auto;
   border: 1px dotted #F2c422;
   padding: 20px;
-  background: rgba(254,232,235,0.4);
+  background: rgba(254,232,235,0.60);
   overflow: auto;
   clear: both;
 }
