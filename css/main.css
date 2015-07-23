@@ -145,6 +145,10 @@ h3 {
   font-size: 1.25em;
 }
 
+section > h3 {
+  font-style: italic;
+}
+
 nav, footer {
   clear: both;
   color: #ffffff;
@@ -202,6 +206,7 @@ aside {
   padding-right: 5%;
   width: 28.6666666666%;   /* 400 / 960 */
   float: right;
+  text-align: center;
   /* border-left: 1px solid #330022;   might DELETE LATER...*/
 
 }
@@ -362,7 +367,7 @@ footer img {
 @media screen and (min-width: 960px) {
 .wrapper {
   /* border: 1px dotted black; */
-  max-width: 960px;
+  max-width: 980px;
 }
 
 nav li {
@@ -384,6 +389,13 @@ section.main, aside {
   /* border: 1px dotted black; */
 }
 
+aside {
+  text-align: center;
+  line-height: 1em;
+}
+
+
+
 header {
   display: inline-block;
   margin-bottom: 10px;
@@ -396,9 +408,9 @@ nav li {
   font-size: 90%;
 }
 
-
 h2, h3 {
   font-size: 95%;
+  line-height: 1em;
 }
 
 figure  {
@@ -422,6 +434,7 @@ section.main, aside {
   clear: both;
   width: auto;
   margin: 10px auto;
+
   /* border: 1px dotted black; */
 }
 
