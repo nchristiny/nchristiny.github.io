@@ -53,14 +53,18 @@
 
       <section class="main">
         <h3>Divine right of objects</h3> <!--Spiffy blurb-->
-        <p>This week at DBC for our  blog post, we were tasked with writing about a topic of our choice on some advanced concepts in Ruby. I chose to talk about the major differences between Ruby classes and modules.</p> <!--Dynamite content-->
+        <p>This week at DBC for our blog post, we were tasked with writing about a topic of our choice on some advanced concepts in Ruby. I chose to talk about the major differences between Ruby classes and modules.</p> <!--Dynamite content-->
         <p>Ruby classes and modules are objects in Ruby, (remember everything is an object in Ruby!) However they are in some respects more important that others since they tend to encompass so much of the functionality that comes with Ruby. </p>
-        <p>There is a hierarchy of objects in Ruby; in fact we can check the ancestors of any object with a simple method, <b>#ancestors</b>.</p>
+        <figure>
+          <img src="imgs/i_have_class.gif" title="I have class and you don't" />
+          <figcaption>Scene from The Parent Trap- super relevant</figcaption>
+        </figure>
+        <p>There is a hierarchy of objects in Ruby; in fact we can check the ancestors of any object with a simple method, <b>#ancestors</b>, which is similar to <b>#superclass</b>, but shows the entire chain, not just the one above.</p>
         <p>Example 1: We create a class and check the ancestry.</p>
         <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">class</span> <span style="color: #a6e22e">Bicycle</span>
 <span style="color: #66d9ef">end</span>
 
-<span style="color: #75715e">#Since class is an object we can call Kernel methods on it</span>
+<span style="color: #75715e">#Since class is an object we can call our Kernel methods on it</span>
 <span style="color: #66d9ef">Bicycle</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">ancestors</span>
 <span style="color: #75715e">#=&gt;=&gt; [Bicycle, Object, Kernel, BasicObject]</span>
 </pre></div>
