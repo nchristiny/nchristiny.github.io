@@ -240,6 +240,11 @@ figure img {
   padding-top: 20px;
 }
 
+.blog_entry {
+  border-bottom: 1px dashed gray;
+}
+
+
 figcaption {
   width: 100%;
   font-size: 90%;
