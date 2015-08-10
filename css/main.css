@@ -216,9 +216,12 @@ article {
   width: 100%;
 }
 
-/* .timeline {
-  float: right;
-}    DELETE LATER   */
+.entry {
+  border: 1px solid;
+  border-radius: 1.5%;
+  margin: 1em;
+  padding: 1em;
+}
 
 figure {
   position: relative;
