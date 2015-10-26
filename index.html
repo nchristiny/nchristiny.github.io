@@ -1,85 +1,23 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Code2Live</title>
-    <meta name="keywords" content="HTML, CSS, Ruby, JavaScript, Ruby on Rails,Object-Oriented,code,web design,coding,app,web app,mobile,development">
-    <meta name="description" content="Developer portfolio, blog, and contact page">
-    <meta name="author" content="Nicholas Christiny">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel='shortcut icon' href="blog/imgs/favicon.ico" type='image/x-icon'>
-    <link rel="author" type="text/plain" href="humans.txt">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <div class="wrapper">
-      <header>
-        <h1>Code or Die</h1>
-        <h2>Greetings traveler!</h2>
-        <nav>
-          <ul>
-            <li><a href="https://nchristiny.github.io/index.html" title="Reload this page">Refresh</a></li>
-            <li><a href="https://nchristiny.github.io/about.html" title="About myself">About</a></li>
-            <li><a href="https://nchristiny.github.io/contact.html" title="Contact me">Contact</a></li>
-            <li><a href="https://nchristiny.github.io/blog/index.html" title="My blog">Blog</a></li>
-            <li><a href="https://nchristiny.github.io/projects.html" title="Current and past work">Projects</a></li>
-          </ul>
-        </nav>
-      </header>
+<div class="home">
 
-      <section class="main">
-        <h2>Be excellent to one another...</h2>
-        <article>
-            <h3>And party on dudes!</h3>
-            <p>Thanks for stopping by! Check back for more premium orignal content.</p>
-        </article>
-      </section>
+  <h1 class="page-heading">Posts</h1>
 
-      <aside>
-        <article>
-        <h3>Sidebar ahoy.</h3>
-        <figure>
-          <img src="blog/imgs/purple%20sunset.jpg" alt="A purple sunset" />
-          <figcaption>A rather purple sunset</figcaption>
-        </figure>
-        <p>Code or Die: simply a tribute to Skate or Die&copy;, the <a href="https://en.wikipedia.org/wiki/Skate_or_Die!" alt="Skate or Die on Wikipedia">classic videogame</a>.</p>
-        </article>
-      </aside>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-      <footer>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Code or Die</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://nchristiny.github.io/blog/index.html" property="cc:attributionName" rel="cc:attributionURL">Nicholas Christiny</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://nchristiny.github.io/" rel="dct:source">http://nchristiny.github.io/</a>.
-      </footer>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-      <script src="js/plugins.js"></script>
-      <script src="js/main.js"></script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-        ga('create', 'UA-64368113-1', 'auto');
-        ga('send', 'pageview');
-
-      </script>
-
-    </div>
-  </body>
-</html>
+</div>
