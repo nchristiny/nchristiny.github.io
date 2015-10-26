@@ -1,6 +1,6 @@
 # nchristiny.github.io
-**Rubber Duckie, you're the one.**
+*Rubber Duckie, you're the one.*
 
-Personal blog for Nicholas Christiny, web developer. 
+Personal website/blog/portfolio for Nick Christiny, web developer. 
 
-Feel free to poke about. 
+Feel free to poke about, and drop me some feedback. 
