@@ -1,3 +1,4 @@
 markdown: rdiscount
-pygments: true
+highlighter: true
 permalink: /blog/:year/:month/:day/:title
+url: http://nchristiny.github.io
