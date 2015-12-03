@@ -2,3 +2,8 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 url: http://nchristiny.github.io
+rdiscount:
+  extensions:
+    - autolink      # greedily urlify links
+    - footnotes     # footnotes
+    - smart         # typographic substitutions with SmartyPants
