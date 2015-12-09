@@ -1,9 +1,8 @@
-markdown: rdiscount
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+redcarpet:
+  extensions: ["tables", "no_intra_emphasis", "autolink", "strikethrough", "superscript"]
 highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 url: http://nchristiny.github.io
-rdiscount:
-  extensions:
-    - autolink      # greedily urlify links
-    - footnotes     # footnotes
-    - smart         # typographic substitutions with SmartyPants
+
