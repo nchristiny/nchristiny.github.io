@@ -22,13 +22,13 @@ Intermediate:
 ===
 
 * HTML and CSS: Design and Build Websites by Jon Duckett
-http://www.htmlandcssbook.com/ HTML 
+http://www.htmlandcssbook.com/ 
 * JavaScript and JQuery: Interactive Front-End Web Development by Jon Duckett 
 http://www.javascriptbook.com/
 * The Well-Grounded Rubyist 
 https://www.manning.com/books/the-well-grounded-rubyist-second-edition
 * Programming Ruby 1.9 & 2.0: The Pragmatic Programmers' Guide (The Facets of Ruby) by Dave Thomas, Andy Hunt, and Chad Fowler 
-https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0
+(aka Pickaxe) https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0  
 http://ruby-doc.com/docs/ProgrammingRuby/
 * Eloquent JavaScript by Marijn Haverbeke
 http://eloquentjavascript.net/
