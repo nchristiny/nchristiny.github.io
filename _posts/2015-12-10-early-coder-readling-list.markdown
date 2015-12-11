@@ -3,7 +3,7 @@ layout: post
 title: "Early Coder Reading List"
 date: 2015-12-10
 ---
-(Focusing on Ruby, JavaScript and Rails development)
+An [early coder](http://zedshaw.com/2015/06/16/early-vs-beginning-coders/) resource focusing on Ruby, JavaScript and Rails development.
 Beginner:
 ===  
 
@@ -11,9 +11,9 @@ Beginner:
 https://pine.fm/LearnToProgram/
 * Learn the Command Line the Hard Way by Zed Shaw 
 http://cli.learncodethehardway.org/book/
-* Learn Ruby the Hard Way  both by Zed Shaw
+* Learn Ruby the Hard Way also by Zed Shaw
 http://learnrubythehardway.org/book/
-* Learning the bash Shell by Cameron Newham, Bill Rosenblatt
+* Learning the bash Shell by Cameron Newham and Bill Rosenblatt
 http://shop.oreilly.com/product/9780596009656.do
 * Pro Git by Scott Chacon and Ben Straub 
 http://git-scm.com/book/en/v2
