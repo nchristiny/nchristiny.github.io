@@ -1,8 +1,32 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:         /blog/:title
+# relative_permalinks: true
+
+# Setup
+title:               'Code or Die'
+tagline:             'live to code'
+description:         'Personal website for web developer <a href="https://twitter.com/chileannick" target="_blank">Nick Christiny</a>'
+url:                 http://nchristiny.github.io
+baseurl:             ''
+
+paginate:            5
+gems: [jekyll-paginate]
+paginate_path: "page:num"
+
 markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 redcarpet:
   extensions: ["tables", "no_intra_emphasis", "autolink", "strikethrough", "superscript"]
 highlighter: pygments
-permalink: /blog/:year/:month/:day/:title
-url: http://nchristiny.github.io
+
+# About/contact
+author:
+  name:              Nicholas Christiny
+  twitter:           https://twitter.com/chileannick
+  email:             nchristiny@gmail.com
+
+# Custom vars
+version:             1.0.0
 
