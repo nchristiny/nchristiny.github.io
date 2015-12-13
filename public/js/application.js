@@ -1,4 +1,4 @@
-// A script to open new tab/window for external links
+// A script to open new browser tab/window for external links
 var links = document.links;
 
 for (var i = 0, linksLength = links.length; i < linksLength; i++) {
