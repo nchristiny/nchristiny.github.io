@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
 end
 
+gem 'jekyll-sitemap'
 gem 'jekyll-coffeescript', '~> 1.0'
 gem 'jekyll-feed'
 gem 'jekyll-gist', '~> 1.0'
