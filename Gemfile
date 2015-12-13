@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
 gem 'jekyll'
-gem 'jekyll-paginate', '~> 1.0'
+
+group :jekyll_plugins do
+  gem 'jekyll-paginate'
+end
+
 gem 'jekyll-coffeescript', '~> 1.0'
 gem 'jekyll-feed'
 gem 'jekyll-gist', '~> 1.0'

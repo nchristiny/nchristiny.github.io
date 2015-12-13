@@ -7,4 +7,3 @@ for (var i = 0, linksLength = links.length; i < linksLength; i++) {
    }
 }
 
-// TODO: make this have some semblance of functionality
