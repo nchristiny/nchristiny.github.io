@@ -4,8 +4,8 @@ title: "Early Coder Reading List"
 date: 2015-12-10
 ---
 An [early coder](http://zedshaw.com/2015/06/16/early-vs-beginning-coders/) resource focusing on Ruby, JavaScript and Rails development.
-Beginner:
-===  
+
+## Beginner:
 
 * Learn to program by Chris Pine
 https://pine.fm/LearnToProgram/
@@ -18,8 +18,7 @@ http://shop.oreilly.com/product/9780596009656.do
 * Pro Git by Scott Chacon and Ben Straub 
 http://git-scm.com/book/en/v2
 
-Intermediate:
-===
+## Intermediate:
 
 * HTML and CSS: Design and Build Websites by Jon Duckett
 http://www.htmlandcssbook.com/ 
@@ -37,8 +36,7 @@ http://www.javascriptenlightenment.com/
 * JavaScript: The Good Parts by Douglas Rockford
 http://shop.oreilly.com/product/9780596517748.do
 
-Advanced:
-===
+## Advanced:
 
 * Practical Object-Oriented Design in Ruby: An Agile Primer (Addison-Wesley Professional Ruby) by Sandi Metz
 http://www.poodr.com/

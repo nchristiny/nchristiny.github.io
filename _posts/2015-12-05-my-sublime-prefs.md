@@ -131,7 +131,7 @@ Speaking of packages, here are my currently installed Sublime Text packages:
 
 Since I recently reinstalled my OS, I ~~may~~ will definitely find more to download. One that springs to mind is Sublime​Linter and its language-specific packages.
 
-## Key Bindings
+### Key Bindings
 
 Here is the contents of the synced Key bindings file:
 User/Default (OSX).sublime-keymap
@@ -155,7 +155,7 @@ Paste and Indent makes this behavior default for `⌘-v`, and allows me the opti
 
 Reindent saves me from hunting for this useful command in the menus. 
 
-### Bric-a-Brac
+## Bric-a-Brac
 
 I turn off the Minimap as it takes up valuable real estate and usually I just don't use it.
 
