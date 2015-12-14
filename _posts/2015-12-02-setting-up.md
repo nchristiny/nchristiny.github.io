@@ -3,7 +3,6 @@ layout: post
 title: "Setting Up"
 date: 2015-12-02
 ---
-
 I recently reinstalled Mac OS X from scratch and had to reconfigure all the little tweaks that had made my development workflow easier. These were settings that I had not noticed previously since they were so ubiquitous. Now that they were gone I felt naked and powerless on my clean install. 
 
 Setting out to reconfigure my settings, it was immediately noticeable that there were quite a few special details I had forgotten about, therefore I am posting this mostly as a 'note to self'. If anyone stumbles upon this information, then I hope they gain some inspiration to customize their development environment as they see fit. Please keep in mind these are my own preferences and your mileage may vary.
