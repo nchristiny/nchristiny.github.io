@@ -8,7 +8,7 @@ I recently reinstalled Mac OS X from scratch and had to reconfigure all the litt
 
 Setting out to reconfigure my settings, it was immediately noticeable that there were quite a few special details I had forgotten about, therefore I am posting this mostly as a 'note to self'. If anyone stumbles upon this information, then I hope they gain some inspiration to customize their development environment as they see fit. Please keep in mind these are my own preferences and your mileage may vary.
 
-Credit goes out to Mike Busch from Dev Bootcamp, ([@mikelikesbikes](https://twitter.com/mikelikesbikes "Mike's Twitter")), for giving us the instructions upon which most of the steps below are based. Thanks Mike! 
+Credit goes out to Mike Busch from Dev Bootcamp, [@mikelikesbikes](https://twitter.com/mikelikesbikes "Mike's Twitter"), for giving us the instructions upon which most of the steps below are based. Thanks Mike! 
 
 Mike made [Environment Linter](https://github.com/mikelikesbikes/environment_linter "GitHub"), which "helps identify issues with OS X machine setup for basic web development with Ruby." After running through the steps, go ahead and check the results with it, (for example my laptop for some strange reason had both rbenv and rvm.)
 
