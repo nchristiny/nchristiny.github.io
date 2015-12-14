@@ -6,6 +6,9 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
 end
 
+gem 'jekyll-mentions'
+gem 'jemoji'
+gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'jekyll-coffeescript', '~> 1.0'
 gem 'jekyll-feed'

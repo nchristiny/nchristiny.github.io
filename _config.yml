@@ -15,6 +15,9 @@ gems:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
 
 # Pagination
 paginate:            5
