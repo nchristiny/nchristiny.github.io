@@ -2,6 +2,8 @@
 layout: post
 title: "Hi MTV"
 date: 2015-11-16
+tags: 
+- jekyll
 ---
 Welcome to my new static website/blog/portfolio, powered by [Jekyll](http://jekyllrb.com).  
 

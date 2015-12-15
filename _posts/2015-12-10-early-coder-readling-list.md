@@ -2,6 +2,12 @@
 layout: post
 title: "Early Coder Reading List"
 date: 2015-12-10
+tags: 
+- resources
+- Ruby
+- JavaScript
+- Git
+- Rails
 ---
 An [early coder](http://zedshaw.com/2015/06/16/early-vs-beginning-coders/) resource focusing on Ruby, JavaScript and Rails development.
 

@@ -2,6 +2,9 @@
 layout: post
 title: "My Sublime Prefs"
 date: 2015-12-05
+tags: 
+- Sublime Text
+- resources
 ---
 As a segue from the previous post on setting up the developer environment, I wanted to record my current setup for Sublime Text build 3083. This is not a post that debates the relative merits of this or that text editor. Maybe some other time.
 

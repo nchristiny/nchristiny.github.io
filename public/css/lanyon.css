@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-/*TODO: make the footer sticky*/
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
@@ -92,6 +91,18 @@ footer .download {
   overflow: hidden;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+/*Tags*/
+.tags {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 20px;
+}
+.tags li {
+  display: inline-block;
+  margin: 0 25px 25px 0;
 }
 
 /*

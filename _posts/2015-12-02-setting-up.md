@@ -2,6 +2,11 @@
 layout: post
 title: "Setting Up"
 date: 2015-12-02
+tags:
+- OS X
+- bash
+- homebrew
+- resources
 ---
 I recently reinstalled Mac OS X from scratch and had to reconfigure all the little tweaks that had made my development workflow easier. These were settings that I had not noticed previously since they were so ubiquitous. Now that they were gone I felt naked and powerless on my clean install. 
 
