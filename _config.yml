@@ -6,7 +6,7 @@ permalink:         /blog/:title
 # Setup
 title:               'Code or Die'
 tagline:             'live to code'
-description:         'Personal website for web developer <a href="https://twitter.com/chileannick" target="_blank">Nick Christiny</a>'
+description:         'Personal website for developer <a href="https://twitter.com/chileannick" target="_blank">Nick Christiny</a>'
 url:                 http://nchristiny.github.io
 baseurl:             ''
 
