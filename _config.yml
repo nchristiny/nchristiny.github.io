@@ -27,7 +27,7 @@ paginate_path: "page:num"
 markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 redcarpet:
-  extensions: ["tables", "no_intra_emphasis", "autolink", "strikethrough", "superscript"]
+  extensions: ["tables", "no_intra_emphasis", "autolink", "strikethrough", "superscript", "footnotes"]
 highlighter: pygments
 
 # RSS
