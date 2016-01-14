@@ -9,7 +9,8 @@ Happy new year! Welcome to 2016.
 
 ## Welcome to the world of tomorrow
 
-As I was coming up with a cool little blog topic to start the year, I kept stopping and scrapping this and that idea. The reason I was experiencing difficulty formulating my thoughts properly was not a lack of material. The real cause for my hangup was that I felt I needed to be *original*, *non-trivial* and most of all, I just had to be *correct*.
+As I was coming up with a cool little blog topic to start the year, I kept stopping and scrapping this and that idea. The reason I was experiencing difficulty formulating my thoughts properly was not a lack of material. The 
+real cause for my hangup was that I felt I needed to be *original*, *non-trivial* and most of all, I just had to be *correct*.
 
 This last thing was fatal, I now realize. It prevented making any sort of rational investigation. I needed to permit myself the necessary latitude to try something new and fail. As the adage goes, <q>Nothing ventured nothing gained.</q> Once I got around this hangup, I could properly begin to write again. 
 
