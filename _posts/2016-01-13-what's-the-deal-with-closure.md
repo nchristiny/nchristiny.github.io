@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What's the deal with closure
+title: What's the deal with closure?
 date: 2016-01-13
 tags:
 - Ruby
