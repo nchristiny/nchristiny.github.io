@@ -5,9 +5,9 @@ title: Now
 # What am I doing right now?
 
 
-In March I started an apprenticeship as software dev at Jellyvision! We've been challenged to make a JSON API back-end for a film recommender, using a React front-end. I chose to make my back-end using `rails-api` combined with MongoDB database. I am using `rest-client` to communicate with the front-end Rails app built with `react-rails`. 
+This February I started a software engineer apprenticeship at Jellyvision! We've been challenged to make a JSON API back-end for a film recommender using a React front-end. I chose to make mine using a JSON `rails-api` back-end combined with a MongoDB database for JSON (really BSON) documents. The front-end is built on a stripped-down Rails app using `rest-client`. User interactions and DOM rendering are governed smoothly with React and Redux.
 
-Learning this has been both fun and quite exciting, given the limited time frame of 60 days. In the last 30 days we are creating an internal tool for the company.  
+Learning these new technologies has been both fun and quite exciting, especially given the limited time frame of 60 days. In the last 30 days we are creating an internal tool for the company.  
 
 Now learning:
 
