@@ -5,7 +5,8 @@ title: Projects
 
 <a href="https://resume.creddle.io/resume/i2pvc6ch7la" class="download" target="_blank" title="Resume">Resume</a> <a href="https://github.com/nchristiny" class="download" target="_blank" title="GitHub">GitHub</a><a href="https://www.linkedin.com/in/nchristiny"  class="download" target="_blank" title="LinkedIn">LinkedIn</a>
 # Nick Christiny
-## Software/Web Developer
+## Software Engineer
+## Web Developer
 <address>Chicago, IL</address>
 
 ## Select Projects
