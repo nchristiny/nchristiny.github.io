@@ -3,14 +3,17 @@ layout: default
 title: Now
 ---
 # What am I doing right now?
-## *Well, I'm glad you asked.*
-I am currently seeking opportunities in web development or software engineering. The amount of tech meetups, conferences, startups and incubators etc that Chicago has to offer boggles my mind. Having already met so many cool new folks, I am happy to say Chicago has won me over and I plan on remaining here! Also I'm practicing yoga, spin-bike, playing guitar, and being a good cat-dad to two opinionated furballs.  
+
+
+In March I started an apprenticeship as software dev at Jellyvision! We've been challenged to make a JSON API back-end for a film recommender, using a React front-end. I chose to make my back-end using `rails-api` combined with MongoDB database. I am using `rest-client` to communicate with the front-end Rails app built with `react-rails`. 
+
+Learning this has been both fun and quite exciting, given the limited time frame of 60 days. In the last 30 days we are creating an internal tool for the company.  
 
 Now learning:
 
-* Accessibility and responsive CSS frameworks
-* AngularJS
-* node.js
-* Playing with various APIs for fun
-
-
+* React
+* Redux
+* Mongoid
+* MongoDB
+* CoffeeScript
+* JSX
