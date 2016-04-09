@@ -14,10 +14,10 @@ title: Projects
 ### Select Projects
 
 ### <em>Chord Explorer</em>
-Final group project for Dev Bootcamp, completed during 8 days in November 2015. Ruby on Rails single page desktop web app hosted on Heroku: <a href="http://chord-explorer.com/">chord-explorer.com</a>.</p>
+Final group project for Dev Bootcamp, completed during 8 days in November 2015. Ruby on Rails single page desktop web app hosted on Heroku: <a href="http://chord-explorer.com/">chord-explorer.com</a>.
 
 ### <em>Catstream</em>  
-Lightweight Sinatra app using Instagram Ruby gem and Instagram API. Hosted on Heroku at: <a href="http://catstream.herokuapp.com">catstream</a>. Completed for the "Build Something Beautiful &amp; Meaningful" challenge at Dev Bootcamp.</p>
+Lightweight Sinatra app using Instagram Ruby gem and Instagram API. Hosted on Heroku at: <a href="http://catstream.herokuapp.com">catstream</a>. Completed for the "Build Something Beautiful &amp; Meaningful" challenge at Dev Bootcamp.
 
 ### <em>Gaming: The System</em>
 Client group project created during Phase 3 of Dev Bootcamp. Rails web app using REST conventions and CRUD functionality. Built observing <a href="http://12factor.net/">the 12-factor app</a> methodology. Source code located: <a href="https://github.com/adierker/gaming-the-system">here</a>.
