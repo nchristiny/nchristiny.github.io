@@ -20,7 +20,7 @@ Here are the contents of the synced preferences file:
 
 User/Preferences.sublime-settings
 
-```
+{% highlight linenos %}
 {
   "auto_complete_delay": 25,
   "bold_folder_labels": true,
@@ -96,7 +96,8 @@ User/Preferences.sublime-settings
   "trim_trailing_white_space_on_save": true,
   "word_wrap": "true"
 }
-```
+{% endhighlight %}
+
 The usual suspects are here. I am a big fan of matching popular style-guides so I will use "tab size: 2", and "translate tabs to spaces" enabled. "Save on focus lost" is a life saver as well as a time and sanity saver, especially on large projects.
 
 "Trim trailing white space on save" is pretty self-explanatory, but for more information as to why "newline added on EOF (end of file)" should be used, check out this [enlightening post](https://robots.thoughtbot.com/no-newline-at-end-of-file "blog post") on thoughtbot's blog that explains the history.
@@ -138,7 +139,7 @@ Since I recently reinstalled my OS, I ~~may~~ will definitely find more to downl
 Here is the contents of the synced Key bindings file:
 User/Default (OSX).sublime-keymap
 
-```
+{% highlight linenos %}
 [
 // Rails ERB tags
 { "keys": ["ctrl+shift+."], "command": "erb" },
@@ -149,7 +150,7 @@ User/Default (OSX).sublime-keymap
 // Reindent shortcut
 { "keys": ["super+shift+r"],  "command": "reindent" }
 ]
-```
+{% endhighlight %}
 
 The ERB shortcut is used by SublimeERB to cycle between `<%=  %>`, `<%  %>`, `<%-  -%>`, `<%=  -%>`, `<%#  %>`, and `<%  -%>` and places the cursor helpfully inside of these monstrosities to ease the pain of typing embedded Ruby delimiters. 
 

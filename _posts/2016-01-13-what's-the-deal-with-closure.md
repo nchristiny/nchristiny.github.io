@@ -31,23 +31,24 @@ All Ruby code blocks are really closures. What?? I know, it sounded strange to m
 
 Consider the following Ruby code snippet:
 
-```ruby
+{% highlight ruby linenos %}
 str = "Hello"
 5.times do
 	str2 = "world!"
 	puts "#{str} #{str2}"
 end
-```
+{% endhighlight %}
+
 
 Output: 
 
-```
+{% highlight linenos %}
 Hello world!
 Hello world!
 Hello world!
 Hello world!
 Hello world!
-```
+{% endhighlight %}
 
 Nothing too groundbreaking here since we are just exploring Ruby code blocks and how they act as closures. 
 
@@ -57,24 +58,26 @@ Why does this happen? It is because Ruby, (at least the most common version of R
 
 Let's see what happens if we change `str` inside the block. 
 
-```ruby
+{% highlight ruby linenos %}
 str = "Hello"
 5.times do
-	str2 = "world!"
-	puts "#{str} #{str2}"
-	str = "Just kidding, goodbye"
+  str2 = "world!"
+  puts "#{str} #{str2}"
+  str = "Just kidding, goodbye"
 end
-``` 
+{% endhighlight %}
+
 
 Output: 
 
-```
+{% highlight linenos %}
 Hello world!
 Just kidding, goodbye world!
 Just kidding, goodbye world!
 Just kidding, goodbye world!
 Just kidding, goodbye world!
-```
+{% endhighlight %}
+
 
 We see that the block acknowledges the original environmental pointer of local variable `str` in the first iteration, but on subsequent iterations the pointer has changed, and it continues to honor this new definition until the end. The so-called snapshot of the current stack frame was changed after the first iteration because we changed the value of `str` inside the block. 
 
