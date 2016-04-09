@@ -12,6 +12,7 @@ Although closure is easy to understand in relatively simple terms, it was not un
 Since I always love to demystify computer science and coding, let's pull aside the curtain to take a look at what really is happening with this phenomenon.
 
 ## History
+
 A quick aside to cover some background on closure: 
 
 Closure first saw use in 1964 by Peter J. Landin who coined it as a lambda expression whose open bindings have been closed by (or bound in) the lexical environment, resulting in a closed expression, or closure.[^fn-wiki1] This concept was then used by Sussman and Steele in Scheme, a lexically scoped variant of LISP,[^fn-wiki2] and the rest is history.
@@ -82,6 +83,7 @@ Just kidding, goodbye world!
 We see that the block acknowledges the original environmental pointer of local variable `str` in the first iteration, but on subsequent iterations the pointer has changed, and it continues to honor this new definition until the end. The so-called snapshot of the current stack frame was changed after the first iteration because we changed the value of `str` inside the block. 
 
 ## Stack and heap memory
+
 It sounds a bit complicated, but we can better visualize this if we learn about the concept of heap and stack memory, both of which are stored in the computer's RAM (Random Access Memory). Programming languages will use RAM to assign variables to values. A variable is nothing more than a pointer to a specific address in memory that contains the corresponding value. 
 
 Stack memory is used for running your program, and from what I understand, each stack frame is like a single step in any given line of code. In the case of Ruby MRI, it is the underlying C code that determines the current stack frame. Stack memory is fast, but liable to overflow i.e. if the program goes into an infinite loop or otherwise runs out of memory due to a runaway process. Stack memory is nice in that as soon as a particular function or process is done, the variables deallocate or disappear, freeing up the space automatically.
@@ -91,6 +93,7 @@ Heap memory on the other hand is used to allocate a more permanent block of data
 It is these details, as well as many other great reasons, that make C and C++ an asset to learn since many high level modern programming languages tend to abstract away these vital computer science concepts. 
 
 ## Bringing it home
+
 As we saw in the above code examples, Ruby blocks refer to a specific environment (the lexical scope) as well as the functions and variables contained therein. This fulfills the requirements of closure as defined above. 
 
 Since both Procs and Lambdas are types of blocks in Ruby, these also act as closures. Closures, as it turns out, are everywhere and underpin some of the most important concepts in programming. 
