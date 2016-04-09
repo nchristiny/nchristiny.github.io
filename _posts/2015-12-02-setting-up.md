@@ -32,9 +32,10 @@ Again, these are the just the tools I like to use, so be sure and use your own p
 
 From Terminal: 
 
-```bash
+{% highlight bash %}
 $ xcode-select --install
-```
+{% endhighlight %}
+
 
 ### Configure Sublime Text from the command line, `subl`. 
 
@@ -46,17 +47,17 @@ From Terminal type: `echo $PATH` to check this environment variable. Ensure `~/b
 
 Next find the `subl` command location, symlink and check the link with these three commands, (note these are for Sublime Text 3):
 
-```bash
+{% highlight bash %}
 $ find /Applications/Sublime\ Text.app -name subl
-```
+{% endhighlight %}
 
 The preceding give the path to subl. Use it in the next command.
 
-```bash
+{% highlight bash %}
 $ ln -fs "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 $ which subl
-```
+{% endhighlight %}
 
 Should give `/usr/local/bin/subl`.
 
@@ -82,21 +83,21 @@ Run `source ~/.bash_profile` or exit and relaunch Terminal to confirm changes.
 
 Since we have a clean install, we will need to install Homebrew. Run this command in the newly configured Terminal:
 
-```bash
+{% highlight bash %}
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+{% endhighlight %}
 
 Staying true to the craft means we need to keep our tools in tip-top shape. Update Homebrew:
 
-```bash
+{% highlight bash %}
 $ brew update
-```
+{% endhighlight %}
 
 And make sure it is happy:
 
-```bash
+{% highlight bash %}
 $ brew doctor
-```
+{% endhighlight %}
 
 Fix any error messages until "Your system is ready to brew." appears.
 
@@ -104,9 +105,9 @@ Make sure that our system is using Homebrew's installed packages.
 
 Run this command to output our `$PATH` variable in a more legible format: 
 
-```bash
+{% highlight bash %}
 $ echo $PATH | tr : '\n'
-```
+{% endhighlight %}
 
 And check that `/usr/local/bin` comes before both `/usr/bin` and `/bin`.
 
@@ -114,41 +115,41 @@ If we used the above dotfiles, it should. If not, open `~/.bash_profile` and add
 
 
 ### Install `sqlite3` with Homebrew
-```bash
+{% highlight bash %}
 $ brew install sqlite3
-```
+{% endhighlight %}
 
 Force OS X to use this version of `sqlite3` and not the one that comes pre-installed: 
-```bash
+{% highlight bash %}
 $ brew link sqlite3 --force
-```
+{% endhighlight %}
 ### Install `postgres` with Homebrew
-```bash
+{% highlight bash %}
 $ brew install postgres
-```
+{% endhighlight %}
 
 Since `postgres` requires a server with which to interface, we use OS X's `launchd` utility to keep this server running. Execute these two commands:
 
-```bash
+{% highlight bash %}
 $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-```
+{% endhighlight %}
 
 If all goes well, run `which postgres` to confirm the location is `/usr/local/bin/postgres`.
 
 We can also check that `postgres` server is running by entering this `ps` or process status command:
 
-```bash
+{% highlight bash %}
 $ ps aux | grep postgres
-```
+{% endhighlight %}
 Finally, create a default database and test our `postgres` client, `psql`.
 
-```bash
+{% highlight bash %}
 $ createdb $USER
 
 $ psql $USER
-```
+{% endhighlight %}
 
 This last command opens the sql console for the default database.
 
@@ -156,144 +157,144 @@ This last command opens the sql console for the default database.
 
 I prefer to use `rbenv`. There are other options, notably `rvm`. Choose one and stick to it.
 
-```bash
+{% highlight bash %}
 brew install ruby-build rbenv
-```
+{% endhighlight %}
 
 If we used `rbenv` and Topher's dotfiles from earlier, go ahead and comment or delete out the lines of code that use `rvm` in `~/.bash_profile`, `~/.bashrc` and `~/.profile` if they appear.
 
 ### Install Ruby using a Ruby Manager
 
-```bash
+{% highlight bash %}
 $ rbenv install --list
-```
+{% endhighlight %}
 
 This will list all of the Rubies ruby-build can install. Choose one, likely the latest non-development build. For example: 
 
-```bash
+{% highlight bash %}
 $ rbenv install 2.2.3
-```
+{% endhighlight %}
 
 And finally set the global/shell/local ruby:
 
-```bash
+{% highlight bash %}
 $ rbenv global 2.2.3
-```
+{% endhighlight %}
 Run:  
 
-```bash
+{% highlight bash %}
 $ which ruby
 
-```
+{% endhighlight %}
 To make sure we are not using the system's pre-installed Ruby. It should say something like this: `/Users/Nyc/.rbenv/shims/ruby`
 
-```bash
+{% highlight bash %}
 $ rbenv which ruby
-```
+{% endhighlight %}
 Restart the Terminal.
 
 ### Install `git` with Homebrew
 
-```bash
+{% highlight bash %}
 $ brew install git
 
-```
+{% endhighlight %}
 Make sure we're using `git` from Homebrew:
 
-```bash
+{% highlight bash %}
 $ which git
 
-```
+{% endhighlight %}
 Should give: `/usr/local/bin/git`
 
 If we didn't earlier, then set username, email for `git`. 
 
-```bash
+{% highlight bash %}
 $ git config --global user.name "John Doe"
 
 $ git config --global user.email johndoe@example.com
-```
+{% endhighlight %}
 
 Finally, set up Sublime Text as default editor for `git`: 
 
-```bash
+{% highlight bash %}
 $ git config --global core.editor "subl -w"
 
-```
+{% endhighlight %}
 ### Install `node` with Homebrew
 
-```bash
+{% highlight bash %}
 $ brew install node
-```
+{% endhighlight %}
 ### Install Ruby gems
 
 Make sure the load path is right.
 
-```bash
+{% highlight bash %}
 $ which gem
 
-```
+{% endhighlight %}
 Should yield, `/Users/Nyc/.rbenv/shims/gem` or similar.
 
-```bash
+{% highlight bash %}
 $ rbenv which gem
 
-```
+{% endhighlight %}
 Gives me: `/Users/Nyc/.rbenv/versions/2.2.3/bin/gem`
 
 For good measure, update the existing gems: 
 
-```bash
+{% highlight bash %}
 $ gem update --system
 
-```
+{% endhighlight %}
 Then install bundler:
 
-```bash
+{% highlight bash %}
 $ gem install bundler
 
 $ rbenv rehash
-```
+{% endhighlight %}
 And:
 
-```bash
+{% highlight bash %}
 $ gem install sqlite3 pg nokogiri
-```
+{% endhighlight %}
 If all goes well, run both:
 
-```bash
+{% highlight bash %}
 $ gem install awesome_print  
 
 $ gem install rspec
-```
+{% endhighlight %}
 Restart the Terminal application.
 
 ### Install `bash` using Homebrew
 
 Last but not least, let's update our most likely woefully out of date default installation of `bash`. See the current version running with:
 
-```bash
+{% highlight bash %}
 $ bash --version
 
-```
+{% endhighlight %}
 To install: 
 
-```bash
+{% highlight bash %}
 $ brew install bash
 
-```
+{% endhighlight %}
 We need to add this version to `/etc/shells`.
 
-```bash
+{% highlight bash %}
 $ sudo -s "echo /usr/local/bin/bash >> /etc/shells"
 
-```
+{% endhighlight %}
 And change the shell command: 
 
-```bash
+{% highlight bash %}
 $ chsh -s /usr/local/bin/bash
 
-```
+{% endhighlight %}
 Quit Terminal completely, and restart a new Terminal session. Confirm the version has been updated.
 
 ## Conclusion
