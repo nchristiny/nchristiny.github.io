@@ -32,7 +32,7 @@ Again, these are the just the tools I like to use, so be sure and use your own p
 
 From Terminal: 
 
-```
+```bash
 $ xcode-select --install
 ```
 
@@ -46,13 +46,13 @@ From Terminal type: `echo $PATH` to check this environment variable. Ensure `~/b
 
 Next find the `subl` command location, symlink and check the link with these three commands, (note these are for Sublime Text 3):
 
-```
+```bash
 $ find /Applications/Sublime\ Text.app -name subl
 ```
 
 The preceding give the path to subl. Use it in the next command.
 
-```
+```bash
 $ ln -fs "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 $ which subl
@@ -82,13 +82,13 @@ Run `source ~/.bash_profile` or exit and relaunch Terminal to confirm changes.
 
 Since we have a clean install, we will need to install Homebrew. Run this command in the newly configured Terminal:
 
-```
+```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Staying true to the craft means we need to keep our tools in tip-top shape. Update Homebrew:
 
-```
+```bash
 $ brew update
 ```
 
@@ -104,7 +104,7 @@ Make sure that our system is using Homebrew's installed packages.
 
 Run this command to output our `$PATH` variable in a more legible format: 
 
-```
+```bash
 $ echo $PATH | tr : '\n'
 ```
 
@@ -114,22 +114,22 @@ If we used the above dotfiles, it should. If not, open `~/.bash_profile` and add
 
 
 ### Install `sqlite3` with Homebrew
-```
+```bash
 $ brew install sqlite3
 ```
 
 Force OS X to use this version of `sqlite3` and not the one that comes pre-installed: 
-```
+```bash
 $ brew link sqlite3 --force
 ```
 ### Install `postgres` with Homebrew
-```
+```bash
 $ brew install postgres
 ```
 
 Since `postgres` requires a server with which to interface, we use OS X's `launchd` utility to keep this server running. Execute these two commands:
 
-```
+```bash
 $ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
@@ -139,12 +139,12 @@ If all goes well, run `which postgres` to confirm the location is `/usr/local/bi
 
 We can also check that `postgres` server is running by entering this `ps` or process status command:
 
-```
+```bash
 $ ps aux | grep postgres
 ```
 Finally, create a default database and test our `postgres` client, `psql`.
 
-```
+```bash
 $ createdb $USER
 
 $ psql $USER
@@ -156,7 +156,7 @@ This last command opens the sql console for the default database.
 
 I prefer to use `rbenv`. There are other options, notably `rvm`. Choose one and stick to it.
 
-```
+```bash
 brew install ruby-build rbenv
 ```
 
@@ -164,43 +164,43 @@ If we used `rbenv` and Topher's dotfiles from earlier, go ahead and comment or d
 
 ### Install Ruby using a Ruby Manager
 
-```
+```bash
 $ rbenv install --list
 ```
 
 This will list all of the Rubies ruby-build can install. Choose one, likely the latest non-development build. For example: 
 
-```
+```bash
 $ rbenv install 2.2.3
 ```
 
 And finally set the global/shell/local ruby:
 
-```
+```bash
 $ rbenv global 2.2.3
 ```
 Run:  
 
-```
+```bash
 $ which ruby
 
 ```
 To make sure we are not using the system's pre-installed Ruby. It should say something like this: `/Users/Nyc/.rbenv/shims/ruby`
 
-```
+```bash
 $ rbenv which ruby
 ```
 Restart the Terminal.
 
 ### Install `git` with Homebrew
 
-```
+```bash
 $ brew install git
 
 ```
 Make sure we're using `git` from Homebrew:
 
-```
+```bash
 $ which git
 
 ```
@@ -208,7 +208,7 @@ Should give: `/usr/local/bin/git`
 
 If we didn't earlier, then set username, email for `git`. 
 
-```
+```bash
 $ git config --global user.name "John Doe"
 
 $ git config --global user.email johndoe@example.com
@@ -216,26 +216,26 @@ $ git config --global user.email johndoe@example.com
 
 Finally, set up Sublime Text as default editor for `git`: 
 
-```
+```bash
 $ git config --global core.editor "subl -w"
 
 ```
 ### Install `node` with Homebrew
 
-```
+```bash
 $ brew install node
 ```
 ### Install Ruby gems
 
 Make sure the load path is right.
 
-```
+```bash
 $ which gem
 
 ```
 Should yield, `/Users/Nyc/.rbenv/shims/gem` or similar.
 
-```
+```bash
 $ rbenv which gem
 
 ```
@@ -243,25 +243,25 @@ Gives me: `/Users/Nyc/.rbenv/versions/2.2.3/bin/gem`
 
 For good measure, update the existing gems: 
 
-```
+```bash
 $ gem update --system
 
 ```
 Then install bundler:
 
-```
+```bash
 $ gem install bundler
 
 $ rbenv rehash
 ```
 And:
 
-```
+```bash
 $ gem install sqlite3 pg nokogiri
 ```
 If all goes well, run both:
 
-```
+```bash
 $ gem install awesome_print  
 
 $ gem install rspec
@@ -272,25 +272,25 @@ Restart the Terminal application.
 
 Last but not least, let's update our most likely woefully out of date default installation of `bash`. See the current version running with:
 
-```
+```bash
 $ bash --version
 
 ```
 To install: 
 
-```
+```bash
 $ brew install bash
 
 ```
 We need to add this version to `/etc/shells`.
 
-```
+```bash
 $ sudo -s "echo /usr/local/bin/bash >> /etc/shells"
 
 ```
 And change the shell command: 
 
-```
+```bash
 $ chsh -s /usr/local/bin/bash
 
 ```

@@ -150,7 +150,6 @@ User/Default (OSX).sublime-keymap
 { "keys": ["super+shift+r"],  "command": "reindent" }
 ]
 ```
-
 The ERB shortcut is used by SublimeERB to cycle between `<%=  %>`, `<%  %>`, `<%-  -%>`, `<%=  -%>`, `<%#  %>`, and `<%  -%>` and places the cursor helpfully inside of these monstrosities to ease the pain of typing embedded Ruby delimiters. 
 
 Paste and Indent makes this behavior default for `⌘-v`, and allows me the option of reverting to the old paste using shift, in case I ever need it for some wacky reason.

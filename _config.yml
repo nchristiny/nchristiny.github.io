@@ -1,12 +1,13 @@
 # Permalinks
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:         /blog/:title
+# Deprecated in jekyll 3.0
 # relative_permalinks: true
 
 # Setup
 title:               'Code or Die'
 tagline:             'live to code'
-description:         'Personal website for developer <a href="https://twitter.com/chileannick" target="_blank">Nick Christiny</a>'
+description:         'Being the personal website, blog/note-to-self of software developer Nick Christiny.'
 url:                 http://nchristiny.github.io
 baseurl:             ''
 
@@ -17,12 +18,24 @@ gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-mentions, jemoji, je
 paginate:            5
 paginate_path: "page:num"
 
+
 # Markdown
-# markdown: redcarpet
+# Default
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+## Deprecated
+# markdown: redcarpet
 # redcarpet:
   # extensions: ["tables", "no_intra_emphasis", "autolink", "strikethrough", "superscript", "footnotes"]
-highlighter: pygments
+# highlighter: pygments
+## in favor of default rouge
+
+syntax_highlighter_opts: {'line_numbers': true}
 
 # RSS
 feed:
