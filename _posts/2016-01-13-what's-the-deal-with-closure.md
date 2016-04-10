@@ -7,7 +7,7 @@ tags:
 - JavaScript
 - Computer Science
 ---
-Although closure is easy to understand in relatively simple terms, it was not until recently in my early coder education that I discovered a few subtleties about the subject that clarified my understanding of it immensely. 
+Although closure is easy to understand in relatively simple terms, it was not until recently in my early coder education that I discovered a few subtleties about the subject <!-- more -->that clarified my understanding of it immensely. 
 
 Since I always love to demystify computer science and coding, let's pull aside the curtain to take a look at what really is happening with this phenomenon.
 

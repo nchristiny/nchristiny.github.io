@@ -6,7 +6,7 @@ tags:
 - SEO
 - Google Analytics
 ---
-Spent a nice couple of weeks on holiday in Texas visiting Austin, San Antonio, and Del Rio. 
+Spent a nice couple of weeks on holiday in Texas visiting Austin, San Antonio, and Del Rio<!-- more -->. 
 
 In between catching up, eating, and general merrymaking, I learned a neat little trick to better interpret and protect Google Analytics (GA) data and traffic. 
 

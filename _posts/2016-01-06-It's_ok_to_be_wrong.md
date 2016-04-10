@@ -6,6 +6,7 @@ tags:
 - personal
 ---
 Happy new year! Welcome to 2016.
+<!-- more -->
 
 ## Welcome to the world of tomorrow
 

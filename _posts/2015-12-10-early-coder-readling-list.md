@@ -10,6 +10,7 @@ tags:
 - Rails
 ---
 Here is an [early coder](http://zedshaw.com/2015/06/16/early-vs-beginning-coders/) resource focusing on Ruby, JavaScript and Rails development. As dead tree media tends to obsolescence, latest online editions should be sought out if possible. 
+<!-- more -->
 
 ## Beginner:
 
