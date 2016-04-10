@@ -8,7 +8,7 @@ permalink:         /blog/:title
 title:               'Code or Die'
 tagline:             'live to code'
 description:         'Being the personal website, blog/note-to-self of software developer Nick Christiny.'
-url:                 http://nchristiny.github.io
+url:                 http://nchristiny.com
 baseurl:             ''
 
 # Gems
@@ -36,8 +36,6 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 # highlighter: pygments
 ## in favor of default rouge
 
-syntax_highlighter_opts: {'line_numbers': true}
-
 # RSS
 feed:
   path: atom.xml
@@ -45,7 +43,7 @@ feed:
 # About/contact
 author:
   name:              Nicholas Christiny
-  twitter:           https://twitter.com/chileannick
+  twitter:              https://twitter.com/chileannick
   email:             nchristiny@gmail.com
 
 # Custom vars
