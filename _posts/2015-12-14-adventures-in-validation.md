@@ -6,8 +6,7 @@ tags:
 - HTML
 - accessibility
 ---
-It is pretty straightforward to plunk in a source file, URL or text input into [Nu Html Checker](https://validator.w3.org/nu/ "HMTL validator") and validate your markup to see that it cuts mustard. I recently reviewed the HTML for this site, and I have been generally obsessing about it and HTML outlines.
-<!-- more -->
+It is pretty straightforward to plunk in a source file, URL or text input into [Nu Html Checker](https://validator.w3.org/nu/ "HMTL validator") and validate your markup to see that it cuts mustard. I recently reviewed the HTML for this site, and I have been generally obsessing about it and HTML outlines. <!-- more -->
 
 ## HTML Validation
 

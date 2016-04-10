@@ -6,7 +6,7 @@ tags:
 - Sublime Text
 - resources
 ---
-As a segue from the previous post on setting up the developer environment, I wanted to record my current setup for Sublime Text build 3083. This is not a post that debates the relative merits of this or that text editor. Maybe some other time.
+As a segue from the previous post on setting up the developer environment, I wanted to record my current setup for Sublime Text build 3083. <!-- more -->This is not a post that debates the relative merits of this or that text editor. Maybe some other time.
 
 I love Sublime Text. As a tool that I use daily in my chosen profession, I am more than happy to pay for the registered version and support the developers who make it. This should not be taken as a jab at any other text editors, open source or otherwise. Software developers and engineers are known to be obsessively defensive of their chosen favorite tools, most notably text editors.
 
