@@ -63,7 +63,7 @@ Finally, I modified my `$PATH` variable to prioritize `/usr/local/bin`:
 (I used the vim-like built-in bash text editor nano to be cool.)
 
 {% highlight bash %}
-sudo nano /etc/paths
+$ sudo nano /etc/paths
 {% endhighlight %}
 
 (The following is a great command to alias): 
