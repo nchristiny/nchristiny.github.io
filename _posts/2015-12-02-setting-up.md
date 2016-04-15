@@ -39,11 +39,11 @@ $ xcode-select --install
 
 ### Configure Sublime Text from the command line, `subl`. 
 
-According to the [docs](http://www.sublimetext.com/docs/3/osx_command_line.html "Sublime Text CLI doc"), this command is configured to run from `~/bin` directory on your home user directory, which is a bit messy. The following information was gleaned from [this gist.](https://gist.github.com/artero/1236170)
+According to the [docs](http://www.sublimetext.com/docs/3/osx_command_line.html "Sublime Text CLI doc"), this command is configured to run from `~/bin` directory on your home user directory, which is a bit messy for various reasons. The following alternate instructions were gleaned from [this gist.](https://gist.github.com/artero/1236170)
 
-In summary, from Terminal type: `echo $PATH` to check if `/usr/local/bin` directory appears. Due to the "clean install" of OS X, either it is not there or the folder does not exist. This mean we would have to create it first if we wish to follow the instructions from the above gist. This has occurred to me on Yosemite and El Capitan.
+In summary, from Terminal type: `echo $PATH` to check if `/usr/local/bin` directory appears. Due to the "clean install" of OS X, either it is not in the $PATH or the folder does not actually exist. This means we  have to create it first if we wish to follow the instructions from the above gist. This has occurred to me on both Yosemite and El Capitan clean installs.
 
-If the folder does not exist, type `mkdir -p /usr/local/bin` from your user root directory using `sudo` if privilege is required. I ran into some trouble with this by accidentally entering Sublime Text 2 command and somehow creating a bin file instead of folder in `/usr/local`. As always with `sudo` and `rm`, it is definitely a task to do slowly and mindfully. In my case I had to explicitly `cd` into `/usr/local` to create the `/bin` directory using `sudo`. Others have reported deleting the symlink and recreating it fixed errors on this. Your Mileage May Vary.
+If the folder does not exist, type `mkdir -p /usr/local/bin` from your user root directory using `sudo` if privilege is required. I ran into some trouble with this by accidentally entering Sublime Text 2 command and somehow creating a bin file instead of folder in `/usr/local`. As always with `sudo` and `rm`, it is definitely a task to do slowly and mindfully. In my case I had to explicitly `cd` into `/usr/local` to create the `/bin` directory using `sudo`, after `rm` the erroneous `bin` file. Others have reported deleting the symlink and recreating it fixed errors on this. Your Mileage May Vary.
 
 Here is how to find the `subl` command location, symlink and check it(note these are for Sublime Text 3.):
 
@@ -55,7 +55,6 @@ The preceding gives the path to `subl`. Use it in the next command.
 
 {% highlight bash %}
 $ ln -fs "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-
 {% endhighlight %}
 
 Test in the Terminal `subl -h`. It should pop up some basic helpful commands. If so, you will now be able to open files and project folders in Sublime Text.
@@ -63,9 +62,9 @@ Test in the Terminal `subl -h`. It should pop up some basic helpful commands. If
 Finally, I modified my `$PATH` variable to prioritize `/usr/local/bin`:
 (I used the vim-like built-in bash text editor nano to be cool.)
 
-```bash
+{% highlight bash %}
 sudo nano /etc/paths
-```
+{% endhighlight %}
 
 (The following is a great command to alias): 
 
@@ -85,7 +84,7 @@ Yields:
 
 {% endhighlight %}
 
-So now my /usr/local/bin is first in line along the $PATH environmental variable. Later on as dotfiles start piling on, there may be more changes but for now, this is good enough to start.
+So now my /usr/local/bin is first in line along the `$PATH` environmental variable. Later on as dotfiles start piling on, there may be more changes but for now, this is good enough to start.
 
 ### Bash profile and UNIX environment
 
