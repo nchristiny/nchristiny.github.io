@@ -12,9 +12,9 @@ I recently reinstalled Mac OS X from scratch and had to reconfigure all the litt
 
 Setting out to reconfigure my settings, it was immediately noticeable that there were quite a few special details I had forgotten about, therefore I am posting this mostly as a 'note to self'. If anyone stumbles upon this information, then I hope they gain some inspiration to customize their development environment as they see fit. Please keep in mind these are my own preferences and your mileage may vary.
 
-Credit goes out to [Mike Busch](https://twitter.com/mikelikesbikes "Mike's Twitter") for giving us the instructions upon which most of the steps below are based. Thanks Mike! 
+Credit goes out to [Mike Busch](https://twitter.com/mikelikesbikes "Mike's Twitter") for giving the instructions upon which most of the steps below are based. Thanks Mike! 
 
-Mike made [Environment Linter](https://github.com/mikelikesbikes/environment_linter "GitHub"), which "helps identify issues with OS X machine setup for basic web development with Ruby." After running through the steps, go ahead and check the results with it, (for example my laptop for some strange reason had both rbenv and rvm.)
+Mike's [Environment Linter](https://github.com/mikelikesbikes/environment_linter "GitHub") "helps identify issues with OS X machine setup for basic web development with Ruby." After running through the steps, go ahead and check the results with it, (for example my laptop for some strange reason had both rbenv and rvm, which is not recommended. I stuck with rbenv.)
 
 ## Basics
 
@@ -39,29 +39,53 @@ $ xcode-select --install
 
 ### Configure Sublime Text from the command line, `subl`. 
 
-According to the [docs](http://www.sublimetext.com/docs/3/osx_command_line.html "Sublime Text CLI doc"), this command is configured to run from `~/bin`, which is less than optimal. Ideally we want the load `$PATH` to be `/usr/local/bin` since this is the default load path for OS X. From that location we can place a symlink (symbolic link) to use the `subl` shortcut from our Terminal. 
+According to the [docs](http://www.sublimetext.com/docs/3/osx_command_line.html "Sublime Text CLI doc"), this command is configured to run from `~/bin` directory on your home user directory, which is a bit messy. The following information was gleaned from [this gist.](https://gist.github.com/artero/1236170)
 
-(If this is all too confusing, just skip to the next section where Topher's dotfiles will be able to automatically set this, but isn't it nice to learn what's actually happening?)
+In summary, from Terminal type: `echo $PATH` to check if `/usr/local/bin` directory appears. Due to the "clean install" of OS X, either it is not there or the folder does not exist. This mean we would have to create it first if we wish to follow the instructions from the above gist. This has occurred to me on Yosemite and El Capitan.
 
-From Terminal type: `echo $PATH` to check this environment variable. Ensure `~/bin` directory appears. With a fresh install of OS X it will not. In that case,type `mkdir -p ~/bin` from your user root directory, (`cd ~` to be sure,) and `echo $PATH` again to check that `~/bin` is now in `$PATH`.
+If the folder does not exist, type `mkdir -p /usr/local/bin` from your user root directory using `sudo` if privilege is required. I ran into some trouble with this by accidentally entering Sublime Text 2 command and somehow creating a bin file instead of folder in `/usr/local`. As always with `sudo` and `rm`, it is definitely a task to do slowly and mindfully. In my case I had to explicitly `cd` into `/usr/local` to create the `/bin` directory using `sudo`. Others have reported deleting the symlink and recreating it fixed errors on this. Your Mileage May Vary.
 
-Next find the `subl` command location, symlink and check the link with these three commands, (note these are for Sublime Text 3):
+Here is how to find the `subl` command location, symlink and check it(note these are for Sublime Text 3.):
 
 {% highlight bash %}
 $ find /Applications/Sublime\ Text.app -name subl
 {% endhighlight %}
 
-The preceding give the path to subl. Use it in the next command.
+The preceding gives the path to `subl`. Use it in the next command.
 
 {% highlight bash %}
 $ ln -fs "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
-$ which subl
 {% endhighlight %}
 
-Should give `/usr/local/bin/subl`.
+Test in the Terminal `subl -h`. It should pop up some basic helpful commands. If so, you will now be able to open files and project folders in Sublime Text.
 
-Once the link is established, test it in the Terminal by entering `subl -h`. It should pop up some basic helpful commands.
+Finally, I modified my `$PATH` variable to prioritize `/usr/local/bin`:
+(I used the vim-like built-in bash text editor nano to be cool.)
+
+```bash
+sudo nano /etc/paths
+```
+
+(The following is a great command to alias): 
+
+{% highlight bash %}
+$ echo $PATH | tr : '\n'
+{% endhighlight %}
+
+Yields: 
+
+{% highlight plaintext %}
+
+/usr/local/bin 
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+
+{% endhighlight %}
+
+So now my /usr/local/bin is first in line along the $PATH environmental variable. Later on as dotfiles start piling on, there may be more changes but for now, this is good enough to start.
 
 ### Bash profile and UNIX environment
 
