@@ -7,7 +7,7 @@ tags:
 - JavaScript
 - Computer Science
 ---
-Although closure is easy to understand in relatively simple terms, it was not until recently in my early coder education that I discovered a few subtleties about the subject that clarified my understanding of it immensely. <!-- more -->
+Although closure is easy to understand in relatively simple terms, it was not until recently in my coding education that I discovered a few subtleties about the subject that clarified my understanding of it immensely. <!-- more -->
 
 Since I always love to demystify computer science and coding, let's pull aside the curtain to take a look at what really is happening with this phenomenon.
 
@@ -104,7 +104,7 @@ Something to watch out for in JavaScript is this fact that excessive use of call
 
 I love learning new (to me) underlying concepts and this fascinating concept of closure has many facets. If you spot any glaring errors or wish to give some feedback, please feel free to reach out to me on Twitter or shoot me an email. 
 
-[^fn-wiki1]: https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-6
-[^fn-wiki2]: https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-8
-[^fn-wiki3]: https://en.wikipedia.org/wiki/First-class_function#cite_note-1
-[^fn-mdn1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Performance_considerations
+[^fn-wiki1]: [Definition of closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-6)
+[^fn-wiki2]: [Closure and Lisp](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-8)
+[^fn-wiki3]: [First Class Functions](https://en.wikipedia.org/wiki/First-class_function#cite_note-1)
+[^fn-mdn1]: [Performance Considerations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Performance_considerations)

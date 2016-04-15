@@ -52,10 +52,10 @@ Enjoy your clean GA data.
 
 As always, any feedback or questions are most welcome. Feel free to contact me via [Twitter](https://twitter.com/ChileanNick) or [email](mailto:nchristiny@gmail.com). Thanks for reading.
 
-[^fn-ga_filter]: Create and manage view filters: https://support.google.com/analytics/answer/1034823
+[^fn-ga_filter]: [Create and manage view filters](https://support.google.com/analytics/answer/1034823)
 
-[^fn-ga_exclude]: Exclude internal traffic: https://support.google.com/analytics/answer/1034840?hl=en
+[^fn-ga_exclude]: [Exclude internal traffic](https://support.google.com/analytics/answer/1034840)
 
-[^fn-ga_domain_filter]: LunaMetrics blog post: http://www.lunametrics.com/blog/2015/04/27/internal-traffic-google-analytics/
+[^fn-ga_domain_filter]: [LunaMetrics blog post](http://www.lunametrics.com/blog/2015/04/27/internal-traffic-google-analytics/)
 
-[^fn-ga_protection]: Kissmetrics blog post: https://blog.kissmetrics.com/protect-analytics-from-hacking/
+[^fn-ga_protection]: [Kissmetrics blog post](https://blog.kissmetrics.com/protect-analytics-from-hacking/)
