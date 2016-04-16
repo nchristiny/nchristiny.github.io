@@ -6,4 +6,4 @@ jQuery(function ($) {
       element.target = '_blank';
     }
   });
-})(this);
+});
