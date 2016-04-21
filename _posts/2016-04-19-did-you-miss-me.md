@@ -48,3 +48,29 @@ However that post ends with the statement that line numbers are not yet supporte
 ## Good to be back
 Yes, indeed. After stressing out about learning new and difficult/different stuff on work projects, it feels really good to just be able to poke around and have fun with a pet project like this blog. I hope this information helps the next person that may happen upon it. Cheers! 
 
+## Addendum 
+I forgot to mention a final enhancement which was to modify the internal/external link behavior globally. kramdown helpfully provides anchor tags with the `target="_blank"` to open the link in another tab/window. In kramdown you can do this, on a per link basis:
+
+{% highlight plaintext %}
+[Link Text](Link URL){:target="_blank"}
+{% endhighlight %}
+
+However, being a good lazy programmer, I wanted to not worry about adding this to every past and future link, so I found a quick n' dirty fix using jQuery.
+
+After including jQuery, add this JavaScript snippet to `application.js`: 
+
+```javascript
+jQuery(function ($) {
+  //Change target attribute of external links
+  var domain_root = document.location.protocol + '//' + document.location.host;
+  var all_links = $('a').each(function (index, element) {
+    if (element.href.substr(0, domain_root.length) !== domain_root) {
+      element.target = '_blank';
+    }
+  });
+});
+```
+
+Now every external link will open its own tab while internal links (say to [/projects](/projects)) will proceed in the same window as normal. 
+
+I like the way this blog is coming along as my own [Incremental build model](https://en.wikipedia.org/wiki/Incremental_build_model). Onwards and upwards!
