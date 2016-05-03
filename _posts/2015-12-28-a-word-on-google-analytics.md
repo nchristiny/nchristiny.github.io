@@ -6,9 +6,7 @@ tags:
 - SEO
 - Google Analytics
 ---
-Spent a nice couple of weeks on holiday in Texas visiting Austin, San Antonio, and Del Rio. <!-- more -->
-
-In between catching up, eating, and general merrymaking, I learned a neat little trick to better interpret and protect Google Analytics (GA) data and traffic. 
+Spent a nice couple of weeks on holiday in Texas visiting Austin, San Antonio, and Del Rio. In between catching up, eating, and general merrymaking, I learned a neat little trick to better interpret and protect Google Analytics (GA) data and traffic. <!-- more -->
 
 Most of the time you want your site to only record outside hits, in other words traffic that is not from your own (possibly numerous) visits. Naturally this applies to businesses as well as blogs. Secondly you also want to make sure your site is the only one actually generating the hits to your tracking code.
 
