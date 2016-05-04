@@ -29,7 +29,7 @@ $ rake db:mongoid:create_indexes
 {% endhighlight %}
 
 ## Gotcha #2
-MongoDB and by extension Mongoid uses the `_id` field as the analogue to the more familiar `id` in SQL tables. The `_id` field consists an OjectId[^fn-4] hexadecimal that increments but not one by one as regular SQL tables, although they are sequential.
+MongoDB and by extension Mongoid uses the `_id` field as the analogue to the more familiar `id` in SQL tables. The `_id` field consists an ObjectId[^fn-4] hexadecimal that increments sequentially, but not one by one as we are used to with ordinary `id` attribute integers.
 
 For example, a typical newly-created object on a new database could have the `_id` field of: 
 
@@ -40,7 +40,7 @@ _id: {
 {% endhighlight %}
 
 
-This was confusing, but after a while I started getting used my URL's having a hexadecimal params for `:id`. 
+This was confusing, but after a while I started getting used to my URLs having a hexadecimal `:id` params. 
 
 If you really, really need the `id` field automatically generated alongside the existing `_id` field, (and this is quite conceivable since most programs expect there to be an `id` field or column in a database), I used a workaround to insert them.
 
@@ -58,7 +58,9 @@ module Mongoid
 end
 {% endhighlight %}
 
-There are plenty of other avenues to explore with regard to MongoDB and this barely scratches the surface, but these are a couple of the issues that I saw that were new to me when I started exploring the exciting world of noSQL databases. 
+This adds an additional field called `id` with the same hexadecimal value of `_id` to each new Mongoid document.
+
+There are plenty of other avenues to explore with regard to MongoDB, and the above barely scratches the surface. These were just a couple of the issues that were new to me when I started exploring the exciting world of noSQL databases. 
 
 [^fn-1]: [Mongo Docs](https://docs.mongodb.org/manual/introduction/)
 [^fn-2]: [Mongoid](https://github.com/mongodb/mongoid)
