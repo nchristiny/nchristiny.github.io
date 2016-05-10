@@ -9,7 +9,7 @@ Recently I caught the Van Gogh exhibition at Art Institute of Chicago, "Van Gogh
 
 Now learning:
 
-* AWS services
+* AWS
 * Python
 * Twilio
 * More APIs!
