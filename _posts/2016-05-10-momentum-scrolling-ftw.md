@@ -18,7 +18,7 @@ Thanks to an article from CSS Tricks[^fn-2], this was a simple matter of adding 
   -webkit-overflow-scrolling: touch;
 {% endhighlight %}
 
-Now the page scrolling has that familiar bounciness again in mobile, that is to say, on iOS Safari WebKit. Cross-browser testing, at least from 
+Page scrolling from mobile, that is to say, from iOS WebKit, now has the familiar bounciness. Cross-browser behavior at least from the point of view of device mode in Chrome Dev Tools seems to be looking A-OK as well. 
 
 [^fn-1]: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
 [^fn-2]: [CSS Tricks](https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/)
