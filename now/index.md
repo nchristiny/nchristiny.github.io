@@ -3,18 +3,11 @@ layout: default
 title: Now
 ---
 # What am I doing right now?
+It's a wet Chicago spring, so I am sowing jalapeño pepper seeds for some urban garden window boxes. Up next are marigolds, lemongrass, and cilantro. 
 
-Started a software engineer apprenticeship at Jellyvision! We've been challenged to make a JSON API back-end for a film recommender using a React front-end. I chose to make mine using a JSON `rails-api` back-end combined with a MongoDB database for JSON (really BSON) documents. <strike>The front-end is built on a stripped-down Rails app using rest-client.</strike> The React front-end of the app deals with user interactions and DOM rendering with React and Redux. API requests to the database are accomplished with Axios.
-
-Learning by doing is an fantastic opportunity and I am loving every minute of it. 
-
-Currently I'm teaming up and building an internal tool with React.
-
+Recently I caught the Van Gogh exhibition at Art Institute of Chicago, "Van Gogh's Bedrooms." It was quite inspiring and melancholy. Currently reading 'The Passionate Programer' by Chad Fowler and listening to Ruby Rogues podcast.  
 Now learning:
-
-* Scrum and Sprints
-* React
-* Redux
-* MongoDB
-* AWS EC2
-* Postgres
+* AWS
+* Python
+* Twilio
+* More APIs!
