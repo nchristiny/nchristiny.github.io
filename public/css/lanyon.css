@@ -43,7 +43,7 @@ body {
 }
 
 html {
-  font-family: 'Merriweather', "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Merriweather', 'PT Serif', Georgia, 'Times New Roman', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .download {
   padding-right: 30px;
-  font-family:'Open Sans', "PT Sans", Arial, sans-serif;
+  font-family:'Open Sans', 'PT Sans', Arial, sans-serif;
   float: right;
   font-size: .8em;
   text-transform: uppercase;
@@ -106,6 +106,19 @@ footer .download {
 }
 
 /*Comments*/
+.comments {
+  color       : grey;
+  font-family : "Open Sans", sans-serif;
+  font-size   : 0.8em;
+  width: 80%;
+  clear: both;
+}
+
+.comment {
+  border: 1px dotted #c0c0c0;
+  padding: 30px;
+  margin: 10px;
+}
 
 form {
   position: relative;
@@ -114,30 +127,52 @@ form {
 }
 
 form label {
-
+  font-family: 'Inconsolata', 'Andale mono', monospace;
 }
 
-
-.comments {
-  color: grey;
-  font-family: "Open Sans", sans-serif;
-  font-size: 0.8em;
-}
-
-input[type=text] {
-    border: 1px solid #999;
-    border-radius: 0;
-    -webkit-appearance: none;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.8em;
+input, textarea {
+  font-family : "Open Sans", sans-serif;
+  font-size   : 0.8em;
+  padding     : 0 10px;
+  margin      : 0 auto;
 }
 
 textarea {
-  vertical-align: top;
-  font-family: "Open Sans", sans-serif;
+  vertical-align : top;
+  display        : block;
+  margin         : 10px 0 0 0px;
+  padding        : 10px;
+  width          : 100%;
+  max-width      : 100%;
+  height         : 4.5em;
+  overflow       : auto;
+  resize         : block;
 }
 
+input[type=text] {
+    border             : 1px solid #999;
+    border-radius      : 0;
+    height             : 2.5em; /* for IE */
+    vertical-align     : middle; /* This is optional but it makes legacy IEs look better */
+    -webkit-appearance : none;
+    width: 100%;
+    clear: both;
+}
 
+input:focus, textarea:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+}
+
+.comment-date {
+  font-size   : 0.85em;
+  color: #505050;
+}
+
+.comment-text {
+  font-family: 'Merriweather', 'PT Serif', Georgia, 'Times New Roman', serif;
+}
 
 /*
  * Wrapper
