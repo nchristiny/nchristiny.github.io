@@ -71,7 +71,7 @@ footer {
 }
 
 footer > a {
-  font-family:'Open Sans', "PT Sans", Arial, sans-serif;
+  font-family:'Open Sans', 'PT Sans', Arial, sans-serif;
   padding-right: 30px;
   float: right;
   text-transform: uppercase;
@@ -104,6 +104,40 @@ footer .download {
   display: inline-block;
   margin: 0 25px 25px 0;
 }
+
+/*Comments*/
+
+form {
+  position: relative;
+  display: block;
+  margin : 0 auto;
+}
+
+form label {
+
+}
+
+
+.comments {
+  color: grey;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+}
+
+input[type=text] {
+    border: 1px solid #999;
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8em;
+}
+
+textarea {
+  vertical-align: top;
+  font-family: "Open Sans", sans-serif;
+}
+
+
 
 /*
  * Wrapper
