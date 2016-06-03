@@ -14,7 +14,7 @@ title: Projects
 ### Select Projects
 
 ### <em>Watch This!</em>
-Film recommendation engine API built from scratch. Rails-API MongoDB backend and React frontend with Webpack. Testing Rspec, Guard and Mocha, Chai. <a href="https://github.com/nchristiny/watch-this">Source code</a>.
+Film recommendation engine API built from scratch. Rails-API MongoDB backend and React frontend with Webpack. Testing Rspec, Guard and Mocha, Chai. <a href="https://github.com/nchristiny/watch-this">Source code (back end)</a>. <a href="https://github.com/nchristiny/ui-watch-this">Source code (front end)</a>.
 
 ### <em>Chord Explorer</em>
 Final group project for Dev Bootcamp, completed during 8 days in November 2015. Ruby on Rails single page app. <a href="https://github.com/nchristiny/chord-explorer">Source code</a>.
