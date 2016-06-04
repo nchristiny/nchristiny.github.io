@@ -3,13 +3,11 @@ layout: default
 title: Now
 ---
 # What am I doing right now?
-It's a wet Chicago spring, so I am sowing jalapeño pepper seeds for some urban garden window boxes. Up next are marigolds, lemongrass, and cilantro. 
+Summer has started with beach days and grilling. Just got back from Gene’s Sausage Shop & Delicatessen rooftop beer garden spending a sunny Friday afternoon catching up with a friend.
 
-Recently I caught the Van Gogh exhibition at Art Institute of Chicago, "Van Gogh's Bedrooms." It was quite inspiring and melancholy. Currently reading 'The Passionate Programer' by Chad Fowler and listening to Ruby Rogues podcast.
+Currently playing around with creating a Jekyll CMS, and personal projects exploring React/Redux and Firebase.
 
 Now learning:
 
-* AWS
 * Python
-* Twilio
-* More APIs!
+* D3.js
