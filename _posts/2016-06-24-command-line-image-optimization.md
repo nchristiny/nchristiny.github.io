@@ -19,9 +19,9 @@ JPGmini does carry a price tag at the Mac App Store, so one would need to evalua
 
 I took the git pre-commit hook for a spin on this blog. Even though it is not image heavy, over the course of incarnations I have had a few images accumulate in my `public/images` folder, currently at a modest 1.5 MB after subtracting sundry animated GIFs. (There are many volumes worth of material to be written about animated GIF optimization and compression, so I will stick to JPEG and PNG for now.) I obtained some large PNG and JPEG images to give a good sample size of 37.8 MB on our test run.
 
-Add git pre-commit hook code, commit, add ridiculoiusly some large image files, commit again. 
+After hitting it with ImageOptim-CLI, the folder size is 16.2 MB, a savings of 21 MB or 42.9%. Not too shabby.
 
-Finally, ImageMagick must be mentioned as the gold standard of open source command line image manipulation. It allows amazingly fine grain control and has excellent documentation well beyond the scope of this humble post.
+Finally ImageMagick must be mentioned as the gold standard of open source command line image manipulation. It allows amazingly fine grain control and has excellent documentation well beyond the scope of this humble post.
 
 Docs: 
 [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI)
