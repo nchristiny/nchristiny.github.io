@@ -6,7 +6,7 @@ tags:
 - mentoring
 - personal
 ---
-There is a grand adventure to be embarked upon every time a student asks a question and the mentor says: "I don't know, let's find out." The chance to learn occurs at the moment of uncertainty by forcing the knowledge seeker to step out of their comfort zone and expose ignorance. Own ignorance. Keep uncovering new uncertainties to investigate.<!-- more -->
+There is a grand adventure to be embarked upon every time a student asks a question and the mentor says: "I don't know, let's find out." The chance to learn occurs at the moment of uncertainty by forcing the knowledge seeker to step out of their comfort zone and expose ignorance. Own ignorance. Keep uncovering new uncertainties to investigate. <!-- more -->
 
 With regard to convention and standards, become proficient enough with your tools to recognize the value that is being added by following them. Promptly try to break the rules to see what happens. Find out why you are told to do things a certain way, then figure out how to do it better.
 
