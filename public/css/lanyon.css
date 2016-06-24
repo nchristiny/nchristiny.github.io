@@ -93,6 +93,20 @@ footer .download {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.photo-gallery, .photo-gallery li {
+  list-style: none;
+  padding: 0;
+}
+
+.photo-gallery li {
+  display: inline-block;
+  width: 33%;
+}
+
+.photo-gallery li img {
+  width: 100%;
+}
+
 /*Tags*/
 .tags {
   list-style: none;
