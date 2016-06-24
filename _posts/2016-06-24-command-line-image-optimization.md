@@ -8,20 +8,28 @@ tags:
 images:
   - image_path: /public/images/PNG_JPEG/png_wolf_by_itsdura-d3cle9k.png
     title: PNG Wolf
-  - image_path: /public/images/PNG_JPEG/apple.png
-    title: Apple
-  - image_path: /public/images/PNG_JPEG/coffee_beans.png
-    title: Coffee Beans
-  - image_path: /public/images/PNG_JPEG/GDEM-10km-colorized.png
-    title: ASTER image of world
-  - image_path: /public/images/PNG_JPEG/Pillars_of_Creation.jpeg
-    title: Pillars of Creation
-  - image_path: /public/images/PNG_JPEG/Star-forming_region_S106_%28captured_by_the_Hubble_Space_Telescope%29.jpg
-    title: Hubble star-forming region S106
-  - image_path: /public/images/PNG_JPEG/Japan.jpg
-    title: Japan
+    link: http://itsdura.deviantart.com/art/PNG-Wolf-202552184
   - image_path: /public/images/PNG_JPEG/Cat.jpg
     title: Domestic Cat
+    link: https://commons.wikimedia.org/wiki/File:Cat_March_2010-1.jpg
+  - image_path: /public/images/PNG_JPEG/apple.png
+    title: Apple
+    link: http://pngimg.com/img/fruits/apple
+  - image_path: /public/images/PNG_JPEG/coffee_beans.png
+    title: Coffee Beans
+    link: http://pngimg.com/img/food/coffee_beans
+  - image_path: /public/images/PNG_JPEG/GDEM-10km-colorized.png
+    title: ASTER image of world
+    link: https://asterweb.jpl.nasa.gov/gdem.asp
+  - image_path: /public/images/PNG_JPEG/Pillars_of_Creation.jpeg
+    title: Pillars of Creation
+    link: https://commons.wikimedia.org/wiki/File:Pillars_of_Creation.jpeg
+  - image_path: /public/images/PNG_JPEG/Star-forming_region_S106_%28captured_by_the_Hubble_Space_Telescope%29.jpg
+    title: Hubble star-forming region S106
+    link: http://spacetelescope.org/images/heic1118a/
+  - image_path: /public/images/PNG_JPEG/Japan.jpg
+    title: Japan
+    link: https://flutrackers.com/forum/forum/earth-weather-astronomy-environment/volcanos-earthquakes-glaciers-fires-hurricanes/107481-nasa-fires-and-smoke-in-north-korea-acquired-april-13-2011
 ---
 ImageOptim-CLI is a handy little command line tool (OS X only) by [Jamie Mason / @fold_left](https://twitter.com/fold_left) that incorporates ImageAlpha, ImageOptim and JPGmini. It can be automated as a git pre-commit hook for fire and forget front end development, something I've found useful. <!-- more -->
 
@@ -45,6 +53,7 @@ Add the image list to the Front Matter on this post:
   images:
     - image_path: /public/images/PNG_JPEG/png_wolf_by_itsdura-d3cle9k.png
       title: PNG Wolf
+      link: http://itsdura.deviantart.com/art/PNG-Wolf-202552184
     - image_path: /public/images/PNG_JPEG/apple.png
       title: Apple
     - image_path: /public/images/PNG_JPEG/coffee_beans.png
@@ -62,17 +71,21 @@ Add the image list to the Front Matter on this post:
 ---
 {% endhighlight %}
 
-Then we add the code on the post to loop through the images: 
+Then we add code on the post to loop through the array of images. We can even add links to each image to make them clicky, (a highly technical SEO term.) 
 
 {% highlight linenos %}
   <ul class="photo-gallery">
     {% raw %}{% for image in page.images %}{% endraw %}
-      <li><img src="{% raw %}{{ image.image_path }}{% endraw %}" alt="{% raw %}{{ image.title}}{% endraw %}"/></li>
+      <li>
+        <a href="{% raw %}{{ image.link }}{% endraw %}">
+          <img src="{% raw %}{{ image.image_path }}{% endraw %}" alt="{% raw %}{{ image.title}}{% endraw %}"/>
+        </a>
+      </li>
     {% raw %}{% endfor %}{% endraw %}
   </ul>
 {% endhighlight %}
 
-(Incidentally I learned about using the `raw` tag in Liquid templating during this post.) Finally, the CSS to present the images:
+(Incidentally I learned about using the `raw` tag for Liquid templates inside code blocks.) Finally, the CSS to present the images:
 
 {% highlight css linenos %}
 .photo-gallery, .photo-gallery li {
@@ -94,24 +107,21 @@ The finished result is a quickly-loading, easily-configurable gallery of optimiz
 
 <ul class="photo-gallery">
   {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+    <li>
+      <a href="{{ image.link }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+      </a>
+    </li>
   {% endfor %}
 </ul>
+
+I really liked using ImageOptim-CLI and would recommend it to automate the process. Even when not using this command line tool at all, image optimization should be a part of every front end developer work flow.
 
 In closing, ImageMagick must be mentioned as the gold standard of open source command line image manipulation. It allows amazingly fine grain control and has excellent documentation well beyond the scope of this humble post.
 
 Docs: 
-[ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI)
-[ImageMagick](http://www.imagemagick.org/script/command-line-tools.php)
-[ImageAlpha](https://pngmini.com/)
-[ImageOptim](https://imageoptim.com/howto.html)
-[JPEGmini](http://www.jpegmini.com/)
-
-Image sources: 
-[PNG Wolf](http://itsdura.deviantart.com/art/PNG-Wolf-202552184)
-[pngimg.com stock fruit](http://pngimg.com/img/fruits)
-[Advanced Spaceborne Thermal Emission and Reflection Radiometer](https://asterweb.jpl.nasa.gov/gdem.asp)
-[Hubble Pillars of Creation](https://commons.wikimedia.org/wiki/File:Pillars_of_Creation.jpeg)
-[Hubble view of star-forming region S106](http://spacetelescope.org/images/heic1118a/)
-[Satellite image of Japan](https://flutrackers.com/forum/forum/earth-weather-astronomy-environment/volcanos-earthquakes-glaciers-fires-hurricanes/107481-nasa-fires-and-smoke-in-north-korea-acquired-april-13-2011)
-[Domestic Cat](https://commons.wikimedia.org/wiki/File:Cat_March_2010-1.jpg)
+- [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI)
+- [ImageMagick](http://www.imagemagick.org/script/command-line-tools.php)
+- [ImageAlpha](https://pngmini.com/)
+- [ImageOptim](https://imageoptim.com/howto.html)
+- [JPEGmini](http://www.jpegmini.com/)
