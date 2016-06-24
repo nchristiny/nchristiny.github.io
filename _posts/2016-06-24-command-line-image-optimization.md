@@ -120,6 +120,7 @@ I really liked using ImageOptim-CLI and would recommend it to automate the proce
 In closing, ImageMagick must be mentioned as the gold standard of open source command line image manipulation. It allows amazingly fine grain control and has excellent documentation well beyond the scope of this humble post.
 
 Docs: 
+
 - [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI)
 - [ImageMagick](http://www.imagemagick.org/script/command-line-tools.php)
 - [ImageAlpha](https://pngmini.com/)
