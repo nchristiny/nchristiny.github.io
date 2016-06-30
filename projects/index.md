@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-<a href="http://stackoverflow.com/cv/nchristiny" class="download" target="_blank" title="CV">CV</a> <a href="https://resume.creddle.io/resume/i2pvc6ch7la" class="download" target="_blank" title="Resume">Resume</a> <a href="https://github.com/nchristiny" class="download" target="_blank" title="GitHub">GitHub</a><a href="https://www.linkedin.com/in/nchristiny"  class="download" target="_blank" title="LinkedIn">LinkedIn</a>
+<a href="http://stackoverflow.com/cv/nchristiny" class="download" target="_blank" title="CV">CV</a> <a href="nicholas-christiny-resume.pdf" class="download" target="_blank" title="Resume">Resume</a> <a href="https://github.com/nchristiny" class="download" target="_blank" title="GitHub">GitHub</a><a href="https://www.linkedin.com/in/nchristiny"  class="download" target="_blank" title="LinkedIn">LinkedIn</a>
 
 # Nick Christiny
 
