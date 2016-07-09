@@ -2,13 +2,13 @@
 layout: default
 title: Now
 ---
-# What am I doing right now?
-Exploring Google Docs to add reCAPTCHA client-side integration into my blog comment form to forestall automated spam attacks. I've been lucky so far, so hoping to keep it that way. 
+# What are you doing right now?
+I am sharpening my programming skills by branching out into new languages. I am using Android Studio to hack on since it is open source and well-documented. Incidentally this also means learning Java which is surprisingly easy to jump into after having learned other object-oriented languages. Onwards and upwards.
 
-After researching about creating one's own CMS and the pros and cons associated with it, (many blog posts worth of information in of itself), I decided against reinventing the wheel right now and instead chose to keep working on nailing down features for my Rails API/React app pet project. 
+I'm also enjoying summer in Chicago! 
 
 Now learning:
 
-* Python
-* D3.js
-* Django
+* Java
+* Android development
+* Python and SciPy Toolkits
