@@ -24,6 +24,6 @@ Significantly decreasing my score on both the desktop and mobile versions was th
 
 This issue was given an ominous "Should fix" designation in red. I was supremely humbled and after quickly stepping through the five stages of grief, I took a look at the improvement suggestions. 
 
-As I suspected it turned out the blocking JavaScript is my [totally cool and awesome comment system](/blog/never-read-the-comments), which, as is JavaScript's wont, loads up asynchronously. This has a noticeable effect only when there are a large number of comments to load from Firebase, which completely makes sense. 
+As I suspected, it turned out the blocking JavaScript is my [totally cool and awesome comment system](/blog/never-read-the-comments), which, as is JavaScript's wont, loads up asynchronously. This has a noticeable effect only when there are a large number of comments to load from Firebase, which completely makes sense. 
 
 While I ponder how to reconcile this issue and perhaps make a change in the future, I am satisfied that it is not a tremendous deal-breaker. My pages load on mobile and desktop just fine and dandy. However, I found it really great to know that this marvelous tool exists. Thanks Google!
