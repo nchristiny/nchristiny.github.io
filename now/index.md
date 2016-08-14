@@ -3,12 +3,13 @@ layout: default
 title: Now
 ---
 # What are you doing right now?
-I am sharpening my programming skills by branching out into new languages. I am using Android Studio to hack on since it is open source and well-documented. Incidentally this also means learning Java which is surprisingly easy to jump into after having learned other object-oriented languages. Onwards and upwards.
+Just got back from vacation in Dominican Republic, a beautiful place populated by beautiful people. 
 
-I'm also enjoying summer in Chicago! 
+I'm also ~~enjoying~~ dying from the summer in Chicago.
 
 Now learning:
 
-* Java
-* Android development
-* Python and SciPy Toolkits
+* More Java and Python!
+* InfoSec practices and awareness of the many vulnerabilities to web apps and personal data. #hackinginprogress
+* Using HackerRank to challenge myself and bone up on coding interview questions.
+* To be more introspective and mindful and keeping a growth-mindset.

@@ -7,7 +7,7 @@ title: Projects
 
 # Nick Christiny
 
-## Software Engineer
+## Software Developer
 
 <address>Chicago, IL</address>
 
@@ -17,7 +17,7 @@ title: Projects
 Film recommendation engine API built from scratch. Rails-API MongoDB backend and React frontend with Webpack. Testing Rspec, Guard and Mocha, Chai. <a href="https://github.com/nchristiny/watch-this">Source code (back end)</a>. <a href="https://github.com/nchristiny/ui-watch-this">Source code (front end)</a>.
 
 ### <em>Chord Explorer</em>
-Final group project for Dev Bootcamp, completed during 8 days in November 2015. Ruby on Rails single page app. <a href="https://github.com/nchristiny/chord-explorer">Source code</a>.
+Ruby on Rails single page app. Final group project for Dev Bootcamp, completed during 8 days in November 2015. Shows the user songs they are able to learn given a combination of known chords. Also suggests new chords to learn next. <a href="https://github.com/nchristiny/chord-explorer">Source code</a>.
 
 ### <em>Catstream</em>  
 Lightweight Sinatra app, fun with `instagram-ruby-gem` and Instagram API. This was deployed and hosted on Heroku until June 1 2016 Instagram API rule changes for media viewer type 3rd-party apps. <a href="https://github.com/nchristiny/catstream">Source code</a>. 
