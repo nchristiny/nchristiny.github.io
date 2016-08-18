@@ -24,7 +24,7 @@ Incidentally many of these classic titles are available today through one of man
 
 Yes, dying repeatedly without being able to save your progress was considered the pinnacle of video game entertainment back then. 
 
-A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640. It came with a vast 20MB hard drive and featured jaw dropping EGA graphics. The built-in sound card even played sounds and 8-bit music. There was even a knob to control the volume of system beeps, which was amazing at the time.
+A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640[^fn-4]. It came with a vast 20MB hard drive and featured jaw dropping EGA graphics. The built-in sound card even played sounds and 8-bit music. There was even a knob to control the volume of system beeps, which was amazing at the time.[^fn-5]
 
 I distinctly remember the day we hooked up two PCs together via serial cable. A simple game where two moving snakes on the screen could be played simultaneously by two players on each computer completely blew my young mind.
 
@@ -41,7 +41,7 @@ At the time I had no idea at the time who Richard Garriott was, but would later 
 ## 1337 5P33K
 Anyhoo, enough with the early video game nostalgia. The reason I brought it up is that they were instrumental to my becoming acclimated and eventually very intimate with my machines.
 
-Once we moved to Texas in the early nineties, a steady dial-up Internet connection became feasible. Using a blazing 2400 baud modem, I became a habitual Bulletin Board Service[^fn-4] (BBS) lurker and was introduced to the seedier side of the early Web: unfettered chat rooms where users with subversive screen names traded "WareZ" and communicated in new and cryptic languages (leet speak). Alongside these questionable trades and outright piracy, the much more altruistic Shareware/freeware[^fn-5] movement was gloriously coming into its own.
+Once we moved to Texas in the early nineties, a steady dial-up Internet connection became feasible. Using a blazing 2400 baud modem, I became a habitual Bulletin Board Service[^fn-6] (BBS) lurker and was introduced to the seedier side of the early Web: unfettered chat rooms where users with subversive screen names traded "WareZ" and communicated in new and cryptic languages (leet speak). Alongside these questionable trades and outright piracy, the much more altruistic Shareware/freeware[^fn-7] movement was gloriously coming into its own.
 
 It was this formative experience that enamored me to the Open Source Software movement as we know it today. 
 
@@ -52,13 +52,15 @@ After learning BASIC and Turbo Pascal, the next logical step was C or Java. Howe
 ## Hook 'em horns 
 As it turned out, my interests at the time lay with my childhood dream of becoming an astronomer, therefore I attended and graduated from the University of Texas at Austin with a double major, Bachelor of Science in Astronomy and a Bachelor of Arts in Physics.
 
-FORTRAN, or Fortran as it was later known[^fn-6], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming I had exposure to was mostly MATLAB and LabVIEW. 
+FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming I had exposure to was mostly MATLAB and LabVIEW. 
 
 To be continued…
 
 [^fn-1]: [Pong](https://en.wikipedia.org/wiki/Pong "Pong Wikipedia article")
 [^fn-2]: [Spectrum ZX Issue 1](http://rk.nvg.ntnu.no/sinclair/computers/zxspectrum/spec48versions.htm "Spectrum ZX specifications")
 [^fn-3]: [Qaop/JS – ZX Spectrum emulator](http://torinak.com/qaop/games "Spectrum games online emulator")
-[^fn-4]: [Bulletin board System or BBS](https://en.wikipedia.org/wiki/Bulletin_board_system "BBS Wikipedia article")
-[^fn-5]: [Shareware and freeware](https://en.wikipedia.org/wiki/Bulletin_board_system#Shareware_and_freeware "Shareware Wikipedia article")
-[^fn-6]: [Explanation for early programming language names in ALL CAPS](http://stackoverflow.com/questions/1132996/rule-of-thumb-for-capitalizing-the-letters-in-a-programming-language "StackOverflow explanation of programming language capitalization")
+[^fn-4]: [Amstrad PC 1640 specs](http://www.old-computers.com/MUSEUM/computer.asp?c=19&st=1 "Amstrad 1640 specs on old-computers.com")
+[^fn-5]: [Listen to the sweet sounds of the Amstrad booting up](https://www.youtube.com/watch?v=imeKev_aezs "YouTube link")
+[^fn-6]: [Bulletin board System or BBS](https://en.wikipedia.org/wiki/Bulletin_board_system "BBS Wikipedia article")
+[^fn-7]: [Shareware and freeware](https://en.wikipedia.org/wiki/Bulletin_board_system#Shareware_and_freeware "Shareware Wikipedia article")
+[^fn-8]: [Explanation for early programming language names in ALL CAPS](http://stackoverflow.com/questions/1132996/rule-of-thumb-for-capitalizing-the-letters-in-a-programming-language "StackOverflow explanation of programming language capitalization")
