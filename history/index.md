@@ -45,14 +45,14 @@ Once we moved to Texas in the early nineties, a steady dial-up Internet connecti
 
 It was this formative experience that enamored me to the Open Source Software movement as we know it today. 
 
-In primary school I learned Turbo Pascal for an elective class called Comp Lit, (as in literacy!) The Internet as we know became more accessible at the height of the dial-up era, and I was in the thick of it. Even though I was very young, I sensed the momentousness of events and it was an exciting time.
+In primary school I learned Turbo Pascal for an elective class called Comp Lit, (as in literacy!) The Internet as we know it became more accessible at the height of the dial-up era, and I was in the thick of it. Even though I was very young, I sensed the momentousness of events and it was an exciting time.
 
-After learning BASIC and Turbo Pascal, the next logical step was C or Java. However, there seemed to be such a daunting skill gap that I hesitated taking that next step. I sometimes wonder how my life would have been had I taken the plunge into the unknown and continued learning programming back then. 
+After learning BASIC and Turbo Pascal, the next logical step was C or Java. However, it seemed to be such a daunting skill gap that I hesitated taking that next step. I sometimes wonder how my life would have been had I taken the plunge into the unknown and continued learning programming back then. 
 
 ## Hook 'em horns 
-As it turned out, my interests at the time lay with my childhood dream of becoming an astronomer, therefore I attended and graduated from the University of Texas at Austin with a double major, Bachelor of Science in Astronomy and a Bachelor of Arts in Physics.
+As it turned out my interests at the time lay with my childhood dream of becoming an astronomer, therefore I attended and graduated from the University of Texas at Austin with a double major, Bachelor of Science in Astronomy and a Bachelor of Arts in Physics.
 
-FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming I had exposure to was mostly MATLAB and LabVIEW. 
+FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming I had most exposure to during college were MATLAB and LabVIEW. 
 
 To be continued…
 
