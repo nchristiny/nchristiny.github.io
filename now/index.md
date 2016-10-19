@@ -12,6 +12,6 @@ Now learning:
 * New things concerning languages learned previously like CSS and Ruby
 * Python and Java
 * Going back to computer science brass tacks: algorithms, data types, etc
-* Computer, app, network security
+* Computer, app, and network security
 * Mentoring techniques
-* Optimizing my MacOS developer environment
+* Optimizing my macOS developer environment
