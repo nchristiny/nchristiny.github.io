@@ -3,13 +3,15 @@ layout: default
 title: Now
 ---
 # What are you doing right now?
-Just got back from vacation in Dominican Republic, a beautiful place populated by beautiful people. 
+I am enjoying an unusually warm Midwest autumn. Been able to use the grill twice during October, which is saying much for Chicago!
 
-I'm also ~~enjoying~~ dying from the summer in Chicago.
+I have been spending some time at Free Greek Chicago getting dirty and learning (playing) with lots of hardware, getting into different [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) distributions and command line scripting.
 
 Now learning:
 
-* More Java and Python!
-* InfoSec practices and awareness of the many vulnerabilities to web apps and personal data. #hackinginprogress
-* Using HackerRank to challenge myself and bone up on coding interview questions.
-* To be more introspective and mindful and keeping a growth-mindset.
+* New things concerning languages learned previously like CSS and Ruby
+* Python and Java
+* Going back to computer science brass tacks: algorithms, data types, etc
+* Computer, app, network security
+* Mentoring techniques
+* Optimizing my MacOS developer environment
