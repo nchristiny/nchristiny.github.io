@@ -52,7 +52,7 @@ After learning BASIC and Turbo Pascal, the next logical step was C or Java. Howe
 ## Hook 'em horns 
 As it turned out my interests at the time lay with my childhood dream of becoming an astronomer, therefore I attended and graduated from the University of Texas at Austin with a double major, Bachelor of Science in Astronomy and a Bachelor of Arts in Physics.
 
-FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming I had most exposure to during college were MATLAB and LabVIEW. 
+FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming languages I had most exposure to during college were MATLAB and LabVIEW. 
 
 [History, Part 2]({{baseurl}}/history/part2)
 
