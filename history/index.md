@@ -54,7 +54,7 @@ As it turned out my interests at the time lay with my childhood dream of becomin
 
 FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming I had most exposure to during college were MATLAB and LabVIEW. 
 
-To be continued…
+[History, Part 2]({{baseurl}}/history/part2)
 
 [^fn-1]: [Pong](https://en.wikipedia.org/wiki/Pong "Pong Wikipedia article")
 [^fn-2]: [Spectrum ZX Issue 1](http://rk.nvg.ntnu.no/sinclair/computers/zxspectrum/spec48versions.htm "Spectrum ZX specifications")
