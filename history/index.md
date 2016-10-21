@@ -52,7 +52,7 @@ After learning BASIC and Turbo Pascal, the next logical step was C or Java. Howe
 ## Hook 'em horns 
 As it turned out my interests at the time lay with my childhood dream of becoming an astronomer, therefore I attended and graduated from the University of Texas at Austin with a double major, Bachelor of Science in Astronomy and a Bachelor of Arts in Physics.
 
-FORTRAN, or Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming languages I had most exposure to during college were MATLAB and LabVIEW. 
+FORTRAN, or just Fortran as it was later known[^fn-8], is the language most associated with regards to astronomical calculation programs. It is a fascinating language with a rich history which is still in use in certain places, notably NASA and some financial systems. Unfortunately I did not use FORTRAN directly. The programming languages I had most exposure to during college were MATLAB and LabVIEW. 
 
 [History, Part 2]({{baseurl}}/history/part2)
 
@@ -60,7 +60,7 @@ FORTRAN, or Fortran as it was later known[^fn-8], is the language most associate
 [^fn-2]: [Spectrum ZX Issue 1](http://rk.nvg.ntnu.no/sinclair/computers/zxspectrum/spec48versions.htm "Spectrum ZX specifications")
 [^fn-3]: [Qaop/JS – ZX Spectrum emulator](http://torinak.com/qaop/games "Spectrum games online emulator")
 [^fn-4]: [Amstrad PC 1640 specs](http://www.old-computers.com/MUSEUM/computer.asp?c=19&st=1 "Amstrad 1640 specs on old-computers.com")
-[^fn-5]: [Listen to the sweet sounds of the Amstrad booting up](https://www.youtube.com/watch?v=imeKev_aezs "YouTube link")
+[^fn-5]: [Listen to the dulcet sounds of the Amstrad boot sequence](https://www.youtube.com/watch?v=imeKev_aezs "YouTube link")
 [^fn-6]: [Bulletin board System or BBS](https://en.wikipedia.org/wiki/Bulletin_board_system "BBS Wikipedia article")
 [^fn-7]: [Shareware and freeware](https://en.wikipedia.org/wiki/Bulletin_board_system#Shareware_and_freeware "Shareware Wikipedia article")
 [^fn-8]: [Explanation for early programming language names in ALL CAPS](http://stackoverflow.com/questions/1132996/rule-of-thumb-for-capitalizing-the-letters-in-a-programming-language "StackOverflow explanation of programming language capitalization")

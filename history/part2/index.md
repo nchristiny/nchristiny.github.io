@@ -18,3 +18,4 @@ These were genuinely fun times for me and my colleagues. We used Free Open Sourc
 This experience helped me launch a (now-defunct) WordPress webcomic site using the popular ComicPress plugin. I taught myself how to create a mySQL database, server side scripting with PHP, FTP, web hosting, optimizing SEO and web publishing techniques in general. 
 
 ## Dark days
+To be continued... 
