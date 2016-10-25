@@ -38,11 +38,11 @@ Initially I had learned from the information I could glean lurking from the peri
 
 Back in the day I visited Slashdot regularly; currently I stay abreast of web development and coding news mainly via Hacker News, Ars Technica and Medium posts, just to name a few. I subscribe to weekly mailing lists of my favorite languages, JavaScript, Ruby, Python, and lately React. On Twitter I follow industry leaders and so-called "thought leaders", people working in the field who tend to be communicative about their work.
 
-@CodeNewbies is an awesome resource for the beginner holding active weekly Twitter discussions as well as having a website with insightful articles by guests working in the industry and podcast interviews. I still hang about their Slack channel.
+\@CodeNewbies is an awesome resource for the beginner holding active weekly Twitter discussions as well as having a website with insightful articles by guests working in the industry and podcast interviews. I still hang about their Slack channel.
 
 \#YesWeCode is a great resource for obtaining code school/bootcamp scholarships for need-based and under-represented applicants. 
 
-More recently I found Free Code Camp via Medium, another community based around learning coding. The amount of information available to the beginner these days is immense and overwhelming, so it is amazing to have a central location where it can be gathered and presented. 
+Shortly after completing my stint in coding bootcamp, I found Free Code Camp via Medium, another community based around learning coding. The amount of information available to the beginner these days is immense and overwhelming, so it is amazing to have a central location where it can be gathered and presented. 
 
 ## The sleeper has awakened
 Over the years I have been increasingly aware of the struggle to diversify and open up pathways to STEM careers for the economically and/or socially disadvantaged. Historical underrepresented groups such as women and minorities in the tech workplace is an issue we can and should tackle head-on. 
@@ -51,7 +51,7 @@ I recognize I am incredibly fortunate to be in a position of privilege, of havin
 
 Whenever I can offer up assistance, whether teaching, providing guidance, or simply sharing experiences, I am humbled and honored to do so. I love to be able to give back. To this end I volunteer to help at a local non-profit FreeGeekChicago and sign up to mentor current students at DBC.
 
-My father absolutely inspired me in his work ethic. He was a college dropout who nonetheless managed to work his way up from electrical technician on oil platforms in the North Sea to electrical then software engineering, now working for Boeing. Along the way he was able to complete his higher education with the encouragement of my mother.
+My father absolutely inspired me in his work ethic. He was a college dropout who nonetheless managed to work his way up from electrical technician on oil platforms in the North Sea to electrical then software engineering, then as a contractor for NASA writing code for the Internation Space Station, now working at Boeing. Along the way he was able to complete his higher education with the encouragement of my mother.
 
 My mother instilled in my brother and I core values of compassion and freedom. She also fostered within us great respect for the power of education. My grandfather on my mother's side was a proud but poor hard-working laborer who spent his energies and a meager salary ensuring my mother and her siblings could obtain proper educations, thereby ending the cycle of poverty. 
 

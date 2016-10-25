@@ -17,14 +17,16 @@ Allow me a starry-eyed aside: I cherish and value my adopted homeland, not least
 While both my mother and father were instrumental in opening up my early curiosity in all things, with regards to my budding interest in computers my dad was the foremost catalyst. 
 
 In Scotland during the eighties, I remember vividly playing a replica game of Pong[^fn-1] he programmed in BASIC on a Spectrum ZX[^fn-2], which sported an amazing 16K memory expanded with removable 32K daughter board. This is one of my fondest early recollections. 
-
+![ZX Spectrum 48K](/public/images/ZXSpectrum48k.jpg "ZX Spectrum 48K (sans daughter board)")
 Games were stored on magnetic tapes, just regular audio cassettes really, and would take entire minutes to load from the command line. This load time was excruciatingly long for my brother and I as children, but once loaded we got to enjoy the explosive line art graphics of venerable video games like The Hobbit, Atic Atac, Potty Pigeon, Fantastic Voyage, Daley Thompson's Decathlon, Skool Daze, and many more.
 
 Incidentally many of these classic titles are available today through one of many online emulators[^fn-3]. Beware though; they are more often than not extremely difficult and definitely not the "E-Z Mode" games which are put out today. ("Uphill through the snow both ways... get off my lawn.") 
 
 Yes, dying repeatedly without being able to save your progress was considered the pinnacle of video game entertainment back then. 
 
-A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640[^fn-4]. It came with a vast 20MB hard drive and featured jaw dropping EGA graphics. The built-in sound card played MIDI sounds and 8-bit music. There was even a knob to control the volume of system beeps, which was quite amazing at the time.[^fn-5]
+A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640[^fn-4]. 
+![Amstrad PC 1640](/public/images/PC1640-HD20MB.jpg "Look at this beauty: Amstrad PC 1640")
+It came with a vast 20MB hard drive and featured jaw dropping EGA graphics. The built-in sound card played MIDI sounds and 8-bit music. There was even a knob to control the volume of system beeps, which was quite amazing at the time.[^fn-5]
 
 I distinctly remember the day we hooked two PCs together via serial cable. A simple game where two moving snakes on the screen could be played simultaneously by two players at each computer completely blew my young mind.
 
