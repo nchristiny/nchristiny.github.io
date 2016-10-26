@@ -3,15 +3,18 @@ layout: default
 title: Now
 ---
 # What are you doing right now?
-I am enjoying an unusually warm Midwest autumn. Been able to use the grill twice during October, which is saying much for Chicago!
+Well, it finally got cold here for Autumn in Chicago, so I am drinking lots of tea and breaking out the space heater for our little Logan Square flat. 
 
-I have been spending some time at Free Greek Chicago getting dirty and learning (playing) with lots of hardware, getting into different [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) distributions and command line scripting.
+I am continuing to volunteer mentoring to current students at Dev Bootcamp, something that feels quite rewarding. 
+
+Also still volunteering at Free Greek Chicago: Getting dirty and learning (playing) with lots of hardware, getting into different [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html) distributions and command line scripting.
 
 Now learning:
 
-* New things concerning languages learned previously like CSS and Ruby
-* Python and Java
-* Going back to computer science brass tacks: algorithms, data types, etc
-* Computer, app, and network security
+* Online class Learning How To Learn from UC San Diego via Coursera
 * Mentoring techniques
-* Optimizing my macOS developer environment
+* Computer science fundamentals and brass tacks: algorithms, data types, etc
+* Lots of new things I didn't know about in CSS(!)
+* Python and Java, mostly in mobile development
+* How to optimize my macOS developer environment
+* Free Open Source Software (FOSS) alternatives
