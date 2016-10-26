@@ -42,7 +42,7 @@ Back in the day I visited Slashdot regularly; currently I stay abreast of web de
 
 [#YesWeCode](http://www.yeswecode.org/) is a great resource for obtaining code school/bootcamp scholarships for need-based and under-represented applicants. 
 
-Shortly after completing my stint in coding bootcamp, I found Free Code Camp via Medium, another community based around learning coding. The amount of information available to the beginner these days is immense and overwhelming, so it is amazing to have a central location where it can be gathered and presented. 
+Shortly after completing my stint in coding bootcamp, I found [freeCodeCamp](https://www.freecodecamp.com/) via [Medium](https://medium.freecodecamp.com/), another community based around learning coding. The amount of information available to the beginner these days is immense and overwhelming, so it is amazing to have a central location where it can be gathered and presented. 
 
 ## The sleeper has awakened
 Over the years I have been increasingly aware of the struggle to diversify and open up pathways to STEM careers for the economically and/or socially disadvantaged. Historical underrepresented groups such as women and minorities in the tech workplace is an issue we can and should tackle head-on. 
