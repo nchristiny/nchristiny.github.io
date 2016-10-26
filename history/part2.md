@@ -38,9 +38,9 @@ Initially I had learned from the information I could glean lurking from the peri
 
 Back in the day I visited Slashdot regularly; currently I stay abreast of web development and coding news mainly via Hacker News, Ars Technica and Medium posts, just to name a few. I subscribe to weekly mailing lists of my favorite languages, JavaScript, Ruby, Python, and lately React. On Twitter I follow industry leaders and so-called "thought leaders", people working in the field who tend to be communicative about their work.
 
-\@CodeNewbies is an awesome resource for the beginner holding active weekly Twitter discussions as well as having a website with insightful articles by guests working in the industry and podcast interviews. I still hang about their Slack channel.
+[CodeNewbie](http://www.codenewbie.org/) is an awesome resource for the beginner holding active weekly [Twitter](https://twitter.com/CodeNewbies) discussions as well as having a website with insightful articles by guests working in the industry and podcast interviews. I still hang about their [Slack](https://codenewbie.slack.com) channel.
 
-\#YesWeCode is a great resource for obtaining code school/bootcamp scholarships for need-based and under-represented applicants. 
+[#YesWeCode](http://www.yeswecode.org/) is a great resource for obtaining code school/bootcamp scholarships for need-based and under-represented applicants. 
 
 Shortly after completing my stint in coding bootcamp, I found Free Code Camp via Medium, another community based around learning coding. The amount of information available to the beginner these days is immense and overwhelming, so it is amazing to have a central location where it can be gathered and presented. 
 
