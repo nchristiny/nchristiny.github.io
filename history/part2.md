@@ -11,16 +11,20 @@ After college I obtained an engineering technician position at a silicon wafer c
 
 I took a gig working for an ad firm deploying commercial WordPress sites for small bilingual (English and Spanish-speaking) businesses in Florida and California. In retrospect the job title was front end or full stack web developer due to the job responsibilities which encompassed the LAMP stack. 
 
+<img class="center-img" src="/public/images/wordpress-logo-hoz-rgb.png" title="WordPress logo">
+
 It was my first experience working remotely, being still located in Austin. In addition I was practicing what I later recognized as Agile development cycles and client-facing consulting. It took a bunch of back and forth with the business owners to iterate designs until they were satisfied.
 
-These were genuinely fun times for me and my colleagues. We used Free Open Source Software, (free as in freedom, as they say), like GIMP for image manipulation, and scoured royalty-free stock photo sites for the perfect image of people laughing eating salad. I fondly remember when a customer asked if the animated GIF of a car expelling a cloud of smog would cost them extra for bandwidth. It was a simpler time. 
+These were genuinely fun times for me and my colleagues. We used Free Open Source Software, (free as in freedom, as they say), like GIMP for image manipulation, and scoured royalty-free stock photo sites for the perfect image of people laughing eating salad. I fondly remember when a customer asked if the animated GIF of a car expelling a cloud of smog would cost them extra for bandwidth. It was a simpler time.
+
+<img class="center-img" src="/public/images/codeispoetry-rgb.png" title="Neat little WordPress logo">
 
 This experience helped me launch a (now-defunct) WordPress webcomic site using ComicPress. I taught myself how to create a mySQL database, server side scripting in PHP, FTP, web hosting, optimizing SEO and web publishing techniques in general. 
 
 ## Dark days
 Later I worked at a couple computer companies in Austin, first at gaming company Blizzard Entertainment and then at Apple as bilingual customer service representative. It was a very "neat and exciting" experience and vastly improved my communication and teamwork skills. It also afforded a glimpse into corporate culture. 
 
-As anyone who has worked in customer service for some time can attest to, after a while I became disenchanted and felt burnt out. I therefore rekindled my earlier spark for programming; I resolved to make a career change specifically to one involving coding and set aside dedicated study times. 
+As anyone who has worked in customer service for some time can attest to, after a while I became disenchanted and felt burnt out. I therefore rekindled my earlier spark for programming; I resolved to make a career change specifically to one involving coding and set aside dedicated daily study time. 
 
 ## On the path to enlightenment 
 The tools I used to learn independently were a mixture of online resource and books: CSS Tricks and A List Apart books, for example. I updated my skills via self-paced courses from Treehouse, Codecademy and CodeSchool. 
@@ -51,11 +55,11 @@ I recognize I am incredibly fortunate to be in a position of privilege, of havin
 
 Whenever I can offer up assistance, whether teaching, providing guidance, or simply sharing experiences, I am humbled and honored to do so. I love to be able to give back. To this end I volunteer to help at a local non-profit FreeGeekChicago and sign up to mentor current students at DBC.
 
-My father absolutely inspired me in his work ethic. He was a college dropout who nonetheless managed to work his way up from electrical technician on oil platforms in the North Sea to electrical then software engineering, then as a contractor for NASA writing code for the Internation Space Station, now working at Boeing. Along the way he was able to complete his higher education with the encouragement of my mother.
+My father absolutely inspired me in his work ethic. He was a college dropout who nonetheless managed to work his way up from electrical technician on oil platforms in the North Sea to electrical then software engineering, then as a contractor for NASA writing code for the International Space Station, now working at Boeing. Along the way he was able to complete his higher education with the encouragement and support of my mother.
 
-My mother instilled in my brother and I core values of compassion and freedom. She also fostered within us great respect for the power of education. My grandfather on my mother's side was a proud but poor hard-working laborer who spent his energies and a meager salary ensuring my mother and her siblings could obtain proper educations, thereby ending the cycle of poverty. 
+My mother instilled in my entire family core values of compassion and love of freedom. She also fostered within us great respect for the power of education. My grandfather on my mother's side was a proud but poor hard-working laborer who spent his energies and a meager salary ensuring my mother and her siblings could obtain proper educations, thereby ending the cycle of poverty. 
 
-I feel extremely fortunate and grateful for the opportunities I have had in my life. Considering my family was not wealthy but well-off being middle class, we were still only one generation away from poverty. This is why my mother pushed us to study and compete our education. My father's dad was a university professor, so my father also pushed us to succeed academically. He instilled in my brother and I a deep curiosity for the world and a love for scientific discovery and exploration. 
+I feel extremely fortunate and grateful for the opportunities I have had in my life. Considering my family was not wealthy but well-off enough being middle class, we were still only one generation away from poverty. This is why my mother pushed us to study and compete our education. My father's dad was a university professor, so my father also pushed us to succeed academically. He instilled in my brother and I a deep curiosity for the world and a love for scientific discovery and exploration. 
 
 Thanks mum and dad! 
 

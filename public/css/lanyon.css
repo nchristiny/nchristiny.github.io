@@ -93,6 +93,10 @@ footer .download {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.center-img {
+  margin: 0 auto;
+}
+
 .photo-gallery, .photo-gallery li {
   list-style: none;
   padding: 0;

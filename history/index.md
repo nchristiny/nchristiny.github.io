@@ -17,15 +17,21 @@ Allow me a starry-eyed aside: I cherish and value my adopted homeland, not least
 While both my mother and father were instrumental in opening up my early curiosity in all things, with regards to my budding interest in computers my dad was the foremost catalyst. 
 
 In Scotland during the eighties, I remember vividly playing a replica game of Pong[^fn-1] he programmed in BASIC on a Spectrum ZX[^fn-2], which sported an amazing 16K memory expanded with removable 32K daughter board. This is one of my fondest early recollections. 
-![ZX Spectrum 48K](/public/images/ZXSpectrum48k.jpg "ZX Spectrum 48K (sans daughter board)")
+
+<img class="center-img" src="/public/images/ZXSpectrum48k.jpg" title="ZX Spectrum 48K">
+
 Games were stored on magnetic tapes, just regular audio cassettes really, and would take entire minutes to load from the command line. This load time was excruciatingly long for my brother and I as children, but once loaded we got to enjoy the explosive line art graphics of venerable video games like The Hobbit, Atic Atac, Potty Pigeon, Fantastic Voyage, Daley Thompson's Decathlon, Skool Daze, and many more.
+
+<img class="center-img" src="/public/images/Atic_Atac_Coverart.png" title="Atic Atac cover art">
 
 Incidentally many of these classic titles are available today through one of many online emulators[^fn-3]. Beware though; they are more often than not extremely difficult and definitely not the "E-Z Mode" games which are put out today. ("Uphill through the snow both ways... get off my lawn.") 
 
 Yes, dying repeatedly without being able to save your progress was considered the pinnacle of video game entertainment back then. 
 
 A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640[^fn-4]. 
-![Amstrad PC 1640](/public/images/PC1640-HD20MB.jpg "Look at this beauty: Amstrad PC 1640")
+
+<img class="center-img" src="/public/images/PC1640-HD20MB.jpg" title="Amstrad PC 1640">
+
 It came with a vast 20MB hard drive and featured jaw dropping EGA graphics. The built-in sound card played MIDI sounds and 8-bit music. There was even a knob to control the volume of system beeps, which was quite amazing at the time.[^fn-5]
 
 I distinctly remember the day we hooked two PCs together via serial cable. A simple game where two moving snakes on the screen could be played simultaneously by two players at each computer completely blew my young mind.
@@ -43,7 +49,7 @@ At the time I had no idea at the time who Richard Garriott was, but would later 
 ## 1337 5P33K
 Anyhoo, enough with the early video game nostalgia. The reason I brought it up is these early experiences were instrumental to my becoming acclimated and eventually intimate with the computer as a tool.
 
-Once we moved to Texas in the early nineties, a steady dial-up Internet connection became feasible. Using a blazing 2400 baud modem, I became a habitual Bulletin Board Service[^fn-6] (BBS) lurker and was introduced to the seedier side of the early Web: unfettered chat rooms where users with subversive screen names traded "WareZ" and communicated in new and cryptic languages (leet speak). Alongside questionable trading and outright piracy, the much more altruistic Shareware/freeware[^fn-7] movement was gloriously coming into its own.
+Once we moved to Texas in the early nineties, a steady dial-up Internet connection became feasible. Using a blazing 2400 baud modem, I became a habitual Bulletin Board Service[^fn-6] (BBS) lurker and was introduced to the seedier side of the early Web: unfettered chat rooms where users with subversive screen names traded "WareZ" and communicated in new and cryptic languages ("leet speak"). Alongside questionable trading and outright piracy, the much more altruistic Shareware/freeware[^fn-7] movement was gloriously coming into its own.
 
 It was this formative experience which enamored me to the Free Open Source Software (FOSS) movement as we know it today. 
 
