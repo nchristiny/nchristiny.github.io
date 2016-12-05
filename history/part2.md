@@ -9,7 +9,7 @@ Wherein we continue the thrilling tale of my (non-superhero) origin story, thank
 ## Entering the workforce
 After college I obtained an engineering technician position at a silicon wafer chip fabrication plant in Austin. After being exposed to Lean manufacturing techniques, 5S Six Sigma methodology, Kaizen, as well as a whole bunch of gnarly chemicals working in the diffusion labs, the company faced the economic downturn of '08 by laying off a bunch of folk. 
 
-I took a gig working for an ad firm deploying commercial WordPress sites for small bilingual (English and Spanish-speaking) businesses in Florida and California. In retrospect the job title was front end or full stack web developer due to the job responsibilities which encompassed the LAMP[fn^1] stack. 
+I took a gig working for an ad firm deploying commercial WordPress sites for small bilingual (English and Spanish-speaking) businesses in Florida and California. In retrospect the job title was front end or full stack web developer due to the job responsibilities which encompassed the LAMP[^fn-1] stack. 
 
 <figure>
 <img class="center-img" src="/public/images/LAMP-stack.jpg" title="LAMP stack">
@@ -22,6 +22,7 @@ These were genuinely fun times for me and my colleagues. We used Free Open Sourc
 
 <figure>
 <img class="center-img" src="/public/images/wordpress-logo-hoz-rgb.png" title="WordPress logo">
+<br />
 <img class="center-img" src="/public/images/codeispoetry-rgb.png" title="code is poetry">
 <figcaption>WordPress: still going strong</figcaption>
 </figure>
@@ -75,6 +76,5 @@ Thanks mum and dad!
 And thank you for reading this far.
 
 My journey continues... 
-
 [^fn-1]: [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle) "LAMP on Wikipedia")
 [^fn-2]: [Manifesto for Agile Software Development](http://agilemanifesto.org/ "Manifesto for Agile, sign up for warm fuzzies.")
