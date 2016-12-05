@@ -22,7 +22,9 @@ These were genuinely fun times for me and my colleagues. We used Free Open Sourc
 
 <figure>
 <img class="center-img" src="/public/images/wordpress-logo-hoz-rgb.png" title="WordPress logo">
+</figure>
 <br />
+<figure>
 <img class="center-img" src="/public/images/codeispoetry-rgb.png" title="code is poetry">
 <figcaption>WordPress: still going strong</figcaption>
 </figure>
@@ -76,5 +78,6 @@ Thanks mum and dad!
 And thank you for reading this far.
 
 My journey continues... 
+
 [^fn-1]: [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle) "LAMP on Wikipedia")
 [^fn-2]: [Manifesto for Agile Software Development](http://agilemanifesto.org/ "Manifesto for Agile, sign up for warm fuzzies.")
