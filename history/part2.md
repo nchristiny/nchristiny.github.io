@@ -9,15 +9,22 @@ Wherein we continue the thrilling tale of my (non-superhero) origin story, thank
 ## Entering the workforce
 After college I obtained an engineering technician position at a silicon wafer chip fabrication plant in Austin. After being exposed to Lean manufacturing techniques, 5S Six Sigma methodology, Kaizen, as well as a whole bunch of gnarly chemicals working in the diffusion labs, the company faced the economic downturn of '08 by laying off a bunch of folk. 
 
-I took a gig working for an ad firm deploying commercial WordPress sites for small bilingual (English and Spanish-speaking) businesses in Florida and California. In retrospect the job title was front end or full stack web developer due to the job responsibilities which encompassed the LAMP stack. 
+I took a gig working for an ad firm deploying commercial WordPress sites for small bilingual (English and Spanish-speaking) businesses in Florida and California. In retrospect the job title was front end or full stack web developer due to the job responsibilities which encompassed the LAMP[fn^1] stack. 
 
-<img class="center-img" src="/public/images/wordpress-logo-hoz-rgb.png" title="WordPress logo">
+<figure>
+<img class="center-img" src="/public/images/LAMP-stack.jpg" title="LAMP stack">
+<figcaption>LAMPin'</figcaption>
+</figure>
 
 It was my first experience working remotely, being still located in Austin. In addition I was practicing what I later recognized as Agile development cycles and client-facing consulting. It took a bunch of back and forth with the business owners to iterate designs until they were satisfied.
 
-These were genuinely fun times for me and my colleagues. We used Free Open Source Software, (free as in freedom, as they say), like GIMP for image manipulation, and scoured royalty-free stock photo sites for the perfect image of people laughing eating salad. I fondly remember when a customer asked if the animated GIF of a car expelling a cloud of smog would cost them extra for bandwidth. It was a simpler time.
+These were genuinely fun times for me and my colleagues. We used Free Open Source Software, (FOSS, free as in freedom, as they say,) like GIMP for image manipulation, and scoured royalty-free stock photo sites for the perfect image of people laughing eating salad. I fondly remember when a customer asked if the animated GIF of a car expelling a cloud of smog would cost them extra for bandwidth. It was a simpler time.
 
-<img class="center-img" src="/public/images/codeispoetry-rgb.png" title="Neat little WordPress logo">
+<figure>
+<img class="center-img" src="/public/images/wordpress-logo-hoz-rgb.png" title="WordPress logo">
+<img class="center-img" src="/public/images/codeispoetry-rgb.png" title="code is poetry">
+<figcaption>WordPress: still going strong</figcaption>
+</figure>
 
 This experience helped me launch a (now-defunct) WordPress webcomic site using ComicPress. I taught myself how to create a mySQL database, server side scripting in PHP, FTP, web hosting, optimizing SEO and web publishing techniques in general. 
 
@@ -33,7 +40,7 @@ This period of self-paced learning was great, but the pace was too slow to kick 
 
 DBC offered exactly what I needed: the clearest path to learning how to code well professionally and how to kick start a new career path with the help of proven practices and professional instructors.
 
-Resources which helped me on my path were TryRuby, RubyMonk, and Euler Project. Not only were they educational, they were a delight to use.  
+Resources which helped me on my path were TryRuby, RubyMonk, and Euler Project. Not only were these educational, they were a delight to use.  
 
 At some point I stumbled on why the lucky stiff aka _why?'s Poignant Guide to Ruby, the "pirate radio of technical manuals". I knew then I was hooked on Ruby.
 
@@ -42,7 +49,9 @@ Initially I had learned from the information I could glean lurking from the peri
 
 Back in the day I visited Slashdot regularly; currently I stay abreast of web development and coding news mainly via Hacker News, Ars Technica and Medium posts, just to name a few. I subscribe to weekly mailing lists of my favorite languages, JavaScript, Ruby, Python, and lately React. On Twitter I follow industry leaders and so-called "thought leaders", people working in the field who tend to be communicative about their work.
 
-[CodeNewbie](http://www.codenewbie.org/) is an awesome resource for the beginner holding active weekly [Twitter](https://twitter.com/CodeNewbies) discussions as well as having a website with insightful articles by guests working in the industry and podcast interviews. I still hang about their [Slack](https://codenewbie.slack.com) channel.
+I became an Agile methodology true believer and signed the Agile Manifesto[^fn-2] on [October 5 2015](http://agilemanifesto.org/display/000000361.html "Spot the looney!").
+
+[CodeNewbie](http://www.codenewbie.org/) is an awesome resource for beginner (as well as intermediate or expert!) coders holding active weekly [Twitter discussions](https://twitter.com/CodeNewbies) as well as having a website with insightful articles by guests working in the industry and podcast interviews. I still hang about their [Slack channel](https://codenewbie.slack.com).
 
 [#YesWeCode](http://www.yeswecode.org/) is a great resource for obtaining code school/bootcamp scholarships for need-based and under-represented applicants. 
 
@@ -66,3 +75,6 @@ Thanks mum and dad!
 And thank you for reading this far.
 
 My journey continues... 
+
+[^fn-1]: [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle) "LAMP on Wikipedia")
+[^fn-2]: [Manifesto for Agile Software Development](http://agilemanifesto.org/ "Manifesto for Agile, sign up for warm fuzzies.")

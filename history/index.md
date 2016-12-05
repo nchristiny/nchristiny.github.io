@@ -16,13 +16,19 @@ Allow me a starry-eyed aside: I cherish and value my adopted homeland, not least
 ## Skool daze
 While both my mother and father were instrumental in opening up my early curiosity in all things, with regards to my budding interest in computers my dad was the foremost catalyst. 
 
-In Scotland during the eighties, I remember vividly playing a replica game of Pong[^fn-1] he programmed in BASIC on a Spectrum ZX[^fn-2], which sported an amazing 16K memory expanded with removable 32K daughter board. This is one of my fondest early recollections. 
+In Scotland during the eighties, I remember vividly playing a replica game of Pong[^fn-1] he programmed in BASIC on a Spectrum ZX[^fn-2], which sported an amazing 16K memory expanded with removable 32K daughterboard. This is one of my fondest early recollections. 
 
-<img class="center-img" src="/public/images/ZXSpectrum48k.jpg" title="ZX Spectrum 48K">
+<figure>
+<img class="center-img" src="/public/images/ZXSpectrum48k.jpg" title="ZX Spectrum">
+<figcaption>The venerable ZX Spectrum, shown here without daughterboard</figcaption>
+</figure>
 
 Games were stored on magnetic tapes, just regular audio cassettes really, and would take entire minutes to load from the command line. This load time was excruciatingly long for my brother and I as children, but once loaded we got to enjoy the explosive line art graphics of venerable video games like The Hobbit, Atic Atac, Potty Pigeon, Fantastic Voyage, Daley Thompson's Decathlon, Skool Daze, and many more.
 
+<figure>
 <img class="center-img" src="/public/images/Atic_Atac_Coverart.png" title="Atic Atac cover art">
+<figcaption>This game was freakin' impossible!</figcaption>
+</figure>
 
 Incidentally many of these classic titles are available today through one of many online emulators[^fn-3]. Beware though; they are more often than not extremely difficult and definitely not the "E-Z Mode" games which are put out today. ("Uphill through the snow both ways... get off my lawn.") 
 
@@ -30,7 +36,10 @@ Yes, dying repeatedly without being able to save your progress was considered th
 
 A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640[^fn-4]. 
 
+<figure>
 <img class="center-img" src="/public/images/PC1640-HD20MB.jpg" title="Amstrad PC 1640">
+<figcaption>Beautiful, isn't it?</figcaption>
+</figure>
 
 It came with a vast 20MB hard drive and featured jaw dropping EGA graphics. The built-in sound card played MIDI sounds and 8-bit music. There was even a knob to control the volume of system beeps, which was quite amazing at the time.[^fn-5]
 

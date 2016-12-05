@@ -97,6 +97,17 @@ footer .download {
   margin: 0 auto;
 }
 
+figure {
+  // border: 1px grey solid
+}
+
+figcaption {
+  font-family : "Open Sans", sans-serif;
+  font-size   : 0.8em;
+  text-align: center;
+  padding: 5px;
+}
+
 .photo-gallery, .photo-gallery li {
   list-style: none;
   padding: 0;
