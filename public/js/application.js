@@ -1,9 +1,11 @@
-jQuery(function ($) {
-  //Change target attribute of external links
-  var domain_root = document.location.protocol + '//' + document.location.host;
-  var all_links = $('a').each(function (index, element) {
-    if (element.href.substr(0, domain_root.length) !== domain_root) {
-      element.target = '_blank';
-    }
-  });
-});
+/**
+* Open external links in new tabs automatically
+*/
+
+var links = document.links;
+
+for (var i = 0; i < links.length; i++) {
+  if (links[i].hostname != window.location.hostname) {
+    links[i].target = '_blank';
+  }
+}
