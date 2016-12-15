@@ -57,6 +57,8 @@ I forgot to mention a final enhancement which was to modify the internal/externa
 
 However, being a good lazy programmer, I wanted to not worry about adding this to every past and future link, so I found a quick n' dirty fix using jQuery.
 
+>*Edit (December 2016): I have updated this using pure Vanilla Js so as not to require the entirety of the jQuery library for this simple function.*
+
 After including jQuery, add this JavaScript snippet to `application.js`: 
 
 ```javascript
