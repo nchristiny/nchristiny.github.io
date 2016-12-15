@@ -1,8 +1,5 @@
 # Permalinks
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:         /blog/:title
-# Deprecated in jekyll 3.0
-# relative_permalinks: true
 
 # Setup
 title:               'Code or Die'
@@ -29,13 +26,6 @@ kramdown:
 
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-## Deprecated
-# markdown: redcarpet
-# redcarpet:
-  # extensions: ["tables", "no_intra_emphasis", "autolink", "strikethrough", "superscript", "footnotes"]
-# highlighter: pygments
-## in favor of default rouge
-
 # RSS
 feed:
   path: atom.xml
@@ -47,4 +37,4 @@ author:
   email:             nchristiny@gmail.com
 
 # Custom vars
-version:             2.4
+version:             2.6
