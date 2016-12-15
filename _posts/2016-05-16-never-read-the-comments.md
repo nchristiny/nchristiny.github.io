@@ -7,8 +7,11 @@ tags:
 - Firebase
 - NoSQL
 - BlogOps
----
+--- 
 As a fun little project I started playing around with [Firebase](https://www.firebase.com/) and this Jekyll blog. In a move I hope to not live to regret, I made it possible to submit comments! <!-- more -->
+
+> *Update (December 2016): Retired (aka nuked) the code shown in this tutorial from my blog. As much fun as it was to over-engineering a comments section in Jekyll, it's time to retire the seldomn used (if ever) comments section. Incidentally, the tutorial led me to learn how to use Google's reCAPTCHA and Liquid templating which was fun. <br/>
+Lastly, due to Google's aquisition of Firebase shortly after this post was published, I was able to painlessly transfer the database from the legacy  servers to the shiny new Material Design interface at [Firebase Console](https://console.firebase.google.com/)*
 
 Folks who have pertinent and kind comments can scroll to the bottom of a post and enter a name, message, and an optional email for a Gravatar image. 
 
