@@ -4,7 +4,7 @@ permalink:         /blog/:title
 # Setup
 title:               'Code or Die'
 tagline:             'live to code'
-description:         'Being the personal website, blog/note-to-self of software developer Nick Christiny.'
+description:         'Being the personal website/blog of software developer Nick Christiny.'
 url:                 http://nchristiny.com
 baseurl:             ''
 
@@ -37,4 +37,4 @@ author:
   email:             nchristiny@gmail.com
 
 # Custom vars
-version:             2.6
+version:             2.8
