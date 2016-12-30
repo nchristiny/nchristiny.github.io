@@ -1,3 +1,6 @@
+---
+exclude: true
+---
 # MIT LICENSE
 
 Copyright (c) 2015, 2016 Nicholas Christiny
