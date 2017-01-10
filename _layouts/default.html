@@ -45,5 +45,20 @@
         }, false);
       })(document);
     </script>
+
+    <!-- Script to call non-blocking external JavaScript file -->
+    <script type="text/javascript">
+      function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "{{ site.baseurl }}/public/js/application.js";
+        document.body.appendChild(element);
+      }
+      if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+      else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+      else window.onload = downloadJSAtOnload;
+    </script>
+
   </body>
 </html>
