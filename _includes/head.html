@@ -11,10 +11,13 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/normalize.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
+  {% css_asset_tag global %}
+  - /_assets/css/normalize.css
+  - /_assets/css/poole.css
+  - /_assets/css/syntax.css
+  - /_assets/css/lanyon.css
+  {% endcss_asset_tag %}
+
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather%7COpen+Sans%7CInconsolata' type='text/css'>
 
   <!-- Icons -->
@@ -25,5 +28,7 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
 
   <!-- Js -->
-  <!-- <script src="{{ site.baseurl }}/public/js/application.js"></script> -->
+  {% javascript_asset_tag global %}
+  - /_assets/js/application.js
+  {% endjavascript_asset_tag %}
 </head>

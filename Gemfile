@@ -6,6 +6,9 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
 end
 
+gem 'jekyll-asset-pipeline'
+gem 'yui-compressor'
+
 gem 'jekyll-mentions'
 gem 'jemoji'
 gem 'jekyll-redirect-from'
