@@ -134,80 +134,11 @@ figcaption {
   margin: 0 25px 25px 0;
 }
 
-/*Comments*/
-.comments {
-  color       : grey;
-  font-family : "Open Sans", sans-serif;
-  font-size   : 0.8em;
-  width: 80%;
-  clear: both;
-}
-
-.comment {
-  border: 1px dotted #c0c0c0;
-  padding: 30px;
-  margin: 10px;
-}
-
-form {
-  position: relative;
-  display: block;
-  margin : 0 auto;
-}
-
-form label {
-  font-family: 'Inconsolata', 'Andale mono', monospace;
-}
-
-input, textarea {
-  font-family : "Open Sans", sans-serif;
-  font-size   : 0.8em;
-  padding     : 0 10px;
-  margin      : 0 auto;
-}
-
-textarea {
-  vertical-align : top;
-  display        : block;
-  margin         : 10px 0 0 0px;
-  padding        : 10px;
-  width          : 100%;
-  max-width      : 100%;
-  height         : 4.5em;
-  overflow       : auto;
-  resize         : block;
-}
-
-input[type=text] {
-    border             : 1px solid #999;
-    border-radius      : 0;
-    height             : 2.5em; /* for IE */
-    vertical-align     : middle; /* This is optional but it makes legacy IEs look better */
-    -webkit-appearance : none;
-    width: 100%;
-    clear: both;
-}
-
-input:focus, textarea:focus {
-  background   : rgba(0,0,0,.1);
-  border-radius: 5px;
-  outline      : none;
-}
-
-.comment-date {
-  font-size   : 0.85em;
-  color: #505050;
-}
-
-.comment-text {
-  font-family: 'Merriweather', 'PT Serif', Georgia, 'Times New Roman', serif;
-}
-
 /*
  * Wrapper
  *
  * The wrapper is used to position site content when the sidebar is toggled. We
- * use an outter wrap to position the sidebar without interferring with the
+ * use an outer wrap to position the sidebar without interfering with the
  * regular page content.
  */
 
@@ -593,6 +524,18 @@ a.pagination-item:hover {
  * Apply custom color schemes by adding the appropriate class to the `body`.
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
+
+.custom_theme .sidebar,
+.custom_theme .sidebar-toggle:active,
+.custom_theme  #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background: #04030F
+}
+.custom_theme .container a,
+.custom_theme .sidebar-toggle,
+.custom_theme .related-posts li a:hover,
+.custom_theme footer a {
+  color: #347FC4;
+}
 
 /* Red */
 .theme-base-08 .sidebar,
