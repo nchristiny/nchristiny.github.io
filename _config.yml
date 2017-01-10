@@ -9,7 +9,36 @@ url:                 http://nchristiny.com
 baseurl:             ''
 
 # Gems
-gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-mentions, jemoji, jekyll-redirect-from]
+# gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-mentions, jemoji, jekyll-redirect-from]
+
+gems:
+  - jekyll-paginate
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-assets
+
+# Asset Pipeline
+assets:
+  compress:
+    css: true
+    js: true
+  autowrite: true
+  cache: false
+  cache_type: filesystem
+  cdn: http://nchristiny.com/
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/"
+  digest: true
+  assets:
+    - "app.css"
+    - "app.js"
+  sources:
+    - _assets/css
+    - _assets/js
 
 # Pagination
 paginate:            5

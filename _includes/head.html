@@ -11,13 +11,7 @@
   </title>
 
   <!-- CSS -->
-  {% css_asset_tag global %}
-  - /_assets/css/normalize.css
-  - /_assets/css/poole.css
-  - /_assets/css/syntax.css
-  - /_assets/css/lanyon.css
-  {% endcss_asset_tag %}
-
+  {% css app %}
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather%7COpen+Sans%7CInconsolata' type='text/css'>
 
   <!-- Icons -->
@@ -28,7 +22,5 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
 
   <!-- Js -->
-  {% javascript_asset_tag global %}
-  - /_assets/js/application.js
-  {% endjavascript_asset_tag %}
+  {% js app %}
 </head>

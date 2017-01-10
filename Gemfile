@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 gem 'dotenv'
-gem 'jekyll', '~> 3.0.3'
+gem 'jekyll', '~> 3.0'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'
-  gem 'jekyll-asset-pipeline'
-  gem 'yui-compressor'
+  gem 'jekyll-assets'
 end
 
 gem 'jekyll-mentions'
