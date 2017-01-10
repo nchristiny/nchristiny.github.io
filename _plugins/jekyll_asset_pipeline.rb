@@ -1,4 +1,5 @@
 require "jekyll_asset_pipeline"
+
 module JekyllAssetPipeline
   class CssCompressor < JekyllAssetPipeline::Compressor
     require 'yui/compressor'
