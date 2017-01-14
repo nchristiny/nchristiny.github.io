@@ -11,6 +11,12 @@
   </title>
 
   <!-- CSS -->
+  <style type="text/css">
+  {% capture include_to_scssify %}
+    {% include critical_path.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/styles.css" type='text/css'>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather%7COpen+Sans%7CInconsolata' type='text/css'>
 
