@@ -9,7 +9,7 @@ url:                 http://nchristiny.com
 baseurl:             ''
 
 gems:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
@@ -20,7 +20,7 @@ sass:
   style: compressed
 
 # Pagination
-paginate:            5
+paginate:            6
 paginate_path: "page:num"
 
 excerpt_separator: <!--more-->
@@ -45,4 +45,4 @@ author:
   email:             nchristiny@gmail.com
 
 # Custom vars
-version:             2.85
+version:             2.9

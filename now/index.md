@@ -4,11 +4,11 @@ title: Now
 ---
 # What are you doing right now?
 
-Heading to back school for my Masters in computer science! 
+I am enjoying the summer in Chicago by visiting the beaches on the lake, and going to school for my Masters in computer science! Recently loved visiting the Museum of Science and Industry, and attending a White Sox game with my brother. ⚾
 
-Rodney Dangerfield-style. 
+Have been reading Kevin Mitnick's Ghost in the Wires.
 
 Now learning:
 
-* Java
-* Data Structures
+* Java! 
+* Android application development
