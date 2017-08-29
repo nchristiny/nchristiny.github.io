@@ -4,11 +4,12 @@ title: Now
 ---
 # What are you doing right now?
 
-I am enjoying the summer in Chicago by visiting the beaches on the lake, and going to school for my Masters in computer science! Recently loved visiting the Museum of Science and Industry, and attending a White Sox game with my brother. ⚾
+I am taking classes in advanced Java and discrete mathematics at City Colleges in Chicago, and I am absolutely loving every minute of it! I plan to use this knowledge to fill in the gaps in my non-traditional computer science background.
 
-Have been reading Kevin Mitnick's Ghost in the Wires.
+Also currently applying to Georgia Tech for their Online Master of Science Computer Science (OMS CS) program. Hopefully I will be starting Spring 2018. 
 
 Now learning:
 
-* Java! 
-* Android application development
+* MORE Java! 
+* Discrete maths!
+* Time-management and soft skills!
