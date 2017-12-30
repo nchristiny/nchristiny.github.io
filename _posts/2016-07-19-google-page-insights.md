@@ -9,6 +9,7 @@ tags:
 - Firebase
 - UX
 ---
+
 [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) is a simple and fast diagnostic tool that provides some very interesting and often revelatory suggestions for the front end developer. <!-- more -->
 
 Since we are in the business of optimizing all the things, I thought it would be fun to run this website through the tool. 

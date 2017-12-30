@@ -7,6 +7,7 @@ tags:
 - MongoDB
 - JavaScript
 ---
+
 I really love the paradigm shift that happens when you start using new tools, and recently this happened to me with MongoDB. Here are a couple of gotchas that I wanted to document for my future self. <!-- more -->
 
 From the incredibly rich and highly helpful documentation pages, "MongoDB is an open-source document database that provides high performance, high availability, and automatic scaling."[^fn-1]
