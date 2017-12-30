@@ -31,6 +31,7 @@ images:
     title: Japan
     link: https://flutrackers.com/forum/forum/earth-weather-astronomy-environment/volcanos-earthquakes-glaciers-fires-hurricanes/107481-nasa-fires-and-smoke-in-north-korea-acquired-april-13-2011
 ---
+
 ImageOptim-CLI is a handy little command line tool (OS X only) by [Jamie Mason / @fold_left](https://twitter.com/fold_left) that incorporates ImageAlpha, ImageOptim and JPGmini. It can be automated as a git pre-commit hook for fire and forget front end development, something I've found useful. <!-- more -->
 
 ## Pre-Commit Hook

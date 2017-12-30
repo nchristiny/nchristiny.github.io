@@ -6,6 +6,7 @@ tags:
 - computer science
 - mentoring
 ---
+
 A huge gulf exists between dabbling with code and really getting at the heart of a problem using dedicated computational thinking. This gap marks the main difference between the beginner and advanced learner of code. <!-- more -->
 
 ## Well, what is it?

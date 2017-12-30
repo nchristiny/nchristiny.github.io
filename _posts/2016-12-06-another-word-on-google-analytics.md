@@ -6,6 +6,7 @@ tags:
 - SEO
 - Google Analytics
 ---
+
 Almost a year ago I wrote a [post]({{baseurl}}/blog/a-word-on-google-analytics) about keeping Google Analytics (GA) data clear of perturbations such as spam and other tomfoolery. It is now time to revisit the topic, since reports have surfaced in the past weeks of just this sort of activity happening. <!-- more -->
 
 I checked my GA dashboard and am happy to report my filters from a year ago seem to have served to deter the very actions being reported[^fn-1]. 

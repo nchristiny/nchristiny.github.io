@@ -6,6 +6,7 @@ tags:
 - mentoring
 - resources
 ---
+
 I had an experience recently in my coder education that I had previously only read about in blog posts and twitter stories. It is when you state your ignorance of a certain topic to someone, (be they a peer, mentor or manager,) and their first reaction is complete and utter surprise. "You don't know about (some topic in software development)? WOW! OMG" <!-- more -->
 
 There are few things more off-putting than this "acting surprised" phenomenon for the budding learner. It makes the entirely wrong assumption that knowledge that an experienced coder has internalized must be second nature to someone else, even if they are still learning the subject. This can be especially harmful for anyone who has just mustered the courage to ask the question in the first place on a topic that may be new or concepts that are still foreign. 

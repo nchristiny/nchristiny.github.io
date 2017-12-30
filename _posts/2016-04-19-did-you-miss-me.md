@@ -2,15 +2,16 @@
 layout: post
 title: Did You Miss Me?
 date: 2016-04-19
-tags: 
+tags:
 - personal
 - Jekyll
 ---
-Hello there, bloggy blog, 
+
+Hello there, bloggy blog,
 
 It's been a while, so I thought I'd pop in and drop a quick post. <!-- more -->
 
-As I mentioned in a recent [/now](/now) post, I've been super busy with my dev apprenticeship which is now entering the last phase. It's been an amazing experience and I will be glad to share more about it in the coming weeks. 
+As I mentioned in a recent [/now](/now) post, I've been super busy with my dev apprenticeship which is now entering the last phase. It's been an amazing experience and I will be glad to share more about it in the coming weeks.
 
 Although it may look like I have been neglecting you, my beloved reliable and nimble static [Jekyll](http://jekyllrb.com) blog, astute readers (all three of you) will have noticed a few subtle improvements behind the scenes in the past few weeks:
 
@@ -27,11 +28,11 @@ I migrated from my GitHub-generated .io URL to this shiny new .com one. [Nameche
 Shoved this code snippet into my `_includes/` folder.
 
 ## Redcarpet to kramdown
-Finally I updated Jekyll to 3.0 and saw that GitHub was leaving some ominous warning messages on the command line about the coming use of [kramdown](http://kramdown.gettalong.org/), one of a many types of Markdown parsers that have sprung up over the years. The message indicated kramdown would soon be used as a default for GitHub hosted webpages like this one. 
+Finally I updated Jekyll to 3.0 and saw that GitHub was leaving some ominous warning messages on the command line about the coming use of [kramdown](http://kramdown.gettalong.org/), one of a many types of Markdown parsers that have sprung up over the years. The message indicated kramdown would soon be used as a default for GitHub hosted webpages like this one.
 
 > Note: Starting May 1st, 2016, GitHub Pages will only support kramdown.
 
-At the time I was on [Redcarpet](https://github.com/vmg/redcarpet), which I had settled upon after a short survey revealed it provided what I needed: fenced code block syntax highlighting (via Pygments), strikethrough, superscript, and footnotes. Even tables were supported! The autolink extension was very nice also (wherein URLs in the Markdown document were automagically converted to anchor tags in markup.) 
+At the time I was on [Redcarpet](https://github.com/vmg/redcarpet), which I had settled upon after a short survey revealed it provided what I needed: fenced code block syntax highlighting (via Pygments), strikethrough, superscript, and footnotes. Even tables were supported! The autolink extension was very nice also (wherein URLs in the Markdown document were automagically converted to anchor tags in markup.)
 
 After the requisite panicking stage, I soon found out one of the main reasons why kramdown was chosen: [it is blazingly fast](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0). GitHub even provided a [handy dandy page](https://help.github.com/articles/updating-your-markdown-processor-to-kramdown/) to help people update. Soon I was able to semi-smoothly make the transition.
 
@@ -46,9 +47,9 @@ Going back to the code syntax highlighting issue, one last thing that I wanted t
 However that post ends with the statement that line numbers are not yet supported, and that for code block line numbers "you'll have to wait for a little while." Luckily for us, a little while has passed, and I found a post a few months later on a different blog describing a very nice workaround for implementing line numbers in your Rouge code blocks on Jekyll. All credit is due to Minh Nguyen for this solution: [JEKYLL LINE NUMBERS](http://www.minh.io/blog/2015/06/28/jekyll-line-numbers/) Thank you, Minh!
 
 ## Good to be back
-Yes, indeed. After stressing out about learning new and difficult/different stuff on work projects, it feels really good to just be able to poke around and have fun with a pet project like this blog. I hope this information helps the next person that may happen upon it. Cheers! 
+Yes, indeed. After stressing out about learning new and difficult/different stuff on work projects, it feels really good to just be able to poke around and have fun with a pet project like this blog. I hope this information helps the next person that may happen upon it. Cheers!
 
-## Addendum 
+## Addendum
 I forgot to mention a final enhancement which was to modify the internal/external link behavior globally. kramdown helpfully provides anchor tags with the `target="_blank"` to open the link in another tab/window. In kramdown you can do this, on a per link basis:
 
 {% highlight plaintext %}
@@ -59,7 +60,7 @@ However, being a good lazy programmer, I wanted to not worry about adding this t
 
 >*Edit (December 2016): I have updated this using pure Vanilla Js so as not to require the entirety of the jQuery library for this simple function.*
 
-After including jQuery, add this JavaScript snippet to `application.js`: 
+After including jQuery, add this JavaScript snippet to `application.js`:
 
 ```javascript
 jQuery(function ($) {
@@ -73,6 +74,6 @@ jQuery(function ($) {
 });
 ```
 
-Now every external link will open its own tab while internal links (say to [/projects](/projects)) will proceed in the same window as normal. 
+Now every external link will open its own tab while internal links (say to [/projects](/projects)) will proceed in the same window as normal.
 
 I like the way this blog is coming along as my own [Incremental build model](https://en.wikipedia.org/wiki/Incremental_build_model). Onwards and upwards!

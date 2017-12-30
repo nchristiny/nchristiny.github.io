@@ -7,6 +7,7 @@ tags:
 - CSS
 - UX
 ---
+
 The mobile experience for this page is responsive via relative sizing, images (such as they are) and media queries, but from Safari on iOS there was a distinct lack of snappiness in scrolling leading to a stagnant feeling. We must bring back the bounce! <!-- more -->
 
 'Inertial' or momentum scrolling is easily enabled with the CSS property `-webkit-overflow-scrolling`.[^fn-1]

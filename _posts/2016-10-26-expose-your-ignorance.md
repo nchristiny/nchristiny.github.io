@@ -6,6 +6,7 @@ tags:
 - mentoring
 - personal
 ---
+
 Exposing your ignorance while learning a new discipline takes courage, humility and vulnerability. In fact I strive to do this in my posts; it is this blog's *raison d'être*. <!-- more -->
 
 Having the courage to say "I don't know," or "I don't understand this" is absolutely necessary to grow in one's learning. As the saying goes, 'no pain, no gain,' and growing more often than not involves some measure of pain.
