@@ -2,7 +2,7 @@
 layout: default
 title: Now
 ---
-Preparing to ring in the new year with my dear loved ones! 🎉
+Happy New Year to you if you're reading this! 
 
 Now learning:
 * Finite-state automata, Turing machines
