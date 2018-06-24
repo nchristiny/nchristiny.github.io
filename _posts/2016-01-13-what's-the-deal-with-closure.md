@@ -33,7 +33,7 @@ All Ruby code blocks are really closures. What?? I know, it sounded strange to m
 
 Consider the following Ruby code snippet:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 str = "Hello"
 5.times do
 	str2 = "world!"
@@ -44,7 +44,7 @@ end
 
 Output:
 
-{% highlight linenos %}
+{% highlight lineos %}
 Hello world!
 Hello world!
 Hello world!
@@ -60,7 +60,7 @@ Why does this happen? It is because Ruby, (at least the most common version of R
 
 Let's see what happens if we change `str` inside the block.
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 str = "Hello"
 5.times do
   str2 = "world!"

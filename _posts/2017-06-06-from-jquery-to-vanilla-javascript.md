@@ -12,7 +12,7 @@ No disrespect to jQuery, a phenomenal and lasting tool, but I saw fit to extirpa
 
 Existing jQuery snippet:
 
-```js
+{% highlight js %}
 jQuery(function ($) {
   //Change target attribute of external links
   var domain_root = document.location.protocol + '//' + document.location.host;
@@ -22,11 +22,11 @@ jQuery(function ($) {
     }
   });
 });
-```
+{% endhighlight %}
 
 Replaced by Vanilla JavaScript snippet:
 
-```js
+{% highlight js %}
 var domReady = function(callback) {
     document.readyState === "interactive" || document.readyState === "complete" ? callback() : document.addEventListener("DOMContentLoaded", callback);
 };
@@ -41,7 +41,7 @@ domReady(function() {
     }
   }
 });
-```
+{% endhighlight %}
 
 Now using `domReady()` as vanilla JS analogue to jQuery's `ready()` function.
 

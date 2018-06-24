@@ -34,7 +34,7 @@ MongoDB and by extension Mongoid uses the `_id` field as the analogue to the mor
 
 For example, a typical newly-created object on a new database could have the `_id` field of: 
 
-{% highlight JSON linenos %}
+{% highlight JSON %}
 _id: {
   $oid: "56d3320efc3868284b000000"
 }
@@ -47,7 +47,7 @@ If you really, really need the `id` field automatically generated alongside the 
 
 In Rails `config/initializers` folder, create a file called `mongoid.rb`:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 module Mongoid
   module Document
     def as_json(options={})

@@ -74,7 +74,7 @@ Add the image list to the Front Matter on this post:
 
 Then we add code on the post to loop through the array of images. We can even add links to each image to make them clicky, (a highly technical SEO term.) 
 
-{% highlight linenos %}
+{% highlight html %}
   <ul class="photo-gallery">
     {% raw %}{% for image in page.images %}{% endraw %}
       <li>
@@ -88,7 +88,7 @@ Then we add code on the post to loop through the array of images. We can even ad
 
 (Incidentally I learned about using the `raw` tag for Liquid templates inside code blocks.) Finally, the CSS to present the images:
 
-{% highlight css linenos %}
+{% highlight css %}
 .photo-gallery, .photo-gallery li {
   list-style: none;
   padding: 0;
