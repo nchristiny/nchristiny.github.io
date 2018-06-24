@@ -59,7 +59,7 @@ Finally for my outline, there were some rather embarrassing header mix ups that 
 
 Add `class="visuallyhidden"` to the header element.
 
-{% highlight css linenos %}
+{% highlight css %}
 .visuallyhidden {
   position: absolute !important;
   height: 1px;
@@ -76,7 +76,7 @@ The headers are now invisible, but allow screen readers to see them. Overflow hi
 
 My final HTML outline: 
 
-{% highlight linenos %}
+{% highlight lineos %}
 1. Sidebar
     1. Sidebar Nav
     2. Code or Die live to code

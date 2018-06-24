@@ -14,7 +14,7 @@ The mobile experience for this page is responsive via relative sizing, images (s
 
 Thanks to an article from CSS Tricks[^fn-2], this was a simple matter of adding two lines to the body selector. 
 
-{% highlight css linenos %}
+{% highlight css %}
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
 {% endhighlight %}
