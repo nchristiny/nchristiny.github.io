@@ -8,7 +8,7 @@ tags:
 - jQuery
 ---
 
-No disrespect to jQuery, a phenomenal and lasting tool, but I saw fit to extirpating it from my blog code. <!-- more -->I set about untying it from the underpins until coming to the last remaining use case, simply opening external links in their own window/tab. The problem was recreating the `ready()` function to know when page content has finished loading, without requiring all the machinery of jQuery.
+No disrespect to jQuery, a phenomenal and lasting tool, but I saw fit to extirpate it from my blog's code. <!-- more -->I set about untying it from the underpins until coming to the last remaining use case, simply opening external links in their own window/tab. The problem was recreating the `ready()` function to know when page content has finished loading, without requiring all the machinery of jQuery.
 
 Existing jQuery snippet:
 

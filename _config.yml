@@ -40,9 +40,9 @@ feed:
 
 # About/contact
 author:
-  name:              Nicholas Christiny
+  name:              Nick Christiny
   twitter:              https://twitter.com/chileannick
   email:             nchristiny@gmail.com
 
 # Custom vars
-version:             2.9.1
+version:             2.9.5
