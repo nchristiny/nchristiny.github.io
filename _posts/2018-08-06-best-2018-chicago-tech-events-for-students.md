@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best tech events in 2018 for students in Chicago"
+title: "Best 2018 Chicago Tech Events for Students"
 date: 2018-08-06
 tags:
 - resources
