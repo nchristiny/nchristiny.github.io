@@ -8,11 +8,7 @@ tags:
 ---
 If one wishes to stay abreast of the changing tech landscape in this age of decreased attention times and information overload, then a regular curated list of articles, links, or blog posts is invaluable. 
 
-In my humble opinion these are the top newsletters out today that concern web development and software/hardware tech.<!-- more --> 
-
-When I first started learning to program, it was useful for me to unplug from all background noise about new tech, such as tooling, frameworks, and paradigms. I even went to far as disabling all notifications from all apps, (pretty extreme, but hey.) After getting the hang of coding and jargon, I gained a sense of which sources of information were available that aligned with my interests. 
-
-This list of newsletters are a mix of development and design, software and hardware, news articles, tutorials, and blog posts. I have found each of them to be useful at some point or another.
+In my humble opinion these are the top newsletters out today that concern web development and software/hardware tech.<!-- more --> This list is a mix of development and design, software and hardware, news articles, tutorials, and blog posts.
 
 The usual caveat that the Web is in a constant state of partial failure and is scattered with many defunct newsletters. [Natural law](https://en.wikipedia.org/wiki/Link_rot) states that this list of links will quickly become out of date. Let me know any suggestions via email or Twitter.
 
