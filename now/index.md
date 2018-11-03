@@ -2,14 +2,17 @@
 layout: default
 title: Now
 ---
+Just on the heels of ThinkChicago and Chicago Ideas Week, Halloween and harvest time has brought us a bounty of fresh tomatoes and painfully hot jalapeños from my little urban garden. Homemade salsa has made a regular appearance to our humble table.
 
-Quite the quirky cavalcade of life events has transpired since I last wrote here. I've had great introspection and am loving life this summer. This year in our urban garden we are growing catnip, some tomatoes, basil, rosemary, and hot peppers. And a baby strawberry. 
-
-I am celebrating my wins and pledge to always increase my compassion and empathy in all my interactions with my fellow beings. 
+I am settling into a new work position while expanding my academic horizons this semester with Analysis of Algorithms, a second semester graduate level course. 
 
 Now learning:
-* Python all the things
-* Thinking about quines a lot
-* CSS Grid and stuff like that (flexbox)
-* How to ridiculously over-engineer the blog format 
+* Algorithmic efficiency
+* Recurrence relations
+* Divide and conquer 
+* Dynamic programming
+* Chained Matrix Multiplication
+* Sequence Matching
+* Algorithms: Prim's, Dijkstra's, Floyd's
+* Proof of correctness and optimization 
 
