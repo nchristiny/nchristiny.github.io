@@ -9,7 +9,6 @@ url:                 http://nchristiny.com
 baseurl:             ''
 
 gems:
-  # - jekyll-paginate
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
@@ -26,7 +25,6 @@ paginate_path: "page:num"
 excerpt_separator: <!--more-->
 
 # Markdown
-# Default
 markdown: kramdown
 kramdown:
   input: GFM
