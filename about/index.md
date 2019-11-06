@@ -2,9 +2,9 @@
 layout: page
 title: About
 ---
-Hi! My name is Nick Christiny and I love computers, astrophysics, and garlic. 
+Hi! My name is Nick and I love computers, astrophysics, and garlic. 
 
-In my spare time I enjoy thinking about extrasolar planetary weather patterns and time travel. Proud guardian of two cats, I currently reside in Chicago IL.
+In my spare time I enjoy thinking about extrasolar planetary weather patterns and time travel. Proud guardian of two cats, I currently reside in San Antonio, Texas.
 
 If you would like to catch up on what I am doing most recently, please check out my [/now page]({{site.baseurl}}/now "now page"), inspired by [Derek Sivers](https://twitter.com/sivers).
 
