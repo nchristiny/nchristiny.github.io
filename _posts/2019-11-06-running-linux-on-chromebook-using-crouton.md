@@ -9,7 +9,7 @@ tags:
 
 Long before it became an actually built in option as it is now, it was only possible to retrofit a full scale Ubuntu installation on Chromebooks. These are my notes on installation gotchas for a complete developer environment on Ubuntu, including Zsh, Oh My Zsh, and Dropbox - all running via `chroot` Chromium OS. There are now better ways of accomplishing the same thing, but back then (just a few months ago) it was the only reliable way.<!-- more -->
 
-Crouton is a sorta acronym for open source project, Chromium OS Universal Chroot Environment. 
+Crouton is a sorta acronym for open source project Chromium OS Universal Chroot Environment. 
 
 >crouton is a set of scripts that bundle up into an easy-to-use, Chromium OS-centric chroot generator.
 

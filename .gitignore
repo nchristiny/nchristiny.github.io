@@ -21,3 +21,5 @@ tmp/*
 /test/source/file_name.txt
 .analysis
 .env
+node_modules
+.vscode

@@ -7,9 +7,9 @@ title: Projects
 
 # Nick Christiny
 
-## Software Developer
+## Software Developer & IT Infrastructure 
 
-<address>Chicago, IL</address>
+<address>San Antonio, Texas</address>
 
 ### Select Projects
 
