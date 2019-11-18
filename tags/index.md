@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Tags
-footer: false
 permalink: /tags/
 ---
 <ul class="tags">

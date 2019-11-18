@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: Now
 ---
-And we're back live from San Antonio! 
+## And we're back live from San Antonio! 
 
-Now learning:
+### Now learning:
 * Life lessons 
 * Windows PowerShell
 * Competitive coding 

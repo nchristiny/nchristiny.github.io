@@ -8,21 +8,20 @@ description:         'Welcome to my kitchen'
 url:                 http://nchristiny.com
 baseurl:             ''
 
-gems:
+plugins:
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
 
-sass:
-  style: compressed
-
-# Pagination
-paginate:            6
-paginate_path: "page:num"
-
-excerpt_separator: <!--more-->
+# User settings
+username: Nick Christiny
+user_description: Freelance problem solver, hacker.
+user_title: Yak Shaver Emeritus
+email: nchristiny@gmail.com
+twitter_username: ChileanNick
+github_username:  nchristiny
 
 # Markdown
 markdown: kramdown
@@ -32,15 +31,15 @@ kramdown:
 
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
-# RSS
-feed:
-  path: atom.xml
+# Pagination
+# excerpt_separator: <!--more-->
+paginate:            5
+paginate_path: "page:num"
 
-# About/contact
-author:
-  name:              Nick Christiny
-  twitter:              https://twitter.com/chileannick
-  email:             nchristiny@gmail.com
+# Google-analytics
+google-analytics:
+  id: "UA-64368113-1"
 
-# Custom vars
-version:             2.9.6
+exclude: ['package.json', 'src' , 'node_modules', 'gulpfile.js']
+
+version:             3.0

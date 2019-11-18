@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Index
+title: Blog Index
 ---
 <ul>
   {% for post in site.posts %}
