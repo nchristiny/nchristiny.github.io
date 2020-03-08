@@ -7,11 +7,11 @@ title: Projects
 
 # Nick Christiny
 
-## Software Developer & IT Infrastructure 
+## Software Development & Security
 
-<address>San Antonio, Texas</address>
+<address>currently located in San Antonio, Texas</address>
 
-### Select Projects
+### Projects
 
 ### <em>Watch This!</em>
 Film recommendation engine API built from scratch. Rails-API MongoDB backend and React frontend with Webpack. Testing Rspec, Guard and Mocha, Chai. <a href="https://github.com/nchristiny/watch-this">Source code (back end)</a>. <a href="https://github.com/nchristiny/ui-watch-this">Source code (front end)</a>.

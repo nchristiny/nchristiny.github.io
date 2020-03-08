@@ -4,16 +4,14 @@
   <body>
   		{% if page.title == "Home" %}{% include header.html %}{% endif %}
       <section id="about">
-      	{% if page.title == "Home" %}
-      		{% include about.html %}
+      	{% if page.title == "Home" %}{% include about.html %}
+      		<!-- {% include about.html %} -->
       	{% else %}
       	<div class="masthead">
-      	  <!-- <div class="container"> -->
-      	    <h3 class="masthead-title">
-      	      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-      	      <small>{{ site.tagline }}</small>
-      	    </h3>
-      	  <!-- </div> -->
+    	    <h3 class="masthead-title">
+    	      <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+    	      <small>{{ site.tagline }}</small>
+    	    </h3>
       	</div>
       	{% endif %}
       </section>
