@@ -12,7 +12,7 @@ tags:
 [Ruby Under a Microscope](http://patshaughnessy.net/ruby-under-a-microscope) is a great primer into understanding the underlying mechanics of the Ruby language. It demystifies the "magic" surrounding seemingly simple things, for example parsing a string, and I'm a big fan of demystification. <!-- more -->
 
 <figure>
-<img class="center-img" src="/public/images/RUM_coverfront.png" title="Ruby Under a Microscope book cover">
+<img class="center-img" src="/assets/img/RUM_coverfront.png" title="Ruby Under a Microscope book cover">
 <figcaption>Ruby Under a Microscope, An Illustrated Guide to Ruby Internals by Pat Shaughnessy</figcaption>
 </figure>
 

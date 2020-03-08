@@ -169,7 +169,7 @@ Dribbble user Lucifr offers a few crowd-sourced replacements: ["Icons much less 
 
 I use this one by Daniel Matarazzo adapted from an icon by Lindsay Mindler:
 
-![Sublime Text alternate icon](/public/images/sublime_text_icon_preview.png "Alternate icon")
+![Sublime Text alternate icon](/assets/img/sublime_text_icon_preview.png "Alternate icon")
 
 To get it, follow the instructions on Daniel's [GitHub repo](https://github.com/dbmzzo/Sublime-Text-2-Icon "repo on GitHub"), although I recommend renaming the Resources folder to Resources-old or something so you can get the originals back if you need them later.
 

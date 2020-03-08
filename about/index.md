@@ -2,24 +2,20 @@
 layout: page
 title: About
 ---
-Hi! My name is Nick and I love computers, astrophysics, and garlic. 
+## This Site
 
-In my spare time I enjoy thinking about extrasolar planetary weather patterns and time travel. Proud guardian of two cats, I currently reside in San Antonio, Texas.
+A forever Work In Progress by <a href="{{ site.url }}/history">me</a>.
 
-If you would like to catch up on what I am doing most recently, please check out my [/now page]({{site.baseurl}}/now "now page"), inspired by [Derek Sivers](https://twitter.com/sivers).
+Frankenstein mash-up open source build of Mauricio Urraco's [Minimal Jekyll Resume Theme](https://github.com/murraco/jekyll-theme-minimal-resume) & Jekyll theme Poole and Lanyon by [@mdo](https://twitter.com/mdo)
 
-If you'd like to know more about my background, visit [/history page]({{site.baseurl}}/history "history page").
+Proudly using Let's Encrypt security certificate using Netlify. 
 
-Feel free to reach out to me via email or Twitter:
+Domain name registration via [ICANN](https://en.wikipedia.org/wiki/ICANN) by Namecheap.
 
-* <{{site.author.email}}> 
-* [@chileannick]({{site.author.twitter}} "Twitter")
+Privacy policy by [privacypolicygenerator.info](https://privacypolicygenerator.info).
 
-Site built on Jekyll theme Lanyon:
+HTML validated by [W3C](https://validator.w3.org/).
 
-> In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo). 
-> There are currently two themes built on Poole:  
-> [Hyde](http://hyde.getpoole.com) and [Lanyon](http://lanyon.getpoole.com)  
-> Learn more and contribute on [GitHub](https://github.com/poole).
+Version control by Git.
 
-Thanks for stopping by!
+Source hosted on [GitHub](https://github.com/nchristiny/nchristiny.github.io).

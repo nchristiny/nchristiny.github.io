@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: History, Part 2
 ---
 Wherein we continue the thrilling tale of my (non-superhero) origin story, thank you for reading.
@@ -12,7 +12,7 @@ After college I obtained an engineering technician position at a silicon wafer c
 I took a gig working for an ad firm deploying commercial WordPress sites for small bilingual (English and Spanish-speaking) businesses in Florida and California. In retrospect the job title was front end or full stack web developer due to the job responsibilities which encompassed the LAMP[^fn-1] stack. 
 
 <figure>
-<img class="center-img" src="/public/images/LAMP-stack.jpg" title="LAMP stack">
+<img class="center-img" src="/assets/img/LAMP-stack.jpg" title="LAMP stack">
 <figcaption>LAMPin'</figcaption>
 </figure>
 
@@ -21,11 +21,11 @@ It was my first experience working remotely, being still located in Austin. In a
 These were genuinely fun times for me and my colleagues. We used Free Open Source Software, (FOSS, free as in freedom, as they say,) like GIMP for image manipulation, and scoured royalty-free stock photo sites for the perfect image of people laughing eating salad. I fondly remember when a customer asked if the animated GIF of a car expelling a cloud of smog would cost them extra for bandwidth. It was a simpler time.
 
 <figure>
-<img class="center-img" src="/public/images/wordpress-logo-hoz-rgb.png" title="WordPress logo">
+<img class="center-img" src="/assets/img/wordpress-logo-hoz-rgb.png" title="WordPress logo">
 </figure>
 <br />
 <figure>
-<img class="center-img" src="/public/images/codeispoetry-rgb.png" title="code is poetry">
+<img class="center-img" src="/assets/img/codeispoetry-rgb.png" title="code is poetry">
 <figcaption>WordPress: still going strong</figcaption>
 </figure>
 

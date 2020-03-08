@@ -19,14 +19,14 @@ While both my mother and father were instrumental in opening up my early curiosi
 In Scotland during the eighties, I remember vividly playing a replica game of Pong[^fn-1] he programmed in BASIC on a Spectrum ZX[^fn-2], which sported an amazing 16K memory expanded with removable 32K daughterboard. This is one of my fondest early recollections. 
 
 <figure>
-<img class="center-img" src="/public/images/ZXSpectrum48k.jpg" title="ZX Spectrum">
+<img class="center-img" src="/assets/img/ZXSpectrum48k.jpg" title="ZX Spectrum">
 <figcaption>The venerable ZX Spectrum, shown here without daughterboard</figcaption>
 </figure>
 
 Games were stored on magnetic tapes, just regular audio cassettes really, and would take entire minutes to load from the command line. This load time was excruciatingly long for my brother and I as children, but once loaded we got to enjoy the explosive line art graphics of venerable video games like The Hobbit, Atic Atac, Potty Pigeon, Fantastic Voyage, Daley Thompson's Decathlon, Skool Daze, and many more.
 
 <figure>
-<img class="center-img" src="/public/images/Atic_Atac_Coverart.png" title="Atic Atac cover art">
+<img class="center-img" src="/assets/img/Atic_Atac_Coverart.png" title="Atic Atac cover art">
 <figcaption>This game was freakin' impossible!</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Yes, dying repeatedly without being able to save your progress was considered th
 A few years later I used the command line in DOS on an early PC compatible, the Amstrad PC 1640[^fn-4]. 
 
 <figure>
-<img class="center-img" src="/public/images/PC1640-HD20MB.jpg" title="Amstrad PC 1640">
+<img class="center-img" src="/assets/img/PC1640-HD20MB.jpg" title="Amstrad PC 1640">
 <figcaption>Beautiful, isn't it?</figcaption>
 </figure>
 

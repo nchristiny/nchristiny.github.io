@@ -6,28 +6,28 @@ tags:
 - git
 - bash
 images:
-  - image_path: /public/images/PNG_JPEG/png_wolf_by_itsdura-d3cle9k.png
+  - image_path: /assets/img/PNG_JPEG/png_wolf_by_itsdura-d3cle9k.png
     title: PNG Wolf
     link: http://itsdura.deviantart.com/art/PNG-Wolf-202552184
-  - image_path: /public/images/PNG_JPEG/Cat.jpg
+  - image_path: /assets/img/PNG_JPEG/Cat.jpg
     title: Domestic Cat
     link: https://commons.wikimedia.org/wiki/File:Cat_March_2010-1.jpg
-  - image_path: /public/images/PNG_JPEG/apple.png
+  - image_path: /assets/img/PNG_JPEG/apple.png
     title: Apple
     link: http://pngimg.com/img/fruits/apple
-  - image_path: /public/images/PNG_JPEG/coffee_beans.png
+  - image_path: /assets/img/PNG_JPEG/coffee_beans.png
     title: Coffee Beans
     link: http://pngimg.com/img/food/coffee_beans
-  - image_path: /public/images/PNG_JPEG/GDEM-10km-colorized.png
+  - image_path: /assets/img/PNG_JPEG/GDEM-10km-colorized.png
     title: ASTER image of world
     link: https://asterweb.jpl.nasa.gov/gdem.asp
-  - image_path: /public/images/PNG_JPEG/Pillars_of_Creation.jpeg
+  - image_path: /assets/img/PNG_JPEG/Pillars_of_Creation.jpeg
     title: Pillars of Creation
     link: https://commons.wikimedia.org/wiki/File:Pillars_of_Creation.jpeg
-  - image_path: /public/images/PNG_JPEG/Star-forming_region_S106_%28captured_by_the_Hubble_Space_Telescope%29.jpg
+  - image_path: /assets/img/PNG_JPEG/Star-forming_region_S106_%28captured_by_the_Hubble_Space_Telescope%29.jpg
     title: Hubble star-forming region S106
     link: http://spacetelescope.org/images/heic1118a/
-  - image_path: /public/images/PNG_JPEG/Japan.jpg
+  - image_path: /assets/img/PNG_JPEG/Japan.jpg
     title: Japan
     link: https://flutrackers.com/forum/forum/earth-weather-astronomy-environment/volcanos-earthquakes-glaciers-fires-hurricanes/107481-nasa-fires-and-smoke-in-north-korea-acquired-april-13-2011
 ---
@@ -52,22 +52,22 @@ Add the image list to the Front Matter on this post:
 {% highlight markdown %}
 ---
   images:
-    - image_path: /public/images/PNG_JPEG/png_wolf_by_itsdura-d3cle9k.png
+    - image_path: /assets/img/PNG_JPEG/png_wolf_by_itsdura-d3cle9k.png
       title: PNG Wolf
       link: http://itsdura.deviantart.com/art/PNG-Wolf-202552184
-    - image_path: /public/images/PNG_JPEG/apple.png
+    - image_path: /assets/img/PNG_JPEG/apple.png
       title: Apple
-    - image_path: /public/images/PNG_JPEG/coffee_beans.png
+    - image_path: /assets/img/PNG_JPEG/coffee_beans.png
       title: Coffee Beans
-    - image_path: /public/images/PNG_JPEG/GDEM-10km-colorized.png
+    - image_path: /assets/img/PNG_JPEG/GDEM-10km-colorized.png
       title: ASTER image of world
-    - image_path: /public/images/PNG_JPEG/Pillars_of_Creation.jpeg
+    - image_path: /assets/img/PNG_JPEG/Pillars_of_Creation.jpeg
       title: Pillars of Creation
-    - image_path: /public/images/PNG_JPEG/Star-forming_region_S106_%28captured_by_the_Hubble_Space_Telescope%29.jpg
+    - image_path: /assets/img/PNG_JPEG/Star-forming_region_S106_%28captured_by_the_Hubble_Space_Telescope%29.jpg
       title: Hubble star-forming region S106
-    - image_path: /public/images/PNG_JPEG/Japan.jpg
+    - image_path: /assets/img/PNG_JPEG/Japan.jpg
       title: Japan
-    - image_path: /public/images/PNG_JPEG/Cat.jpg
+    - image_path: /assets/img/PNG_JPEG/Cat.jpg
       title: Domestic Cat
 ---
 {% endhighlight %}
