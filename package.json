@@ -30,6 +30,7 @@
     "gulp-imagemin": "^6.2.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
-    "gulp-terser": "^1.2.0"
+    "gulp-terser": "^1.2.0",
+     "kind-of": ">=6.0.3"
   }
 }
