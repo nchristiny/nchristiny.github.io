@@ -31,6 +31,8 @@
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
     "gulp-terser": "^1.2.0",
-     "kind-of": ">=6.0.3"
+    "kind-of": ">=6.0.3",
+    "object-path": ">=0.11.5"
+
   }
 }
