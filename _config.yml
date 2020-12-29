@@ -18,7 +18,7 @@ plugins:
 # User settings
 username: Nick Christiny
 user_description: Freelance problem solver, hacker.
-user_title: Yak Shaver Emeritus
+user_title: Yak Shaver Extraordinaire
 email: nchristiny@gmail.com
 twitter_username: ChileanNick
 github_username:  nchristiny
@@ -42,4 +42,4 @@ google-analytics:
 
 exclude: ['package.json', 'src' , 'node_modules', 'gulpfile.js']
 
-version:             3.0
+version:             3.1

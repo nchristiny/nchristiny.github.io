@@ -4,9 +4,7 @@ title: About
 ---
 ## This Site
 
-A forever Work In Progress by <a href="{{ site.url }}/history">me</a>.
-
-Frankenstein mash-up open source build of Mauricio Urraco's [Minimal Jekyll Resume Theme](https://github.com/murraco/jekyll-theme-minimal-resume) & Jekyll theme Poole and Lanyon by [@mdo](https://twitter.com/mdo)
+A forever Work In Progress by me, Nick.
 
 Proudly using Let's Encrypt security certificate using Netlify. 
 

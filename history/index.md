@@ -2,6 +2,8 @@
 layout: page
 title: History
 ---
+Special note: If you're reading this you're a 1337 Haxx0r.
+
 Hi there, and thanks for visiting my humble history page. Like a good hero, (or nefarious villain,) everyone has an interesting backstory if you dig deep enough. 
 
 Here is mine:
