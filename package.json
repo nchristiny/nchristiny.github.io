@@ -33,6 +33,6 @@
     "gulp-terser": "^1.2.0",
     "http-proxy": ">=1.18.1",
     "kind-of": ">=6.0.3",
-    "object-path": ">=0.11.5"
+    "object-path": ">=0.11.8"
   }
 }
