@@ -1,45 +1,43 @@
-# Permalinks
-permalink:         /blog/:title
-
 # Setup
-title:               'Code or Die'
-tagline:             'live to code'
-description:         'Welcome to my kitchen'
-url:                 http://nchristiny.com
-baseurl:             ''
+title: Code or Die
+tagline: Welcome to my kitchen
+url: https://nchristiny.com
+paginate: 3
+baseurl: ""
+permalink: pretty
 
+# Gems
 plugins:
-  - jekyll-mentions
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
   - jemoji
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
 
-# User settings
-username: Nick Christiny
-user_description: Freelance problem solver, hacker.
-user_title: Yak Shaver Extraordinaire
-email: nchristiny@gmail.com
-twitter_username: ChileanNick
-github_username:  nchristiny
+# Optimize Jekyll
+exclude:
+  - .sass-cache
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
 
-# Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
 
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
+# Options
 
-# Pagination
-# excerpt_separator: <!--more-->
-paginate:            5
-paginate_path: "page:num"
+# Replace this value and uncomment to enable Google Analytics tracking
+ga_analytics: UA-64368113-1
 
-# Google-analytics
-google-analytics:
-  id: "UA-64368113-1"
+# Specify the author for blog posts
+author:
+  name: Nick Christiny
+  url: https://infosec.exchange/@chileannick
+  email: nick@nchristiny.com
 
-exclude: ['package.json', 'src' , 'node_modules', 'gulpfile.js']
-
-version:             3.1
+# Custom vars
+version: 4.0
