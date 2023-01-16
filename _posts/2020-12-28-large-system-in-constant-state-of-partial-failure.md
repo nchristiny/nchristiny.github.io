@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WIP Large system in constant state of partial failure
+title: Large system in constant state of partial failure
 date: 2020-12-28
 tags:
 - blogOps
