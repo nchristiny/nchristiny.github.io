@@ -8,6 +8,11 @@ layout: default
   {{ content }}
 </article>
 
+<div class="tags">
+  <p>Tags:</p>
+  {% include post_tags.html %}
+</div>
+
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related posts</h3>

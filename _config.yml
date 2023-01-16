@@ -11,22 +11,18 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jemoji
 
 # Optimize Jekyll
 exclude:
-  - .sass-cache/
+  - .sass-cache
   - .editorconfig
   - .git
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
+  - LICENSE
   - README.md
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
 
 sass:
   sass_dir: _sass
