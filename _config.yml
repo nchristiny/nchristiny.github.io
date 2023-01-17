@@ -3,6 +3,8 @@ title: Code or Die
 tagline: Welcome to my kitchen
 url: https://nchristiny.com
 paginate: 3
+description: >- # this means to ignore newlines until "baseurl:"
+  Yak shaving tips
 baseurl: ""
 permalink: pretty
 
@@ -36,7 +38,7 @@ ga_analytics: UA-64368113-1
 # Specify the author for blog posts
 author:
   name: Nick Christiny
-  url: https://infosec.exchange/@chileannick
+  mastodon: https://infosec.exchange/@chileannick
   email: nick@nchristiny.com
 
 # Custom vars
