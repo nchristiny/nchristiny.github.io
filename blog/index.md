@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CODE OR DIE?
+title: code or die
 ---
 
 ![Guess I'll Die](/assets/img/guess-ill-die.jpg "Guess I'll Die")

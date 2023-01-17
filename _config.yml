@@ -4,7 +4,8 @@ tagline: Welcome to my kitchen
 url: https://nchristiny.com
 paginate: 3
 description: >- # this means to ignore newlines until "baseurl:"
-  Yak shaving tips
+  Yak shaving tips, Infosec, 
+  Astronomy, Gardening
 baseurl: ""
 permalink: pretty
 

@@ -12,8 +12,10 @@
           <small>{{ site.tagline }}</small>
         </h3>
       </header>
-      {% if page.title == "Home" %}{% include about.html %}{% endif %}
-      
+      {% if page.title == "Home" %}
+        {% include about.html %}
+        <p class="message">Message of the Day: Under construction</p>
+      {% endif %}
       <main>
         {{ content }}
       </main>
