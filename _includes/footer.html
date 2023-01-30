@@ -2,15 +2,15 @@
 	{%- if site.author %}
 	<ul class="contact">
 	  {% if site.author.email -%}
-		<li>Email: <a href="mailto:{{ site.author.email }}" target="_blank" rel="noopener noreferrer" title="Email Me">{{ site.author.email }}</a></li>
+		<li>Email: <a href="mailto:{{ site.author.email }}" title="Email Me">{{ site.author.email }}</a></li>
 	  {%- endif %}
 	  {% if site.author.mastodon -%}
-	  	<li>Mastodon: <a href="{{ site.author.mastodon }}" target="_blank" rel="noopener noreferrer" title="Join Mastodon">Join Mastodon</a></li>
+	  	<li>Mastodon: <a href="{{ site.author.mastodon }}" title="Join Mastodon">Join Mastodon</a></li>
 	  {%- endif %}
 	</ul>
   	{%- endif %}
 	<small>Built with Jekyll and <span class="love">❤</span>.</small><br><br>
-	<a href="{{ 'atom.xml' | relative_url }}" target="_blank" rel="noopener noreferrer" title="Subscribe to RSS">RSS</a> <a href="{{ 'privacy.html' | relative_url }}">Privacy</a>
+	<a href="{{ 'atom.xml' | relative_url }}" title="Subscribe to RSS">RSS</a> <a href="{{ 'privacy.html' | relative_url }}">Privacy</a>
 	<section>
       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/88x31.png" /></a><br /><small><time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Code or Die</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://nchristiny.github.io/" property="cc:attributionName" rel="cc:attributionURL">Nicholas Christiny</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</small>
     </section>

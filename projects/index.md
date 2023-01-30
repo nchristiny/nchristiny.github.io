@@ -2,10 +2,10 @@
 layout: default
 title: Projects
 ---
-<a href="https://github.com/nchristiny" class="download" target="_blank" title="GitHub">GitHub :sparkles:</a>
-<a href="https://resume.creddle.io/resume/i2pvc6ch7la" class="download" target="_blank" title="Resume">Resume :thumbsup:</a> 
-<a href="https://www.linkedin.com/in/nchristiny"  class="download" target="_blank" title="LinkedIn">LinkedIn :laughing:</a>
-<a href="http://stackoverflow.com/cv/nchristiny" class="download" target="_blank" title="StackOverflow CV">RIP StackOverflow CV :skull:</a> 
+<a href="https://github.com/nchristiny" class="download" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub :sparkles:</a>
+<a href="https://resume.creddle.io/resume/i2pvc6ch7la" class="download" target="_blank" rel="noopener noreferrer" title="Resume">Resume :thumbsup:</a> 
+<a href="https://www.linkedin.com/in/nchristiny"  class="download" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn :laughing:</a>
+<a href="http://stackoverflow.com/cv/nchristiny" class="download" target="_blank" rel="noopener noreferrer" title="StackOverflow CV">RIP StackOverflow CV :skull:</a> 
 
 # Nick Christiny
 ## Software Development & Security
