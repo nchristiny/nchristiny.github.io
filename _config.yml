@@ -26,6 +26,12 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - cache/
 
 sass:
   sass_dir: _sass

@@ -4,26 +4,46 @@ title:  "Welcome to Jekyll, again!"
 date:   2024-09-04 14:13:37 -0500
 tags: Jekyll BlogOps personal
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Updated my blog's Ruby version and bundle. Just a couple of snags along the way.
 
-Jekyll requires blog post files to be named according to the following format:
+- [x] Need to prepend `be` (alias for `bundle exec`) to `jekyll serve` once getting thru `bundle update`.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+- [x] Re-add `_drafts` directory.
+- [x] Update `_config.yml`, `permalink: /blog/:title.html`
+- [x] Check the links n assets n stuff
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Now I'm seeing a new-to-me Netlify feature: Branch deploys!🎉
 
-Jekyll also offers powerful support for code snippets:
+This will let me see build errors on branch rather than having to push to prod (main).
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+Now seeing something new is wrong with the new branch's build:
+
+{% highlight text %}
+An error occurred while installing bigdecimal (3.1.8), and Bundler cannot
+continue.
+
+In Gemfile:
+  jemoji was resolved to 0.13.0, which depends on
+    html-pipeline was resolved to 2.14.3, which depends on
+      activesupport was resolved to 7.2.1, which depends on
+        bigdecimal
+Error during gem install
+5:32:07 PM: Failing build: Failed to install dependencies
+5:32:07 PM: Failed during stage 'Install dependencies': dependency_installation script returned non-zero exit code: 1
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Things I've tried from Netlify config side to troubleshoot:
+- Update node Netlify uses from 8.x(!) to 20.x
+- Activate the aforementioned branch deploys.
+- Naturally check the Build image Linux version. Rats, this was already on latest selection possible Ubuntu Focal 20.04 (default). Only other option was Ubuntu Xenial 16.04 (deprecated).
+- I found where to make the deploy logs private, not sure why that isn't the default. While it's not a huge deal to my personal threat model, pretty sure I wouldn't want my biz out there like that..
+- To be continued...
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+TODOS:
+- [x] Promote synergy
+- [ ] Post excerpts on index page
+- [ ] Update `/history`?
+- [ ] Finally get around to whatever Googs replaced Universal Analytics with.
+- [ ] WHY ARE THESE CHECKBOXES SHOWING THE LIST BULLETS
+- [ ] ???
+- [ ] Profit

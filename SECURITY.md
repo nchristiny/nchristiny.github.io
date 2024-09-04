@@ -11,5 +11,4 @@
 
 https://github.com/nchristiny/nchristiny.github.io/issues/new
 
-I'll take a what to expect if the vulnerability is accepted or
-declined, etc.
+Stay safe out there! 👀
