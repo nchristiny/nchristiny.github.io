@@ -3,11 +3,11 @@ title: Code or Die
 tagline: Welcome to my kitchen
 url: https://nchristiny.com
 paginate: 3
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Yak shaving tips, Infosec, 
   Astronomy, Gardening
 baseurl: ""
-permalink: pretty
+permalink: /blog/:title.html
 
 # Gems
 plugins:
@@ -26,6 +26,12 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - cache/
 
 sass:
   sass_dir: _sass
@@ -43,4 +49,4 @@ author:
   email: nick@nchristiny.com
 
 # Custom vars
-version: 4.1
+version: 4.2
