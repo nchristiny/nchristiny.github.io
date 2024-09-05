@@ -8,31 +8,17 @@ Updated my blog's Ruby version and bundle. Just a couple of snags along the way.
 
 # Prep
 
-Did have to restart postgres after `brew upgrade`, `brew services restart postgresql@15`
+After `brew upgrade`, had to restart postgres `brew services restart postgresql@15`
 
-Also can't seem to launch VSCodium even after updating it. 
+Also couldn't seem to launch VSCodium even after updating it via brew: `brew upgrade vscodium --cask`
 
-> "Apple can’t check app for malicious software"
+> "Apple can’t check app for malicious software" Using an app that can’t be checked for malicious software might harm your Mac or compromise your privacy. 
 
-> Using an app that can’t be checked for malicious software might harm your Mac or compromise your privacy. If you’re certain that the app you want to use is from a trustworthy source, you can override your Mac security settings to open it.
+Turns out had to actually grant exception in System Settings > Privacy & Security in the sidebar, then scroll down to "Open Anyway". Security!
 
-> In the Finder  on your Mac, locate the app you want to open.
+Also, when running `bundle update`, ran into messages like `Bundler 2.4.19 is running, but your lockfile was generated with 2.5.18. Installing Bundler 2.5.18 and restarting using that version.`, and then it went and failed on some more gems.  Solution: was to remove Gemfile.lock and regen it by re-running `bundle install`.
 
-> Don’t use Launchpad to locate the app.
-
-> Control-click the app icon, then choose Open from the shortcut menu.
-
-> Click Open.
-
-> The app is saved as an exception to your security settings, and you can open it at any time by double-clicking it, just as you do with any registered app.
-
-Note: You can also grant an exception for a blocked app by clicking the Open Anyway button in Privacy & Security settings. This button is available for about an hour after you try to open the app.
-
-To change these settings on your Mac, choose Apple menu  > System Settings, then click Privacy & Security  in the sidebar. (You may need to scroll down.)
-
-
-
-## Now ready to actually upgrade Ruby
+# Now ready to actually upgrade Ruby
 
 `rbenv install 3.3.5`
 
@@ -69,7 +55,7 @@ Things I've tried from Netlify config side to troubleshoot:
 - I found where to make the deploy logs private, not sure why that isn't the default. While it's not a huge deal to my personal threat model, pretty sure I wouldn't want my biz out there like that..
 - To be continued...
 
-TODOS:
+# TODOS:
 - [x] Promote synergy
 - [ ] Post excerpts on index page
 - [ ] Update `/history`?
@@ -77,3 +63,10 @@ TODOS:
 - [ ] WHY ARE THESE CHECKBOXES SHOWING THE LIST BULLETS
 - [ ] ???
 - [ ] Profit
+
+# UPDATE!
+I managed to deploy the branch by simply downgrading ruby version to 3.1.6, (originally was 3.1.3 so still an upgrade.) Tried 3.2.5 for shits and giggles, but bundler failed with some weird stuff. So I just said, 'screw it'.
+
+Was inspired to try downgrading from [this Stack Overflow answer](https://stackoverflow.com/questions/14351272/undefined-method-exists-for-fileclass-nomethoderror/75353113#75353113), you know, that poor-man's LLM, pounding digital pavement the old-school way. 
+
+Seems there were quite a few breaking changes [in Ruby 3.2.0](https://www.ruby-lang.org/en/news/2022/12/25/ruby-3-2-0-released/) so I'm still not 100% on what the issue was 🤷
