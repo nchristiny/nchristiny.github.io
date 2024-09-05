@@ -6,6 +6,36 @@ tags: Jekyll BlogOps personal
 ---
 Updated my blog's Ruby version and bundle. Just a couple of snags along the way.
 
+# Prep
+
+Did have to restart postgres after `brew upgrade`, `brew services restart postgresql@15`
+
+Also can't seem to launch VSCodium even after updating it. 
+
+> "Apple can’t check app for malicious software"
+
+> Using an app that can’t be checked for malicious software might harm your Mac or compromise your privacy. If you’re certain that the app you want to use is from a trustworthy source, you can override your Mac security settings to open it.
+
+> In the Finder  on your Mac, locate the app you want to open.
+
+> Don’t use Launchpad to locate the app.
+
+> Control-click the app icon, then choose Open from the shortcut menu.
+
+> Click Open.
+
+> The app is saved as an exception to your security settings, and you can open it at any time by double-clicking it, just as you do with any registered app.
+
+Note: You can also grant an exception for a blocked app by clicking the Open Anyway button in Privacy & Security settings. This button is available for about an hour after you try to open the app.
+
+To change these settings on your Mac, choose Apple menu  > System Settings, then click Privacy & Security  in the sidebar. (You may need to scroll down.)
+
+
+
+## Now ready to actually upgrade Ruby
+
+`rbenv install 3.3.5`
+
 - [x] Need to prepend `be` (alias for `bundle exec`) to `jekyll serve` once getting thru `bundle update`.
 
 - [x] Re-add `_drafts` directory.
