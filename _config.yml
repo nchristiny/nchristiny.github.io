@@ -45,7 +45,6 @@ ga_analytics: UA-64368113-1
 # Specify the author for blog posts
 author:
   name: Nick Christiny
-  mastodon: https://infosec.exchange/@chileannick
   email: nick@nchristiny.com
 
 # Custom vars

@@ -13,7 +13,7 @@ I recently reinstalled Mac OS X from scratch and had to reconfigure all the litt
 
 Setting out to reconfigure my settings, it was immediately noticeable that there were quite a few special details I had forgotten about, therefore I am posting this mostly as a 'note to self'. If anyone stumbles upon this information, then I hope they gain some inspiration to customize their development environment as they see fit. Please keep in mind these are my own preferences and your mileage may vary.
 
-Credit goes out to [Mike Busch](https://twitter.com/mikelikesbikes "Mike's Twitter") for giving the instructions upon which most of the steps below are based. Thanks Mike!
+Credit goes out to Mike Busch for giving the instructions upon which most of the steps below are based. Thanks Mike!
 
 Mike's [Environment Linter](https://github.com/mikelikesbikes/environment_linter "GitHub") "helps identify issues with OS X machine setup for basic web development with Ruby." After running through the steps, go ahead and check the results with it, (for example my laptop for some strange reason had both rbenv and rvm, which is not recommended. I stuck with rbenv.)
 
@@ -327,4 +327,4 @@ After this initial setup, I like to customize the text editor and use an alterna
 
 Something that I learned while posting this is that creating your own personal dotfiles absolutely simplifies the process of getting a development environment up and running quickly - especially if you have many workstations!
 
-Feel free to reach out to me on Twitter or email if I missed anything. Feedback is always welcome.
+Feel free to reach out to me via email if I missed anything. Feedback is always welcome.

@@ -49,7 +49,7 @@ To make sure your traffic data is clean and accurate, simply create a new custom
 
 Enjoy your clean GA data.
 
-As always, any feedback or questions are most welcome. Feel free to contact me via [Twitter](https://twitter.com/ChileanNick) or [email](mailto:nchristiny@gmail.com). Thanks for reading.
+As always, any feedback or questions are most welcome. Feel free to contact me via [email](mailto:nchristiny@gmail.com). Thanks for reading.
 
 [^fn-ga_filter]: [Create and manage view filters](https://support.google.com/analytics/answer/1034823)
 

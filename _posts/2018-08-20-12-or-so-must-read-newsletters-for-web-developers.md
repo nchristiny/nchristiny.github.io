@@ -10,7 +10,7 @@ If one wishes to stay abreast of the changing tech landscape in this age of decr
 
 In my humble opinion these are the top newsletters out today that concern web development and software/hardware tech.<!-- more --> This list is a mix of development and design, software and hardware, news articles, tutorials, and blog posts.
 
-The usual caveat that the Web is in a constant state of partial failure and is scattered with many defunct newsletters. [Natural law](https://en.wikipedia.org/wiki/Link_rot) states that this list of links will quickly become out of date. Let me know any suggestions via email or Twitter.
+The usual caveat that the Web is in a constant state of partial failure and is scattered with many defunct newsletters. [Natural law](https://en.wikipedia.org/wiki/Link_rot) states that this list of links will quickly become out of date. Let me know any suggestions via email.
 
 - [Hacker Newsletter](https://www.hackernewsletter.com/) Hacker News, condensed. Essential information and monthly job boards too. 
 - [CSS Animation Weekly](https://cssanimation.rocks/weekly/) All about CSS Animation.

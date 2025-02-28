@@ -24,6 +24,6 @@ If I get hit with lots of spam, I will need to take corrective steps, but for no
 
 Firebase is really cool, fast and well documented. I am loving the realtime NoSQL cloud database which stores data as familiar JSON objects. For a simple blog it does seem to be a bit overkill, but I just love to over-engineer this lil' blog to bits. 
 
-Got feedback? Leave a comment, bub. Or, you know, just reach out to me on Twitter or email. 
+Got feedback? Leave a comment, bub. Or, you know, just reach out to my email. 
 
 [^fn-1]: [Building a Jekyll Site – Part 3 of 3: Creating a Firebase-Backed Commenting System](https://css-tricks.com/building-a-jekyll-site-part-3-of-3/)
