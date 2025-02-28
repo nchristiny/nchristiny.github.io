@@ -50,7 +50,7 @@ At some point I stumbled on why the lucky stiff aka _why?'s Poignant Guide to Ru
 ## Realizing potential
 Initially I had learned from the information I could glean lurking from the periphery of the tech and FOSS community. Later on I became a more actively engaged; my hope is to ultimately be able to contribute back to the community which has fostered my own learning.
 
-Back in the day I visited Slashdot regularly; currently I stay abreast of web development and coding news mainly via Hacker News, Ars Technica and Medium posts, just to name a few. I subscribe to weekly mailing lists of my favorite languages, JavaScript, Ruby, Python, and lately React. On Twitter I follow industry leaders and so-called "thought leaders", people working in the field who tend to be communicative about their work.
+Back in the day I visited Slashdot regularly; currently I stay abreast of web development and coding news mainly via Hacker News, Ars Technica and Medium posts, just to name a few. I subscribe to weekly mailing lists of my favorite languages, JavaScript, Ruby, Python, and lately React. On Twitter I follow industry leaders and so-called "thought leaders", people working in the field who tend to be communicative about their work. _Ed. note: I find this very quaint looking back on this from 2025._
 
 I became an Agile methodology true believer and signed the Agile Manifesto[^fn-2] on [October 5 2015](http://agilemanifesto.org/display/000000361.html "Spot the looney!").
 

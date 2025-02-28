@@ -103,7 +103,7 @@ In JavaScript, we use callback functions to pass a function as an argument to an
 
 Something to watch out for in JavaScript is this fact that excessive use of callback functions or closures will negatively impact processing speed and memory consumption.[^fn-mdn1] For this reason it is advisable to use an object's prototype for methods so that they are not reassigned every time an object gets created via closure.
 
-I love learning new (to me) underlying concepts and this fascinating concept of closure has many facets. If you spot any glaring errors or wish to give some feedback, please feel free to reach out to me on Twitter or shoot me an email.
+I love learning new (to me) underlying concepts and this fascinating concept of closure has many facets. If you spot any glaring errors or wish to give some feedback, please feel free to shoot me an email.
 
 [^fn-wiki1]: [Definition of closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-6)
 [^fn-wiki2]: [Closure and Lisp](https://en.wikipedia.org/wiki/Closure_(computer_programming)#cite_note-8)

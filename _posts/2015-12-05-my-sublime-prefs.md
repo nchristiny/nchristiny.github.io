@@ -177,6 +177,6 @@ A little extra step that I found was necessary after following the above instruc
 
 First download your chosen image file, preferably a PNG for scalability. Select Sublime Text.app and type `⌘-i` or right-click (a useful holdover from my PC days) and select Get Info. Drag and drop your chosen image file onto the ugly icon image in the Info window (top left corner). Enjoy your sleeker Sublime Text icon.
 
-If you have any suggestions for packages, themes or key-bindings, or if there is something horribly wrong with the above information, please feel free to reach out to me via [Twitter](https://twitter.com/chileannick "my Twitter") or shoot me an email. 
+If you have any suggestions for packages, themes or key-bindings, or if there is something horribly wrong with the above information, please feel free to shoot me an email. 
 
 Thanks for reading and happy coding.
