@@ -9,6 +9,7 @@ title: code or die
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+       {{ post.excerpt | strip_html | truncatewords: 22 }}
     </li>
   {% endfor %}
 </ul>
