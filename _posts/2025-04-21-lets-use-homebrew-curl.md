@@ -2,7 +2,7 @@
 layout: post
 title: "Let's Use Homebrew curl"
 date:   2025-04-21
-tags: macOS, "note to self"
+tags: macOS "note to self"
 --- 
 While macOS supplies a fine and dandy curl binary for Terminal, let's install an updated version managed by `brew`.
 
