@@ -20,6 +20,8 @@ Features: alt-svc AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefi
 ```
 
 Not too shabby. To be frank I'd expected worse 😂 But now let's install curl via `brew`. Optionally add binary filepath to `$PATH` env var so `brew`'s curl is used instead of system's.
+
+From curl docs[^fn-1]: 
 ```
 $ brew install curl
 
@@ -42,3 +44,4 @@ Release-Date: 2025-04-02
 Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
 Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz MultiSSL NTLM SPNEGO SSL threadsafe TLS-SRP UnixSockets zstd
 ```
+[^fn-1]: [everything curl - Install - macOS](https://everything.curl.dev/install/macos.html)
