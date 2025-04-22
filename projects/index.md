@@ -2,11 +2,11 @@
 layout: default
 title: Projects
 ---
-<a href="https://github.com/nchristiny" class="download" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub :sparkles:</a>
-<a href="https://resume.creddle.io/resume/i2pvc6ch7la" class="download" target="_blank" rel="noopener noreferrer" title="Resume">Resume :thumbsup:</a> 
-<a href="https://www.linkedin.com/in/nchristiny"  class="download" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn :laughing:</a>
-<a href="http://stackoverflow.com/cv/nchristiny" class="download" target="_blank" rel="noopener noreferrer" title="StackOverflow CV">RIP StackOverflow CV :skull:</a> 
 
+<a href="mailto:{{ site.author.email }}?subject=Work" class="external" title="Email me">Email :email:</a> 
+<a href="https://github.com/nchristiny" class="external" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>:sparkles:
+<a href="https://www.linkedin.com/in/nchristiny"  class="external" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn <i class="fa fa-external-link" aria-hidden="true"></i></a>:laughing:
+<a href="http://stackoverflow.com/cv/nchristiny" class="external" target="_blank" rel="noopener noreferrer" title="StackOverflow CV">RIP StackOverflow CV <i class="fa fa-external-link" aria-hidden="true"></i></a>:skull:
 # Nick Christiny
 ## Software Development & Security
 ### Projects

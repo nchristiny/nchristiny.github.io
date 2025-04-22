@@ -46,4 +46,10 @@ Release-Date: 2025-04-02
 Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
 Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz MultiSSL NTLM SPNEGO SSL threadsafe TLS-SRP UnixSockets zstd
 ```
+
+# Addendum: 
+I had to revert the interpolation in `.zshenv` as it was not working as intended. Using `/opt/homebrew` hard coded instead of `$(brew --prefix)`.
+
+¯\\_(ツ)_/¯
+
 [^fn-1]: [everything curl - Install - macOS](https://everything.curl.dev/install/macos.html)

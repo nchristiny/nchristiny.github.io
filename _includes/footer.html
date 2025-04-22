@@ -2,10 +2,10 @@
 	{%- if site.author %}
 	<ul class="contact">
 	  {% if site.author.email -%}
-		<li>Email: <a href="mailto:{{ site.author.email }}" title="Email Me">{{ site.author.email }}</a></li>
+		<li>Email: <a href="mailto:{{ site.author.email }}" class="external" title="Email Me">{{ site.author.email }}</a></li>
 	  {%- endif %}
 	  {% if site.author.repo_link -%}
-	  	<li>Build: <a href="{{ site.author.repo_link | replace: '!GIT_SHA!', git rev-parse --short HEAD }}" title="Latest Commit" target="_blank" rel="noreferrer">Latest commit</a></li>
+	  	<li>Build: <a href="{{ site.author.repo_link | replace: '!GIT_SHA!', git rev-parse --short HEAD }}" title="Latest Commit" class="external" target="_blank" rel="noreferrer">Latest commit <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
 	  {%- endif %}
 	</ul>
   	{%- endif %}
