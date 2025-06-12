@@ -2,8 +2,7 @@
 layout: page
 title: code or die
 ---
-
-![Guess I'll Die](/assets/img/guess-ill-die.jpg "Guess I'll Die")
+<img class="center-img" src="/assets/img/guess-ill-die.jpg" title="Old man shrugging with meme caption 'Guess I'll Die'">
 
 <ul>
   {% for post in site.posts %}
