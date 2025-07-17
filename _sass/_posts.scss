@@ -65,3 +65,15 @@
     }
   }
 }
+
+ul.projects-bar {
+  list-style-type: none;  
+  display: block;
+  overflow:hidden;
+}
+
+ul.projects-bar > li {
+  float: left;
+  padding: 2%;
+  margin: 1.5%;
+}

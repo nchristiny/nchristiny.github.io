@@ -2,13 +2,15 @@
 layout: default
 title: Projects
 ---
+<ul class="projects-bar"> 
+    <li><a href="mailto:{{ site.author.email }}?subject=Work" class="external" title="Email me">Email Me :email:</a></li>
+    <li><a href="https://github.com/nchristiny" class="external" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub <i class="fa fa-external-link" aria-hidden="true"></i>:sparkles:</a></li>
+    <li><a href="https://www.linkedin.com/in/nchristiny"  class="external" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn <i class="fa fa-external-link" aria-hidden="true"></i>:laughing:</a></li>
+    <li><a href="http://stackoverflow.com/cv/nchristiny" class="external" target="_blank" rel="noopener noreferrer" title="StackOverflow CV">RIP StackOverflow CV <i class="fa fa-external-link" aria-hidden="true"></i>:skull:</a></li>
+</ul>
 
-<a href="mailto:{{ site.author.email }}?subject=Work" class="external" title="Email me">Email :email:</a> 
-<a href="https://github.com/nchristiny" class="external" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub <i class="fa fa-external-link" aria-hidden="true"></i></a>:sparkles:
-<a href="https://www.linkedin.com/in/nchristiny"  class="external" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn <i class="fa fa-external-link" aria-hidden="true"></i></a>:laughing:
-<a href="http://stackoverflow.com/cv/nchristiny" class="external" target="_blank" rel="noopener noreferrer" title="StackOverflow CV">RIP StackOverflow CV <i class="fa fa-external-link" aria-hidden="true"></i></a>:skull:
 # Nick Christiny
-## Software Development & Security
+## Software Engineering & Infosec
 ### Projects
 
 ### <em>Watch This!</em>
