@@ -8,4 +8,5 @@ gem "jemoji"
 gem "jekyll-sass-converter", "~> 2.0"
 
 gem "csv"
+gem "nokogiri", ">= 1.19.1"
 gem "ostruct"
